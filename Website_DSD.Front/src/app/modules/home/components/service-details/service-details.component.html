@@ -1,0 +1,192 @@
+<main>
+  <!-- Page banner area start here -->
+  <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
+    [style.background]="'url(assets/images/banner/Saudi-Arabia-1140x694.webp)'">
+    <div class="shape3 wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
+      <img class="sway__animationX" [src]="'assets/images/banner/inner-banner-shape3.webp'" alt="shape"
+        loading="lazy"/>
+    </div>
+    <div class="container cssanimation fadeInRight">
+      <h2 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">{{"Service Details" | translate}}</h2>
+      <div class="breadcrumb-list wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+        <a routerLink="/">{{"Home" | translate}}</a><span *ngIf="currentCategory"><i
+            class="fa-regular fa-angles-right mx-2"></i>{{ currentCategory.category | translate }}</span>
+      </div>
+    </div>
+  </section>
+  <!-- Page banner area end here -->
+
+  <!-- Service area start here -->
+  <section class=" pt-60 pb-120 cssanimation fadeInBottom">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-8 order-2 order-lg-1">
+          <div class="service-single__left-item ">
+
+              
+              <!-- Service Title -->
+              <h3 class="mb-20 section-title mb-5">{{service.title | translate}}</h3>
+
+            <!-- Category Summary -->
+            <div *ngIf="currentCategory" class=" description-title  mt-0">
+              <p >
+                {{ currentCategory.summary | translate }}
+              </p>
+            </div>
+
+            <!-- Service Description -->
+            <div class="service-detail__description">
+              <p>{{service.description | translate}}</p>
+            </div>
+
+           
+
+            <!-- Service Image -->
+            <div class="service-detail__image-wrapper">
+              <app-lazy-load-image
+                [imageSrc]="service.image"
+                [defaultImage]="service.defaultImage"
+                [alt]="service.title"
+                [loading]="'lazy'" />
+            </div>
+
+
+             <!-- How We Can Help Section -->
+            <div class="mb-40 description-title">
+              <h3 class="service-detail__section-title">
+                <i class="fa-solid fa-handshake-angle"></i>
+                {{"How We Can Help" | translate}}
+              </h3>
+              <p >{{service.HowWeCanHelp | translate}}</p>
+            </div>
+
+         
+            <!-- Benefits Section -->
+
+                <h4 class="section-title mb-5">
+                {{"Benefits With Our Service" | translate}}
+              </h4>
+            <div class="service-detail__benefits-section">
+          
+              <ul class="service-detail__benefits-list">
+                <li *ngFor="let benefit of service.benefits" class="service-detail__benefit-item">
+                  <span class="benefit-icon">
+                    <i class="fa-solid fa-check"></i>
+                  </span>
+                  <span class="benefit-text">{{benefit | translate}}</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- FAQ Section -->
+               <h4 class="section-title mb-5">
+                {{"Suggested questions" | translate}}
+              </h4>
+            <div class="service-detail__faq-section">
+            
+
+              <div class="accrodion-grp faq-one-accrodion" data-grp-name="faq-one-accrodion">
+                <div class="accrodion"
+                     *ngFor="let item of service.faq; let i = index"
+                     [ngClass]="{ 'active': faqActiveIndex === i }">
+                  <div class="accrodion-title" (click)="toggleFAQ(i)">
+                    <h4>{{ item.question | translate }}</h4>
+                  </div>
+                  <div class="accrodion-content" [style.max-height]="faqActiveIndex === i ? '500px' : '0'">
+                    <div class="inner">
+                      <p>{{ item.answer | translate }}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Sidebar -->
+        <div class="col-lg-4 order-2 order-lg-2">
+          <div class="service-single__right-item">
+               <div  class="row">
+                            <div  class="col-lg-12 text-center">
+                                <h3  class=" section-title mb-5">   {{"All Services" | translate}}</h3>
+                            </div>
+                        </div>
+            <div class="sidebar-widget">
+              <!-- <h3 class="sidebar-widget__title">
+                <i class="fa-solid fa-list-check"></i>
+                {{"All Services" | translate}}
+              </h3> -->
+
+              <div class="service-sidebar__accordion">
+                <div *ngFor="let category of categories; let catIndex = index"
+                     class="sidebar-category"
+                     [ngClass]="{ 'active': sidebarActiveIndex === catIndex }">
+
+                  <!-- Category Header -->
+                  <div class="sidebar-category__header" (click)="toggleSidebarCategory(catIndex)">
+                    <div class="sidebar-category__title-wrapper">
+                      <i [class]="category.icon" class="sidebar-category__icon"></i>
+                      <span class="sidebar-category__title">{{ category.category | translate }}</span>
+                    </div>
+                    <div class="sidebar-category__meta">
+                      <span class="sidebar-category__count">{{ category.services.length }}</span>
+                      <i class="fa-solid fa-chevron-down sidebar-category__arrow"></i>
+                    </div>
+                  </div>
+
+                  <!-- Category Services List -->
+                  <div class="sidebar-category__content"
+                       [style.max-height]="sidebarActiveIndex === catIndex ? (category.services.length * 60) + 'px' : '0'">
+                    <ul class="sidebar-services-list">
+                      <li *ngFor="let service of category.services"
+                          [class.active]="service.title === currentServiceTitle"
+                          class="sidebar-service-item">
+                        <a [routerLink]="['/service-details/' + service.name]" class="sidebar-service-link">
+                          <span class="sidebar-service-name">{{ service.title | translate }}</span>
+                          <i class="fa-solid fa-arrow-right sidebar-service-arrow"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Service area end here -->
+</main>
+<app-footer></app-footer>
+
+
+<!-- <h3 class="title mb-30">Most Comment Question</h3>
+                            <p class="mb-30">The is ipsum dolor sit amet consectetur adipiscing elit. Fusce is eleifend
+                                porta
+                                arcu In hac
+                                habitasse the platea
+                                thelorem turpoi dictumst. In lacus libero faucibus malesuada sagittis placerat eros sed
+                                istincidunt augue ac ante rutrum
+                                sed the is sodales augue consequat.</p> -->
+<!-- <div class="accordion" id="accordionExample">
+                                <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="00ms"
+                                    data-wow-duration="1500ms" *ngFor="let question of service.faq">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            {{question.question}}
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>
+                                              {{question.answer}}
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->

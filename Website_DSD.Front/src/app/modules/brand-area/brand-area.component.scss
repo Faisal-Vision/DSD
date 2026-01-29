@@ -1,0 +1,167 @@
+.kanban-board {
+  padding: 20px;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+
+}
+
+.columns-container {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding: 10px 0;
+}
+
+.column {
+  flex: 1;
+  min-width: 280px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  min-height: 600px;
+
+  &.cdk-drop-list-dragging {
+    background-color: #f0f8ff;
+  }
+}
+
+.column-header {
+  padding: 15px 20px;
+  border-bottom: 1px solid #e0e0e0;
+  border-radius: 12px 12px 0 0;
+      background: #f5f5f5;
+  
+
+}
+.column-title{
+    margin-right: 7px;
+}
+
+
+.new{
+    color:#1f88e5 ;
+}
+
+.done{
+    color:#02897B ;
+}
+
+.rejected{
+    color:#E64A19 ;
+}
+.pending{
+    color:orange ;
+}
+
+
+.tasks-container {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  min-height: 500px;
+}
+
+.task-card {
+  background: #fff;
+  border: 1px solid #e8ecef;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  position: relative;
+  transition: all 0.3s ease;
+  cursor: grab;
+      padding-top: 8px;
+  // Border-right الأساسي
+  border-right: 4px solid #dee2e6;
+  
+  &:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transform: translateY(-2px);
+  }
+  
+  &.cdk-drag-preview {
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    transform: rotate(3deg);
+  }
+  
+  &.cdk-drag-placeholder {
+    opacity: 0.4;
+  }
+  
+  .drag-handle {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: grab;
+    color: #adb5bd;
+    font-size: 14px;
+    padding: 4px;
+    
+    &:active {
+      cursor: grabbing;
+    }
+  }
+  
+  .task-main {
+    margin-bottom: 12px;
+    margin-left: 25px;
+    
+    .task-id {
+      font-size: 11px;
+      color: #6c757d;
+      font-weight: 600;
+      margin-bottom: 6px;
+      letter-spacing: 0.5px;
+    }
+    
+    .task-title {
+      font-size: 14px;
+      color: #2d3748;
+      line-height: 1.5;
+      font-weight: 500;
+    }
+  }
+  
+  .task-assignee {
+    font-size: 12px;
+    padding: 4px 8px;
+    background: #f8f9fa;
+    border-radius: 4px;
+    display: inline-block;
+        background: #ececec91;
+    // color: #6b6b6b;
+    line-height: 1.4;
+    
+  }
+}
+
+.empty-state {
+  text-align: center;
+  color: #adb5bd;
+  font-style: italic;
+  padding: 40px 20px;
+  border: 2px dashed #dee2e6;
+  border-radius: 8px;
+  background: #f8f9fa;
+}
+
+// تأثيرات السحب والإفلات
+.cdk-drag-animating {
+  transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+.tasks-container.cdk-drop-list-dragging .task-card:not(.cdk-drag-placeholder) {
+  transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+// التصميم المتجاوب
+@media (max-width: 768px) {
+  .columns-container {
+    flex-direction: column;
+  }
+  
+  .column {
+    min-width: auto;
+  }
+}

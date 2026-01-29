@@ -1,0 +1,93 @@
+<section class="case-area pt-80 pb-70">
+  <div class="container">
+    <div
+      class="d-flex flex-wrap gap-4 align-items-center justify-content-between "
+    >
+      <div class="section-header">
+        <h5
+          class="wow fadeInLeft"
+          data-wow-delay="00ms"
+          data-wow-duration="1500ms"
+        >
+          <img
+            class="me-1"
+            [src]="'assets/images/icon/section-title.png'"
+            alt="section icon"
+            loading="lazy"
+          />
+          {{ "Our Portfolio Highlights" | translate }}
+        </h5>
+
+        <h2
+          class="wow fadeInLeft section-title"
+          data-wow-delay="200ms"
+          data-wow-duration="1500ms"
+        >
+          {{ "We Delivered Best Solution" | translate }}
+        </h2>
+      </div>
+
+      <a
+        [routerLink]="['/case']"
+        class="btn-one wow fadeInUp"
+        data-wow-delay="200ms"
+        data-wow-duration="1500ms"
+      >
+        {{ "View All Portfolio" | translate }}
+        <i class="fa-regular fa-arrow-right-long"></i>
+      </a>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="case-grid row g-4">
+      <div
+        class="col-xl-3 col-lg-4 col-md-6 col-sm-6"
+        *ngFor="let project of projects; trackBy: trackByProjectId"
+      >
+        <article
+          class="case-card wow fadeInUp"
+          data-wow-delay="100ms"
+          data-wow-duration="1500ms"
+        >
+          <div class="case-card__image">
+            <app-lazy-load-image
+              [imageSrc]="project.mainImage"
+              [defaultImage]="project.defaultImage"
+              [alt]="project.title | translate"
+              [loading]="'lazy'"
+            ></app-lazy-load-image>
+
+            <a
+              [routerLink]="['/case']"
+              class="case-card__overlay"
+              aria-label="View project"
+            >
+              <span>{{ "Read More" | translate }}</span>
+              <i class="fa-regular" [ngClass]="{
+                  'fa-arrow-right': !isRTL,
+                  'fa-arrow-left': isRTL
+                }"></i>
+            </a>
+          </div>
+
+          <div class="case-card__body">
+            <span class="case-card__category primary-color sm-font">
+              {{ project.category | translate }}
+            </span>
+
+            <h5 class="case-card__title">
+              <a
+                [routerLink]="['/case']"
+                class="text-white primary-hover"
+              >
+                {{ project.title | translate }}
+              </a>
+            </h5>
+          
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>

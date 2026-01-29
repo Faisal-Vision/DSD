@@ -1,0 +1,49 @@
+ <main>
+   <!-- Page banner area start here -->
+   <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
+    [style.background]="'url(../../../../assets/images/banner/Saudi-Arabia-1140x694.webp)'">
+     <!-- <div class="shape2 wow slideInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
+       <img [src]="'assets/images/banner/inner-banner-shape2.webp'" alt="shape" loading="lazy"/>
+     </div>
+     <div class="shape1 wow slideInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
+       <img [src]="'assets/images/banner/banner-solid-left-shape.webp'" alt="shape" loading="lazy"/>
+     </div> -->
+     <div class="shape3 wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
+       <img class="sway__animationX" [src]="'assets/images/banner/inner-banner-shape3.webp'" alt="shape" loading="lazy"/>
+     </div>
+     <div class="container  cssanimation fadeInRight">
+       <h2 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">{{"Portfolio" | translate}} </h2>
+       <div class="breadcrumb-list wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+         <a [routerLink]="['/']">{{"Home" | translate}}</a><span><i
+             class="fa-regular fa-angles-right mx-2"></i>{{"Portfolio" | translate}}
+         </span>
+       </div>
+     </div>
+   </section>
+   <!-- Page banner area end here -->
+
+   <!-- Cause area start here -->
+   <section class="case-area pt-120 pb-120 cssanimation fadeInBottom ">
+     <div class="container">
+       <div class="row g-4">
+         <div class="col-xl-4 col-lg-6 col-md-6" *ngFor="let project of projects">
+           <div class="case__item" style="max-height: 300px;">
+             <div class="image case__image" style="max-height: 100%; width: 100%;">
+               <img [src]="project.mainImage" alt="image" loading="lazy" style="width: 100%; aspect-ratio: 16/9;">
+             </div>
+             <div class="case__content">
+               <span class="primary-color sm-font">{{project.category | translate}}</span>
+               <h3><a [routerLink]="['/case']" class="text-white primary-hover">{{
+                                    project.title | translate}}</a></h3>
+             </div>
+             <a [routerLink]="['/case']" class="case__btn">
+               <i class="fa-regular fa-arrow-right"></i>
+             </a>
+           </div>
+         </div>
+       </div>
+     </div>
+   </section>
+   <!-- Cause area end here -->
+ </main>
+<app-footer></app-footer>

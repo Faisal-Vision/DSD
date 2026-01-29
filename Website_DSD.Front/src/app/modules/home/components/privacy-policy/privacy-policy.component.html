@@ -1,0 +1,146 @@
+<main>
+  <!-- Page banner area start here -->
+  <section
+    class="banner__inner-page bg-image pt-180 pb-180 bg-image"
+    [style.background]="'url(assets/images/banner/Saudi-Arabia-1140x694.webp)'"
+  >
+    <div class="shape3 wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
+      <img class="sway__animationX" [src]="'assets/images/banner/inner-banner-shape3.webp'" alt="shape" loading="lazy" />
+    </div>
+    <div class="container cssanimation fadeInRight">
+      <h2 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">{{ "Privacy Policy" | translate }}</h2>
+      <div class="breadcrumb-list wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+        <a [routerLink]="['/']">{{ "Home" | translate }}</a>
+        <span><i class="fa-regular fa-angles-right mx-2"></i>{{ "Privacy Policy" | translate }}</span>
+      </div>
+    </div>
+  </section>
+  <!-- Page banner area end here -->
+
+  <section class="policy-wrapper privacy-policy cssanimation fadeInBottom">
+    <div class="container">
+      <div class="policy-intro">
+        <div>
+          <p class="policy-intro__badge">{{ "Data Protection at Digital Solutions Dimensions" | translate }}</p>
+          <h3>{{ "We safeguard every interaction" | translate }}</h3>
+          <p>
+            {{ "At Digital Solutions Dimensions for Information Technology, we protect the privacy and confidentiality of our clients and users. This policy explains how we collect, use, store, and secure the information that powers our solutions." | translate }}
+          </p>
+        </div>
+        <div class="policy-intro__card">
+          <h4>{{ "Our privacy pillars" | translate }}</h4>
+          <ul>
+            <li>{{ "Collect only what we need to deliver measurable value." | translate }}</li>
+            <li>{{ "Use data solely for project execution, improvement, or compliance." | translate }}</li>
+            <li>{{ "Apply security controls aligned with ISO 27001 and global standards." | translate }}</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="policy-highlights">
+        <article class="highlight-card">
+          <span class="highlight-card__icon">
+            <i class="fa-solid fa-database"></i>
+          </span>
+          <div>
+            <p class="label">{{ "Collection" | translate }}</p>
+            <h5>{{ "Information we capture" | translate }}</h5>
+            <p>
+              {{ "We collect personal or organizational data during onboarding, communication, and service delivery, never beyond the project's needs." | translate }}
+            </p>
+          </div>
+        </article>
+        <article class="highlight-card">
+          <span class="highlight-card__icon">
+            <i class="fa-solid fa-circle-nodes"></i>
+          </span>
+          <div>
+            <p class="label">{{ "Purpose" | translate }}</p>
+            <h5>{{ "Why data is used" | translate }}</h5>
+            <p>
+              {{ "Information supports business interactions, project execution, service enhancements, and compliance with legal or contractual obligations." | translate }}
+            </p>
+          </div>
+        </article>
+        <article class="highlight-card">
+          <span class="highlight-card__icon">
+            <i class="fa-solid fa-shield-halved"></i>
+          </span>
+          <div>
+            <p class="label">{{ "Protection" | translate }}</p>
+            <h5>{{ "Security commitment" | translate }}</h5>
+            <p>
+              {{ "We adhere to international best practices, protect systems with layered security, and work only with trusted partners bound by confidentiality." | translate }}
+            </p>
+          </div>
+        </article>
+      </div>
+
+      <div class="policy-grid">
+        <article class="policy-card">
+          <span class="policy-card__icon">
+            <i class="fa-solid fa-clipboard-list"></i>
+          </span>
+          <h4>{{ "1. Information Collection" | translate }}</h4>
+          <p>{{ "We may collect personal or organizational information during project initiation, communication, or service delivery. This includes contact information, technical requirements, and other data necessary to provide our services." | translate }}</p>
+        </article>
+        <article class="policy-card">
+          <span class="policy-card__icon">
+            <i class="fa-solid fa-bullseye"></i>
+          </span>
+          <h4>{{ "2. Purpose of Data Use" | translate }}</h4>
+          <p>{{ "All information collected is used solely for business interactions, project execution, service improvement, and compliance with legal or contractual obligations. We do not sell or share information with external parties without written consent." | translate }}</p>
+        </article>
+        <article class="policy-card">
+          <span class="policy-card__icon">
+            <i class="fa-solid fa-house-signal"></i>
+          </span>
+          <h4>{{ "3. Data Protection" | translate }}</h4>
+          <p>{{ "Digital Solutions Dimensions applies industry-standard security measures to protect sensitive information against unauthorized access, loss, or misuse. Our systems comply with international standards such as ISO 27001." | translate }}</p>
+        </article>
+        <article class="policy-card">
+          <span class="policy-card__icon">
+            <i class="fa-solid fa-folder-tree"></i>
+          </span>
+          <h4>{{ "4. Data Retention" | translate }}</h4>
+          <p>{{ "We retain personal and project-related data only for the duration necessary to provide our services or comply with legal requirements. Clients may request deletion or transfer of data as per applicable regulations." | translate }}</p>
+        </article>
+        <article class="policy-card">
+          <span class="policy-card__icon">
+            <i class="fa-solid fa-share-nodes"></i>
+          </span>
+          <h4>{{ "5. Third-Party Sharing" | translate }}</h4>
+          <p>{{ "We may share information with trusted partners (such as hosting providers or technology vendors) strictly for service delivery and only under confidentiality agreements." | translate }}</p>
+        </article>
+        <article class="policy-card">
+          <span class="policy-card__icon">
+            <i class="fa-solid fa-id-card-clip"></i>
+          </span>
+          <h4>{{ "6. Client Rights" | translate }}</h4>
+          <p>{{ "Clients have the right to access, correct, or delete their data. Requests regarding data privacy should be submitted via official communication channels." | translate }}</p>
+        </article>
+        <article class="policy-card">
+          <span class="policy-card__icon">
+            <i class="fa-solid fa-arrows-rotate"></i>
+          </span>
+          <h4>{{ "7. Policy Updates" | translate }}</h4>
+          <p>{{ "This policy may be updated periodically to reflect changes in regulations or operational practices. Updates will be communicated or published accordingly." | translate }}</p>
+        </article>
+      </div>
+
+      <div class="policy-note">
+        <div>
+          <h4 style="color: white;">{{ "Your privacy, your choice" | translate }}</h4>
+          <p>
+            {{ "Have a privacy question or want to exercise your rights? Connect with our data team and we will respond quickly with the guidance you need." | translate }}
+          </p>
+        </div>
+        <a [routerLink]="['/contact']" class="btn-one btn-one">
+          {{ "Talk to us" | translate }}
+          <i class="fa-regular fa-arrow-right-long"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+<app-footer></app-footer>

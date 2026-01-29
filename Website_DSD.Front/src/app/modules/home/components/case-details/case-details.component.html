@@ -1,0 +1,57 @@
+<main>
+    <!-- Page banner area start here -->
+    <section class="banner__inner-page bg-image pt-180 pb-180 bg-image" [style.background-image]="'url(' + project.bannerImage + ')'">
+        <div class="shape2 wow slideInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
+            <img [src]="'assets/images/banner/inner-banner-shape2.webp'" alt="shape" loading="lazy"/>
+        </div>
+        <div class="shape1 wow slideInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
+            <img [src]="'assets/images/banner/banner-solid-left-shape.webp'" alt="shape" loading="lazy"/>
+        </div>
+        <div class="shape3 wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
+            <img class="sway__animationX" [src]="'assets/images/banner/inner-banner-shape3.webp'" alt="shape" loading="lazy"/>
+        </div>
+        <div class="container">
+            <h2 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">{{"Portfolio Details" | translate}}</h2>
+            <div class="breadcrumb-list wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                <a [routerLink]="['/']">{{"Home" | translate}}</a><span><i class="fa-regular fa-angles-right mx-2"></i>{{"Portfolio Details" | translate}}</span>
+            </div>
+        </div>
+    </section>
+    <!-- Page banner area end here -->
+
+    <!-- Case area start here -->
+    <section class="case-single-area pt-120 pb-120">
+        <div class="container">
+            <div class="case-single__item cssanimation fadeInBottom">
+                <div class="image">
+                    <app-lazy-load-image [imageSrc]="project.mainImage"  [defaultImage]="project.defaultImage" [alt]="'image'" [loading]="'lazy'"/>
+                </div>
+                <h3 class="case-single__title mt-40 mb-30">{{ project.title | translate }}</h3>
+                <p>{{ project.overview.description | translate }}</p>
+                <ul class="case-date py-4 bor-top bor-bottom mt-40">
+                    <li><span>{{"Completed Date:" | translate}}</span> {{ project.completedDate | translate }}</li>
+                    <li><span>{{"Category:" | translate}}</span> {{ project.category | translate}}</li>
+                    <li><span>{{"Client:" | translate}}</span> {{ project.client | translate}}</li>
+                    <li><span>{{"Location:" | translate}}</span> {{ project.location | translate}}</li>
+                </ul>
+                <h3 class="case-single__title mt-40 mb-30">{{"Our Challenge" | translate}}</h3>
+                <p>{{ project.overview.projectOverview | translate }}</p>
+                <div class="case-challenge-list mt-30">
+                    <ul class="case-challenge" *ngFor="let challenge of project.overview.projectChallenges">
+                        <li class="mb-3"><i class="fa-solid fa-check"></i>{{ challenge | translate }}</li>
+                    </ul>
+                </div>
+                <h3 class="case-single__title mt-40 mb-30">{{"Project Overview" | translate}}</h3>
+                <p>{{ project.overview.projectOverview | translate }}</p>
+            </div>
+            <div class="row g-4 mt-10">
+                <div class="col-md-6" *ngFor="let image of project.images">
+                    <div class="image">
+                        <app-lazy-load-image [imageSrc]="image" [defaultImage]="project.defaultImage" [alt]="'image'" [loading]="'lazy'"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Case area end here -->
+</main>

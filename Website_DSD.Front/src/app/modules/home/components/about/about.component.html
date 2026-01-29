@@ -1,0 +1,362 @@
+<main>
+  <!-- Page banner area start here -->
+  <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
+    [style.background]="'url(assets/images/banner/Saudi-Arabia-1140x694.webp)'">
+    <div class="shape3 wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
+      <img class="sway__animationX" [src]="'assets/images/banner/inner-banner-shape3.webp'" alt="shape" loading="lazy"/>
+    </div>
+    <div class="container cssanimation fadeInRight">
+      <h2 class="wow fadeInUp banner-title" data-wow-delay="00ms" data-wow-duration="1500ms">{{"About Us" | translate}}</h2>
+      <div class="breadcrumb-list wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+        <a [routerLink]="['/']">{{"Home" | translate}}</a><span><i
+            class="fa-regular fa-angles-right mx-2"></i>{{"About Us" | translate}}</span>
+      </div>
+    </div>
+  </section>
+  <!-- Page banner area end here -->
+
+  <!-- Corporate Overview Section -->
+  <section class="about-overview-section pt-120 pb-60">
+    <div class="container">
+      <div class="row g-4 align-items-center">
+        <div class="col-xl-6 wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
+          <div class="about-overview__image-wrapper">
+            <div class="about-overview__main-image">
+              <app-lazy-load-image
+                [imageSrc]="'assets/images/about/about-us.webp'"
+                [defaultImage]="'assets/images/about/about-us.webp'"
+                [alt]="'About Digital Solutions Dimensions'"
+                [loading]="'lazy'" />
+            </div>
+            <!-- <div class="about-overview__badge">
+              <i class="fa-solid fa-award"></i>
+              <span>{{"ISO 9001:2015 Certified" | translate}}</span>
+            </div> -->
+          </div>
+        </div>
+        <div class="col-xl-6 wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
+          <div class="section-header mb-40">
+            <div class="section-header__content">
+            <h5 class="section-subtitle">
+              <img [src]="'assets/images/icon/section-title.png'" alt="icon" loading="lazy"/>
+              {{"WHO WE ARE" | translate}}
+            </h5>
+            <h2 class="section-title">{{"Corporate Overview" | translate}}</h2>
+            </div>
+          </div>
+          <div class="about-overview__content">
+            <p class="about-overview__text">
+              {{"Digital Solutions Dimensions is a Saudi-based technology company committed to empowering organizations through advanced digital transformation, IT infrastructure, and intelligent solutions. Guided by the aspirations of Saudi Vision 2030, we strive to accelerate the Kingdom's transition toward a smart, efficient, and innovation-driven digital economy." | translate}}
+            </p>
+            <p class="about-overview__text">
+              {{"Since our establishment, Digital Solutions Dimensions has earned a reputation for excellence, reliability, and integrity. We combine local insight with international expertise to design, implement, and support integrated technology ecosystems that drive growth, enhance performance, and ensure sustainable development." | translate}}
+            </p>
+            <p class="about-overview__text">
+              {{"Our multidisciplinary team of engineers, consultants, and specialists brings together decades of experience across government, education, healthcare, and enterprise sectors. From IT infrastructure and cybersecurity to ERP, BPMS, and AI-based solutions, Digital Solutions Dimensions delivers technology that transforms operations, increases agility, and enables long-term success." | translate}}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Vision & Mission Section -->
+  <section class="vision-mission-section pt-60 pb-60">
+    <div class="container">
+      <div class="row g-4">
+        <!-- Vision Card -->
+        <div class="col-lg-6 wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
+          <div class="vision-card h-100 wow fadeInLeft">
+                        <div class="card-header">
+            <div class="icon-box">
+              <i class="fas fa-eye icons-service"></i>
+              
+            </div>
+              <h3 class="card-title">{{"Our Vision" | translate}}</h3>
+
+            </div>
+            <div class="card-text">
+              <p class="vision-mission-card__text">
+                {{"To be the leading technology institution in Saudi Arabia, pioneering the development of innovative software, technical, and digital solutions that empower clients to achieve sustainable growth and competitive excellence in the marketplace." | translate}}
+              </p>
+              <p class="vision-mission-card__text">
+                {{"We aspire to be recognized for our innovation, agility, and commitment to delivering transformative technologies that shape the Kingdom's digital future." | translate}}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mission Card -->
+        <div class="col-lg-6 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+          <div class="vision-card h-100 wow fadeInLeft">
+            <div class="card-header">
+
+            <div class="icon-box">
+              <i class="fa-solid fa-bullseye icons-service"></i>
+            </div>
+              <h3 class="card-title">{{"Our Mission" | translate}}</h3>
+
+            </div>
+
+            <div class="card-text">
+              <p class="vision-mission-card__text">
+                {{"To deliver exceptional, value-driven software and technology solutions that help organizations stand out, grow, and succeed." | translate}}
+              </p>
+              <p class="vision-mission-card__text">
+                {{"Through our team of highly skilled professionals, we combine innovation with expertise to provide tailored, high-quality services that exceed expectations and contribute to our clients' long-term success." | translate}}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Values Section -->
+  <section class="core-values-section pt-60 pb-60">
+    <div class="container">
+      <div class="section-header text-center mb-60">
+        <div class="section-header__content">
+          <h5 class="section-subtitle">
+            <img [src]="'assets/images/icon/section-title.png'" alt="icon" loading="lazy"/>
+          {{"OUR FOUNDATION" | translate}}
+        </h5>
+        <h2 class="section-title">{{"Core Values" | translate}}</h2>
+      </div>
+        <p class="section-description">
+          {{"At Digital Solutions Dimensions, our values form the foundation of everything we do, guiding our decisions, shaping our culture, and ensuring that we deliver excellence to every client and partner." | translate}}
+        </p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Innovation -->
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
+          <div class="core-value-card">
+            <div class="core-value-card__icon">
+              <i class="fa-solid fa-lightbulb"></i>
+            </div>
+            <h4 class="core-value-card__title">{{"Innovation" | translate}}</h4>
+            <p class="core-value-card__text">
+              {{"We embrace creativity and forward thinking to design solutions that drive digital progress and redefine what's possible." | translate}}
+            </p>
+          </div>
+        </div>
+
+        <!-- Excellence -->
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+          <div class="core-value-card">
+            <div class="core-value-card__icon">
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="core-value-card__title">{{"Excellence" | translate}}</h4>
+            <p class="core-value-card__text">
+              {{"We are committed to the highest standards of quality, performance, and professionalism in every project we undertake." | translate}}
+            </p>
+          </div>
+        </div>
+
+        <!-- Integrity -->
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
+          <div class="core-value-card">
+            <div class="core-value-card__icon">
+              <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <h4 class="core-value-card__title">{{"Integrity" | translate}}</h4>
+            <p class="core-value-card__text">
+              {{"Honesty, transparency, and ethical conduct are central to our relationships with clients, employees, and partners." | translate}}
+            </p>
+          </div>
+        </div>
+
+        <!-- Collaboration -->
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
+          <div class="core-value-card">
+            <div class="core-value-card__icon">
+              <i class="fa-solid fa-handshake"></i>
+            </div>
+            <h4 class="core-value-card__title">{{"Collaboration" | translate}}</h4>
+            <p class="core-value-card__text">
+              {{"We believe in teamwork and shared success, combining expertise and perspectives to create impactful solutions." | translate}}
+            </p>
+          </div>
+        </div>
+
+        <!-- Commitment -->
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+          <div class="core-value-card">
+            <div class="core-value-card__icon">
+              <i class="fa-solid fa-certificate"></i>
+            </div>
+            <h4 class="core-value-card__title">{{"Commitment" | translate}}</h4>
+            <p class="core-value-card__text">
+              {{"We take ownership of our promises, ensuring that every solution we deliver adds real value and long-term benefit to our clients." | translate}}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Company Highlights Section -->
+  <section class="company-highlights-section pt-60 pb-60">
+    <div class="container">
+      <div class="section-header text-center mb-60">
+        <div class="section-header__content">
+        <h5 class="section-subtitle">
+          <img [src]="'assets/images/icon/section-title.png'" alt="icon" loading="lazy"/>
+          {{"OUR IMPACT" | translate}}
+        </h5>
+        <h2 class="section-title">{{"Company Highlights" | translate}}</h2>
+</div>
+        <p class="section-description">
+          {{"At Digital Solutions Dimensions, our success is measured by the impact we create and the partnerships we build across sectors." | translate}}
+        </p>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
+          <div class="highlight-card">
+            <div class="highlight-card__icon">
+              <i class="fa-solid fa-building-columns"></i>
+            </div>
+            <div class="highlight-card__content">
+              <h3 class="highlight-card__number">22+</h3>
+              <p class="highlight-card__label">{{"Businesses Serviced" | translate}}</p>
+              <p class="highlight-card__description">
+                {{"Successfully delivered digital, software, and infrastructure solutions across government and private sectors." | translate}}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+          <div class="highlight-card">
+            <div class="highlight-card__icon">
+              <i class="fa-solid fa-user-tie"></i>
+            </div>
+            <div class="highlight-card__content">
+              <h3 class="highlight-card__number">17+</h3>
+              <p class="highlight-card__label">{{"Investors & Partners" | translate}}</p>
+              <p class="highlight-card__description">
+                {{"Strong relationships with local and international technology and business partners supporting our growth journey." | translate}}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
+          <div class="highlight-card">
+            <div class="highlight-card__icon">
+              <i class="fa-solid fa-pen"></i>
+            </div>
+            <div class="highlight-card__content">
+              <h3 class="highlight-card__number">7</h3>
+              <p class="highlight-card__label">{{"Strategic Local Partnerships" | translate}}</p>
+              <p class="highlight-card__description">
+                {{"Collaborations with leading Saudi entities to advance the national digital transformation agenda." | translate}}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+          <div class="highlight-card">
+            <div class="highlight-card__icon">
+              <i class="fa-solid fa-building"></i>
+            </div>
+            <div class="highlight-card__content">
+              <h3 class="highlight-card__number">3</h3>
+              <p class="highlight-card__label">{{"Strategic International Partnerships" | translate}}</p>
+              <p class="highlight-card__description">
+                {{"Global alliances with world-class technology providers ensuring innovation and excellence in every project." | translate}}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Leadership Messages Section -->
+  <section class="leadership-messages-section pt-60 pb-120">
+    <div class="container">
+      <div class="section-header text-center mb-60">
+        <div class="section-header__content">
+          <h5 class="section-subtitle">
+            <img [src]="'assets/images/icon/section-title.png'" alt="icon" loading="lazy"/>
+            {{"OUR LEADERSHIP" | translate}}
+          </h5>
+          <h2 class="section-title">{{"Messages from Leadership" | translate}}</h2>
+        </div>
+      </div>
+
+      <div class="row g-4">
+        <!-- Chairman Message -->
+        <div class="col-lg-6 wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
+          <div class="leadership-message-card">
+            <div class="leadership-message-card__header">
+              <div class="leadership-message-card__icon">
+                <i class="fa-solid fa-user-tie"></i>
+              </div>
+              <div class="leadership-message-card__info">
+                <h4 class="leadership-message-card__title">{{"Message from the Chairman of the Board" | translate}}</h4>
+              </div>
+            </div>
+            <div class="leadership-message-card__content">
+              <p class="leadership-message-card__text">
+                {{"At Digital Solutions Dimensions, our journey is rooted in both responsibility and vision." | translate}}
+              </p>
+              <p class="leadership-message-card__text">
+                {{"As proud investors and citizens of this great nation, we recognize our duty to actively support the Kingdom's Vision 2030 through innovation, technology, and sustainable development." | translate}}
+              </p>
+              <p class="leadership-message-card__text">
+                {{"Our commitment goes beyond providing IT solutions,it is about building the digital foundations of a smarter Saudi Arabia. We spare no effort in delivering exceptional value through world-class systems, infrastructure, and expertise that empower government entities and private organizations alike." | translate}}
+              </p>
+              <p class="leadership-message-card__text">
+                {{"By partnering with global technology leaders such as Dell, Cisco, 3M, TP-Link, Dell EMC, Bosch, and Honeywell, and by employing a team of highly qualified engineers, consultants, and specialists, we ensure that every project reflects the highest standards of quality, reliability, and national pride." | translate}}
+              </p>
+              <p class="leadership-message-card__text">
+                {{"At Digital Solutions Dimensions, we view our role not merely as a technology provider but as a strategic partner contributing to the Kingdom's growth, competitiveness, and digital future." | translate}}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- CEO Message -->
+        <div class="col-lg-6 wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
+          <div class="leadership-message-card">
+            <div class="leadership-message-card__header">
+              <div class="leadership-message-card__icon">
+                <i class="fa-solid fa-user-tie"></i>
+              </div>
+              <div class="leadership-message-card__info">
+                <h4 class="leadership-message-card__title">{{"Message from the CEO" | translate}}</h4>
+              </div>
+            </div>
+            <div class="leadership-message-card__content">
+              <p class="leadership-message-card__text">
+                {{"At Digital Solutions Dimensions, we believe that technology is more than a service,it is our contribution to building a stronger, smarter, and more connected business ecosystem for the Kingdom of Saudi Arabia." | translate}}
+              </p>
+              <p class="leadership-message-card__text">
+                {{"Inspired by Vision 2030, we embrace our responsibility to lead digital progress through innovation, trust, and excellence." | translate}}
+              </p>
+              <p class="leadership-message-card__text">
+                {{"Our mission extends far beyond delivering systems or infrastructure. We are dedicated to building reliable digital foundations that empower government entities and private organizations to achieve their goals with confidence and efficiency. Every project we deliver reflects our deep belief that technology, when applied strategically, can transform operations, enhance productivity, and accelerate national growth." | translate}}
+              </p>
+              <p class="leadership-message-card__text">
+                {{"This success is driven by our people,a team of passionate engineers, consultants, and experts who bridge global best practices with local insights. Their dedication ensures that Digital Solutions Dimensions remains a trusted partner in every stage of digital transformation." | translate}}
+              </p>
+              <p class="leadership-message-card__text">
+                {{"As we continue to evolve and expand, our focus remains unwavering: to strengthen the digital capabilities of every sector we serve and contribute meaningfully to the Kingdom's technological and economic advancement." | translate}}
+              </p>
+              <p class="leadership-message-card__text">
+                {{"Together, we move forward with purpose, integrity, and an enduring belief in the power of innovation." | translate}}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<app-footer></app-footer>

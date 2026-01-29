@@ -1,0 +1,162 @@
+// Ensure the swiper container has relative positioning
+.swiper-container {
+    position: relative; // Required for absolute positioning of buttons
+    
+  }
+
+  .swiper, swiper-container{
+padding: 12px 4px;
+  }
+  
+  // General button styling for both prev and next buttons
+  .custom-prev-button,
+  .custom-next-button {
+    position: absolute;
+    top: 59%;
+    transform: translateY(-50%); // Vertical centering
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+       background: linear-gradient(90deg, #00ADB1, #4B227A);
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    z-index: 10; // Ensure it stays on top of other elements
+  
+    &:hover {
+      background-color: #123821; // Hover color
+      transform: translateY(-50%) scale(1.1); // Slightly enlarge on hover
+    }
+  
+    i {
+      font-size: 24px; // Icon size
+    }
+  }
+  
+  // Position for the previous and next buttons
+  .custom-prev-button {
+    left: 50px; // Slight padding from the left edge
+  }
+  
+  .custom-next-button {
+    right: 50px; // Slight padding from the right edge
+  }
+  
+  // Responsive adjustments using media queries
+  
+  // Tablet view (up to 768px)
+  @media (max-width: 768px) {
+    .custom-prev-button,
+    .custom-next-button {
+      width: 40px;
+      height: 40px;
+      font-size: 18px; // Smaller button size for tablets
+    }
+  
+    .custom-prev-button {
+      left: 5px; // Adjust position for smaller screens
+    }
+  
+    .custom-next-button {
+      right: 5px; // Adjust position for smaller screens
+    }
+  }
+  
+  // Mobile view (up to 480px)
+  @media (max-width: 480px) {
+    .custom-prev-button,
+    .custom-next-button {
+      width: 35px;
+      height: 35px;
+      font-size: 16px; // Even smaller button size for mobile devices
+    }
+  
+    .custom-prev-button {
+      left: 3px; // Adjust position for smaller screens
+    }
+  
+    .custom-next-button {
+      right: 3px; // Adjust position for smaller screens
+    }
+  }
+  
+  // Extra small mobile view (up to 375px)
+  @media (max-width: 375px) {
+    .custom-prev-button,
+  .custom-next-button {
+    width: 30px;
+    height: 30px;
+    font-size: 14px; // Further reduce button size for very small mobile screens
+  }
+}
+
+.service-category-card {
+  background: #fff;
+  border: 1px solid rgba(18, 56, 33, 0.08);
+  border-radius: 24px;
+  padding: 24px;
+  box-shadow: 0 25px 45px rgba(18, 56, 33, 0.08);
+  min-height: 400px;
+}
+
+.service-category-card__icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 14px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(18, 56, 33, 0.08);
+  color: #123821;
+  font-size: 1.4rem;
+  margin-bottom: 12px;
+}
+
+.service-category-card__eyebrow {
+  font-size: 16px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 6px;
+}
+
+.service-category-card__title {
+  color: #123821;
+  margin-bottom: 10px;
+}
+
+.service-category-card__summary {
+  color: #4b5563;
+  margin-bottom: 16px;
+  margin-top: 11px;
+}
+
+.service-category-card__list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 16px;
+
+  li {
+    position: relative;
+    padding-left: 18px;
+    color: #1f2937;
+    font-size: 0.95rem;
+    margin-bottom: 6px;
+
+    &:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 10px;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: rgb(69 44 126 / 49%);
+    }
+  }
+}
+  

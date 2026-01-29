@@ -1,0 +1,629 @@
+/*--------------------------------------------------------------
+# Service Details Page - Enhanced Design
+--------------------------------------------------------------*/
+
+// Brand Colors
+$gold: #00adb1;
+$green: #78469b;
+$light-green: rgba(141, 121, 183, 0.08);
+$light-gold: rgba(0, 173, 177, 0.08);
+
+/*--------------------------------------------------------------
+# Content Sections
+--------------------------------------------------------------*/
+
+.service-detail__category-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 20px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, $light-green, $light-gold);
+  border: 2px solid $light-green;
+  color: $green;
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+
+  i {
+    font-size: 1.1rem;
+    color: $gold;
+  }
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(18, 56, 33, 0.15);
+  }
+}
+
+.service-detail__category-summary-box {
+  background: $light-green;
+  border-left: 4px solid $gold;
+  padding: 20px 24px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+
+  .service-detail__category-summary {
+    color: #4b5563;
+    margin: 0;
+    line-height: 1.7;
+    font-size: 0.95rem;
+  }
+}
+
+.service-detail__description {
+  margin-bottom: 40px;
+
+  p {
+    color: #374151;
+    line-height: 1.8;
+    font-size: 1.05rem;
+  }
+}
+
+.service-detail__help-section {
+  background: linear-gradient(135deg, #f9fafb, #f3f4f6);
+  border-radius: 12px;
+  padding: 32px;
+  margin-bottom: 40px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+
+  .service-detail__help-text {
+    color: #4b5563;
+    line-height: 1.8;
+    margin: 0;
+    font-size: 1rem;
+  }
+}
+
+.service-detail__section-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 24px;
+
+  i {
+    color: white;
+    font-size: 1.3rem;
+  }
+}
+
+.service-detail__image-wrapper {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  max-height: 450px;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+  }
+
+  app-lazy-load-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  app-lazy-load-image > img {
+    width: 100%;
+    height: 100%;
+    max-height: 450px;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+/*--------------------------------------------------------------
+# Benefits Section
+--------------------------------------------------------------*/
+
+.service-detail__benefits-section {
+background: white;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+    border: 1px solid #f3f4f6;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-left: 6px solid rgba(69, 44, 126, 0.54);
+}
+
+.service-detail__benefits-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.service-detail__benefit-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 0;
+  border-bottom: 1px solid #f3f4f6;
+  transition: all 0.3s ease;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &:hover {
+        background: rgba(69, 44, 126, 0.0509803922);
+    padding-left: 12px;
+    margin-left: -12px;
+    margin-right: -12px;
+    padding-right: 12px;
+    border-radius: 8px;
+
+    .benefit-icon {
+         background: rgba(69, 44, 126, 0.0509803922);
+
+      transform: scale(1.1);
+
+      i {
+        color: white;
+      }
+    }
+  }
+
+ 
+  .benefit-icon {
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    min-height: 40px;
+       background: rgba(69, 44, 126, 0.0509803922);
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    transition: all 0.3s ease;
+
+    i {
+      // color: $green;
+      // font-size: 0.75rem;
+      // font-weight: 900;
+      line-height: 1;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+       margin-top: 10px;
+           background: linear-gradient(90deg, #00ADB1, #4B227A);
+    }
+  }
+
+  .benefit-text {
+    flex: 1;
+    color: #374151;
+    line-height: 1.6;
+    font-size: 1rem;
+  }
+}
+
+/*--------------------------------------------------------------
+# FAQ Section
+--------------------------------------------------------------*/
+
+.service-detail__faq-section {
+  margin-bottom: 40px;
+}
+
+.faq-one-accrodion .accrodion {
+  position: relative;
+  display: block;
+  transition: all 500ms ease;
+  background-color: white;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.faq-one-accrodion .accrodion-title {
+  position: relative;
+  display: block;
+  cursor: pointer;
+  padding: 11px;
+  transition: all 200ms linear;
+  transition-delay: 0.1s;
+  border: 1px solid rgba(69, 44, 126, 0.54);
+  border-radius: 10px;
+
+  &:hover {
+    background: rgba(69, 44, 126, 0.0509803922);
+  }
+}
+
+.faq-one-accrodion .accrodion-title h4 {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: black;
+  position: relative;
+  transition: all 500ms ease;
+
+  padding-inline-start: 10px; 
+}
+
+.faq-one-accrodion .accrodion + .accrodion {
+  margin-top: 16px;
+}
+
+.faq-one-accrodion .accrodion.active {
+  border-color: $gold;
+  box-shadow: rgba(69, 44, 126, 0.0509803922);
+}
+
+.faq-one-accrodion .accrodion.active .accrodion-title {
+  background: rgba(69, 44, 126, 0.0509803922);
+}
+
+.faq-one-accrodion .accrodion.active .accrodion-title h4 {
+  color: black;
+}
+
+.faq-one-accrodion .accrodion-title h4::before {
+  content: "\f067";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  font-size: 14px;
+  width: 30px;
+  height: 30px;
+background: linear-gradient(90deg, #00ADB1, #4B227A);
+  color: white;
+  position: absolute;
+
+  inset-block-start: 50%;  
+  inset-inline-end: 0;    
+
+  line-height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-50%);
+  transition: all 500ms ease;
+  text-align: center;
+}
+
+.faq-one-accrodion .accrodion.active .accrodion-title h4::before {
+  content: "\f068";
+  background-color: $green;
+  transform: translateY(-50%) rotate(180deg);
+}
+
+.faq-one-accrodion .accrodion-content {
+  position: relative;
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+
+  padding-inline: 24px;
+  padding-block: 0;
+
+  transition: max-height 0.5s ease, opacity 0.4s ease, padding 0.3s ease;
+}
+
+.faq-one-accrodion .accrodion.active .accrodion-content {
+  opacity: 1;
+  padding: 15px;
+}
+
+.faq-one-accrodion .accrodion-content .inner {
+  transform: translateY(-10px);
+  transition: transform 0.4s ease;
+}
+
+.faq-one-accrodion .accrodion.active .accrodion-content .inner {
+  transform: translateY(0);
+}
+
+
+/*--------------------------------------------------------------
+# Sidebar Styling
+--------------------------------------------------------------*/
+
+.sticky-sidebar {
+  position: sticky;
+  top: 100px;
+  max-height: calc(100vh - 120px);
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: $gold $light-green;
+
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: $light-green;
+    border-radius: 10px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: $gold;
+    border-radius: 10px;
+
+    &:hover {
+      background: darken($gold, 10%);
+    }
+  }
+}
+
+.sidebar-widget {
+  background: white;
+  border-radius: 12px;
+  padding: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid #f3f4f6;
+}
+
+.sidebar-widget__title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: $green;
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: 2px solid $light-green;
+
+  i {
+    color: $gold;
+    font-size: 1.2rem;
+  }
+}
+
+/*--------------------------------------------------------------
+# Sidebar Accordion
+--------------------------------------------------------------*/
+
+.service-sidebar__accordion {
+  .sidebar-category {
+    margin-bottom: 12px;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &.active {
+      .sidebar-category__header {
+
+           background: url('../../../../../assets/images/bg/backbutton.png'),
+            linear-gradient(196deg, #02153D 10%, #00ADB1 123%);
+        color: white;
+
+        .sidebar-category__icon {
+          color: white;
+        }
+
+        .sidebar-category__title {
+          color: white;
+        }
+
+        .sidebar-category__count {
+          background: white;
+          color: #4B227A;
+          
+        }
+
+        .sidebar-category__arrow {
+          color: white;
+          transform: rotate(180deg);
+        }
+      }
+    }
+  }
+
+  .sidebar-category__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 12px;
+         background: rgba(69, 44, 126, 0.0509803922);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    // border: 2px solid transparent;
+
+    &:hover {
+               background: rgba(69, 44, 126, 0.0509803922);
+
+      border-color: rgba(69, 44, 126, 0.0509803922);
+    }
+  }
+
+  .sidebar-category__title-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex: 1;
+  }
+
+  .sidebar-category__icon {
+    font-size: 1rem;
+    color: #4b227a;
+    transition: all 0.3s ease;
+  }
+
+  .sidebar-category__title {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: $green;
+    transition: all 0.3s ease;
+  }
+
+  .sidebar-category__meta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .sidebar-category__count {
+         background: linear-gradient(90deg, #00ADB1, #4B227A);
+    color: white;
+    font-size: 0.75rem;
+    padding: 0px 0px;
+    border-radius: 50%;
+    min-width: 26px;
+    text-align: center;
+    transition: all 0.3s 
+ease;
+  }
+
+  .sidebar-category__arrow {
+    font-size: 0.85rem;
+    color: $green;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+
+  .sidebar-category__content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+  }
+
+  .sidebar-services-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: #fafafa;
+  }
+
+  .sidebar-service-item {
+    border-bottom: 1px solid #e5e7eb;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    &.active {
+      .sidebar-service-link {
+           background: linear-gradient(to right, rgb(246 244 248), transparent);
+    border-left: 3px solid #4b227aad;
+        padding-left: 17px;
+
+        .sidebar-service-name {
+          color: #4b227aad;
+          font-weight: 700;
+        }
+
+        .sidebar-service-arrow {
+          color: #4b227aad;
+          transform: translateX(4px);
+        }
+      }
+    }
+
+    &:hover:not(.active) {
+      .sidebar-service-link {
+        background: white;
+        padding-left: 18px;
+
+        .sidebar-service-arrow {
+          transform: translateX(4px);
+          color: $green;
+        }
+      }
+    }
+  }
+
+  .sidebar-service-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-left: 3px solid transparent;
+  }
+
+  .sidebar-service-name {
+    color: #4b5563;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    flex: 1;
+  }
+
+  .sidebar-service-arrow {
+    color: #9ca3af;
+    font-size: 0.85rem;
+    transition: all 0.3s ease;
+  }
+}
+
+/*--------------------------------------------------------------
+# Responsive Design
+--------------------------------------------------------------*/
+
+@media (max-width: 991px) {
+  .sticky-sidebar {
+    position: static;
+    max-height: none;
+    margin-bottom: 40px;
+  }
+
+  .service-detail__help-section {
+    padding: 24px;
+  }
+
+  .service-detail__benefits-section {
+    padding: 28px;
+  }
+
+  .sidebar-widget {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .service-detail__section-title {
+    font-size: 1.3rem;
+
+    i {
+      font-size: 1.1rem;
+    }
+  }
+
+  .service-detail__help-section {
+    padding: 20px;
+  }
+
+  .service-detail__benefits-section {
+    padding: 20px;
+  }
+
+  .faq-one-accrodion .accrodion-title {
+    padding: 20px 60px 20px 20px;
+  }
+
+  .faq-one-accrodion .accrodion-title h4 {
+    font-size: 1rem;
+  }
+
+  .faq-one-accrodion .accrodion-title h4::before {
+    width: 36px;
+    height: 36px;
+    right: -46px;
+    font-size: 12px;
+  }
+
+  .sidebar-category__title {
+    font-size: 0.85rem;
+  }
+
+  .sidebar-service-name {
+    font-size: 0.85rem;
+  }
+}

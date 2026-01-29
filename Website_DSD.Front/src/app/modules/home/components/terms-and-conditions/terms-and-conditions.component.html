@@ -1,0 +1,251 @@
+<main>
+  <!-- Page banner area start here -->
+  <section
+    class="banner__inner-page bg-image pt-180 pb-180 bg-image"
+    [style.background]="'url(assets/images/banner/Saudi-Arabia-1140x694.webp)'"
+  >
+    <div class="shape3 wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
+      <img
+        class="sway__animationX"
+        [src]="'assets/images/banner/inner-banner-shape3.webp'"
+        alt="shape"
+        loading="lazy"
+      />
+    </div>
+    <div class="container cssanimation fadeInRight">
+      <h2 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+        {{ "Terms & Conditions" | translate }}
+      </h2>
+      <div class="breadcrumb-list wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+        <a [routerLink]="['/']">{{ "Home" | translate }}</a>
+        <span>
+          <i class="fa-regular fa-angles-right mx-2"></i>
+          {{ "Terms & Conditions" | translate }}
+        </span>
+      </div>
+    </div>
+  </section>
+  <!-- Page banner area end here -->
+
+  <section class="policy-wrapper terms-policy cssanimation fadeInBottom">
+    <div class="container">
+      <div class="policy-intro">
+        <div>
+          <p class="policy-intro__badge">
+            {{ "Digital Solutions Dimensions Legal Framework" | translate }}
+          </p>
+          <h3>
+            {{ "Reliable engagements for every partnership" | translate }}
+          </h3>
+          <p>
+            {{
+              "These Terms and Conditions apply to all services, solutions, and engagements delivered by Digital Solutions Dimensions for Information Technology. Entering an agreement with us means working inside a transparent framework that protects both our team and our clients."
+                | translate
+            }}
+          </p>
+        </div>
+        <div class="policy-intro__card">
+          <h4>{{ "How we work" | translate }}</h4>
+          <ul>
+            <li>
+              {{
+                "Documented scope and assumptions for every delivery."
+                  | translate
+              }}
+            </li>
+            <li>
+              {{
+                "Respect for confidentiality before, during, and after engagement."
+                  | translate
+              }}
+            </li>
+            <li>
+              {{
+                "Shared accountability, clear milestones, approvals, and ownership."
+                  | translate
+              }}
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="policy-highlights">
+        <article class="highlight-card">
+          <span class="highlight-card__icon">
+            <i class="fa-solid fa-handshake"></i>
+          </span>
+          <div>
+            <p class="label">{{ "Partnership" | translate }}</p>
+            <h5>{{ "Scope of Services" | translate }}</h5>
+            <p>
+              {{
+                "We deliver only what is documented and approved. Any additional work is scoped and priced formally."
+                  | translate
+              }}
+            </p>
+          </div>
+        </article>
+        <article class="highlight-card">
+          <span class="highlight-card__icon">
+            <i class="fa-solid fa-user-shield"></i>
+          </span>
+          <div>
+            <p class="label">{{ "Trust" | translate }}</p>
+            <h5>{{ "Confidentiality" | translate }}</h5>
+            <p>
+              {{
+                "Proprietary or sensitive information shared during the engagement remains protected, and our commitment extends beyond project closure."
+                  | translate
+              }}
+            </p>
+          </div>
+        </article>
+        <article class="highlight-card">
+          <span class="highlight-card__icon">
+            <i class="fa-solid fa-scale-balanced"></i>
+          </span>
+          <div>
+            <p class="label">{{ "Compliance" | translate }}</p>
+            <h5>{{ "Applicable Law" | translate }}</h5>
+            <p>
+              {{
+                "All agreements follow the regulations of the Kingdom of Saudi Arabia to ensure clarity and stability."
+                  | translate
+              }}
+            </p>
+          </div>
+        </article>
+      </div>
+
+      <div class="policy-grid">
+        <article class="policy-card">
+          <span class="policy-card__icon">
+            <i class="fa-solid fa-diagram-project"></i>
+          </span>
+          <h4>{{ "1. Scope of Services" | translate }}</h4>
+          <p>
+            {{
+              "Digital Solutions Dimensions shall provide the services defined in the mutually agreed proposal or contract. Any additional work or changes must be formally documented and may be subject to additional charges."
+                | translate
+            }}
+          </p>
+        </article>
+        <article class="policy-card">
+          <span class="policy-card__icon">
+            <i class="fa-solid fa-lock"></i>
+          </span>
+          <h4>{{ "2. Confidentiality" | translate }}</h4>
+          <p>
+            {{
+              "Both parties agree to maintain the confidentiality of any proprietary or sensitive information shared during the course of the project. This obligation remains in effect even after the engagement ends."
+                | translate
+            }}
+          </p>
+        </article>
+        <article class="policy-card">
+          <span class="policy-card__icon">
+            <i class="fa-solid fa-lightbulb"></i>
+          </span>
+          <h4>{{ "3. Intellectual Property" | translate }}</h4>
+          <p>
+            {{
+              "All intellectual property created by Digital Solutions Dimensions as part of the deliverables remains the exclusive property of the client upon full payment, unless otherwise agreed. Tools, frameworks, or methodologies used by Digital Solutions Dimensions remain its own intellectual property."
+                | translate
+            }}
+          </p>
+        </article>
+        <article class="policy-card">
+          <span class="policy-card__icon">
+            <i class="fa-solid fa-file-invoice-dollar"></i>
+          </span>
+          <h4>{{ "4. Payment Terms" | translate }}</h4>
+          <p>
+            {{
+              "Invoices must be settled according to the payment schedule stated in the agreement. Delayed payments may result in project pauses or additional charges."
+                | translate
+            }}
+          </p>
+        </article>
+        <article class="policy-card">
+          <span class="policy-card__icon">
+            <i class="fa-solid fa-stopwatch"></i>
+          </span>
+          <h4>{{ "5. Timelines & Responsibilities" | translate }}</h4>
+          <p>
+            {{
+              "Digital Solutions Dimensions commits to delivering according to the timeline agreed with the client, provided the client fulfills their responsibilities, including required feedback, timely approvals, and data submission."
+                | translate
+            }}
+          </p>
+        </article>
+        <article class="policy-card">
+          <span class="policy-card__icon">
+            <i class="fa-solid fa-headset"></i>
+          </span>
+          <h4>{{ "6. Warranty & Support" | translate }}</h4>
+          <p>
+            {{
+              "Digital Solutions Dimensions offers a warranty period for any deployed system or solution as defined in the agreement. Support beyond that period requires a separate maintenance contract."
+                | translate
+            }}
+          </p>
+        </article>
+        <article class="policy-card">
+          <span class="policy-card__icon">
+            <i class="fa-solid fa-triangle-exclamation"></i>
+          </span>
+          <h4>{{ "7. Liability" | translate }}</h4>
+          <p>
+            {{
+              "Digital Solutions Dimensions shall not be liable for indirect, incidental, or consequential damages arising from service use or delivery. Liability is limited to the value of the contract."
+                | translate
+            }}
+          </p>
+        </article>
+        <article class="policy-card">
+          <span class="policy-card__icon">
+            <i class="fa-solid fa-file-pen"></i>
+          </span>
+          <h4>{{ "8. Termination" | translate }}</h4>
+          <p>
+            {{
+              "Either party may terminate the contract according to the termination clause included in the agreement. Notice must be provided in writing with justification."
+                | translate
+            }}
+          </p>
+        </article>
+        <article class="policy-card">
+          <span class="policy-card__icon">
+            <i class="fa-solid fa-scale-unbalanced"></i>
+          </span>
+          <h4>{{ "9. Applicable Law" | translate }}</h4>
+          <p>
+            {{
+              "These Terms and Conditions are governed by and interpreted in accordance with the laws applicable in the Kingdom of Saudi Arabia."
+                | translate
+            }}
+          </p>
+        </article>
+      </div>
+
+      <div class="policy-note">
+        <div>
+          <h4 style="color: white;">
+            {{ "Need clarification?" | translate }}
+          </h4>
+          <p>
+            {{
+              "We are ready to discuss any clause to ensure mutual understanding before work begins. Reach us through your engagement manager or our official channels."
+                | translate
+            }}
+          </p>
+        </div>
+        <a [routerLink]="['/contact']" class="btn-one btn-one">
+          {{ "Contact Digital Solutions Dimensions" | translate }}
+          <i class="fa-regular fa-arrow-right-long"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+<app-footer></app-footer>

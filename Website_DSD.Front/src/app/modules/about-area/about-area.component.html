@@ -1,0 +1,49 @@
+<section class="about-area sub-bg pt-60 mt-5">
+  <!-- <div class="about__shape wow slideInLeft" data-wow-delay="400ms" data-wow-duration="1500ms">
+    <img [src]="'assets/images/shape/about-line.png'" alt="shape" loading="lazy" />
+  </div> -->
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-xl-6 wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
+        <div class="about__left-item">
+          <div class="image big-image">
+            <app-lazy-load-image [imageSrc]="'assets/images/about/about-us.webp'"
+              [defaultImage]="'assets/images/about/about-us.webp'" [alt]="'image'" [loading]="'lazy'" style="width: 100%; border-radius: 16px;"/>
+          </div>
+          <!-- <div class="image sm-image">
+            <div class="video__btn-wrp">
+              <div class="video-btn video-pulse">
+                <a class="video-popup"><i class="fa-solid fa-play"></i></a>
+              </div>
+            </div>
+            <app-lazy-load-image [imageSrc]="'assets/images/about/about-image2.webp'"
+            [defaultImage]="'assets/images/about/about-image2-blur.webp'"
+            [alt]="'image'" [loading]="'lazy'" />
+          </div> -->
+          <!-- <div class="circle-shape">
+            <img [src]="'assets/images/shape/about-circle.png'" alt="shape" loading="lazy" />
+          </div> -->
+        </div>
+      </div>
+      <div class="col-xl-6">
+        <div class="section-header mb-40">
+          <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms" style="
+                padding-bottom: 0px;
+            ">
+            <img class="me-1" [src]="'assets/images/icon/section-title.png'" alt="icon" loading="lazy" />
+            {{"WHO WE ARE" | translate}}
+          </h5>
+          <p class="wow fadeInUp" style="margin-top: 20px;" data-wow-delay="400ms" data-wow-duration="1500ms">
+                {{"Digital Solutions Dimensions it is an accredited Saudi Company andISO 9001: 2015 certified in business quality. We are specialized in providing software, technical and digital solutions to various Saudi institutions, companies and business environments. Our role expands from providing technical consultations to build a business model for the projects under study, starting with supply, setup and installation solutions for all technical systems, includingmaintenance and comprehensive technical support that we execute for technical business environments. All solutions and business fields comply with internationalquality and reliability standards such as CMMI, ITIL, also meet the unique needs and requirements of different business environments. We can help you to turn your ideas into a profitable reality; in addition to, we can help you to digitize yourbusiness whatever your institution size is. Also, we have helped several businesses in many sectors including the government sector in the Kingdom. With us, you will enhance the efficiency of your business performance, achieve growth and stand out among your competitors." | translate}}
+          </p>
+        </div>
+    
+
+        <div class="about__info mt-50 wow fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
+          <a [routerLink]="['/about']" class="btn-one">{{"Learn More About Us" | translate}}<i
+              class="fa-regular fa-arrow-right-long"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
