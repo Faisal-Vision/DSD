@@ -17,7 +17,7 @@ export class ServiceCatalogService {
           title: 'Digital Transformation',
           name: 'Digital Transformation',
           description:
-            'Drive innovation and efficiency by transitioning to digital processes and intelligent solutions. At Digital Solutions Dimensions, we focus on transforming traditional operations into agile, data-driven ecosystems that enhance performance, reduce costs, and create lasting value.',
+            'Drive innovation and efficiency by transitioning to digital processes and intelligent solutions. At DSD, we focus on transforming traditional operations into agile, data-driven ecosystems that enhance performance, reduce costs, and create lasting value.',
           HowWeCanHelp:
             'Our expert team partners with your organization across every phase of transformation from assessment and roadmap design to technology deployment and continuous improvement. We identify high-impact opportunities, implement digital tools tailored to your needs, and provide staff training and post-implementation support.',
           icon: 'fa-solid fa-rotate',
@@ -48,7 +48,7 @@ export class ServiceCatalogService {
           title: 'Digital Consulting',
           name: 'Digital Consulting',
           description:
-            'Empower your organization with strategic digital consulting services that align technology with business goals. At Digital Solutions Dimensions, we provide expert guidance to help organizations navigate complex digital challenges, optimize their IT investments, and achieve long-term transformation success.',
+            'Empower your organization with strategic digital consulting services that align technology with business goals. At DSD, we provide expert guidance to help organizations navigate complex digital challenges, optimize their IT investments, and achieve long-term transformation success.',
           HowWeCanHelp:
             'We begin by assessing your current digital landscape, identifying strengths, challenges, and opportunities for improvement. Our team then designs a customized digital strategy that integrates technology, people, and processes to achieve measurable impact.',
           icon: 'fa-solid fa-handshake',
@@ -79,7 +79,7 @@ export class ServiceCatalogService {
           title: 'Management Consulting',
           name: 'Management Consulting',
           description:
-            'Achieve organizational excellence with strategic management consulting that empowers leadership, optimizes resources, and drives sustainable performance. At Digital Solutions Dimensions, we provide data-driven consulting services designed to improve management practices, align business goals with operational execution, and enhance overall decision-making.',
+            'Achieve organizational excellence with strategic management consulting that empowers leadership, optimizes resources, and drives sustainable performance. At DSD, we provide data-driven consulting services designed to improve management practices, align business goals with operational execution, and enhance overall decision-making.',
           HowWeCanHelp:
             'We start by conducting a detailed assessment of your management framework and processes to identify performance gaps and improvement areas. Our consultants then design and implement strategies that enhance efficiency, optimize resource allocation, and strengthen leadership effectiveness.',
           icon: 'fa-solid fa-users-gear',
@@ -110,7 +110,7 @@ export class ServiceCatalogService {
           title: 'Consultancy (Proposals, Studies & Plans)',
           name: 'Consultancy',
           description:
-            'Delivering strategic consultancy services that empower organizations to make informed decisions, design effective plans, and achieve measurable outcomes. At Digital Solutions Dimensions, we provide end-to-end consulting support covering business proposals, feasibility studies, operational assessments, and strategic plans across multiple sectors.',
+            'Delivering strategic consultancy services that empower organizations to make informed decisions, design effective plans, and achieve measurable outcomes. At DSD, we provide end-to-end consulting support covering business proposals, feasibility studies, operational assessments, and strategic plans across multiple sectors.',
           HowWeCanHelp:
             'We partner with your organization to understand objectives, assess current conditions, and develop customized studies and strategic frameworks. Our experts prepare professional documentation, business cases, and execution plans designed to ensure clarity, impact, and sustainability.',
           icon: 'fa-solid fa-briefcase',
@@ -149,7 +149,7 @@ export class ServiceCatalogService {
           title: 'Digital Solutions',
           name: 'Digital Solutions',
           description:
-            'We design and build customized digital solutions that streamline business operations, enhance productivity, and empower organizations to deliver greater value. At Digital Solutions Dimensions, we specialize in developing integrated platforms and applications that automate workflows, connect systems, and deliver real-time insights.',
+            'We design and build customized digital solutions that streamline business operations, enhance productivity, and empower organizations to deliver greater value. At DSD, we specialize in developing integrated platforms and applications that automate workflows, connect systems, and deliver real-time insights.',
           HowWeCanHelp:
             'Our experts collaborate with your team to analyze current challenges, design digital tools, and implement solutions that improve performance and customer satisfaction. We use modern development frameworks and agile methodologies to ensure rapid delivery, seamless integration, and long-term maintainability.',
           icon: 'fa-solid fa-laptop-code',
@@ -180,7 +180,7 @@ export class ServiceCatalogService {
           title: 'Software Development',
           name: 'Software Development',
           description:
-            'Transform your business operations with custom software solutions tailored to your unique requirements. At Digital Solutions Dimensions, we design, develop, and deploy robust, scalable, and user-friendly applications that streamline processes, enhance efficiency, and deliver exceptional user experiences.',
+            'Transform your business operations with custom software solutions tailored to your unique requirements. At DSD, we design, develop, and deploy robust, scalable, and user-friendly applications that streamline processes, enhance efficiency, and deliver exceptional user experiences.',
           HowWeCanHelp:
             'Our development team collaborates closely with your organization to understand challenges, define requirements, and build tailored software solutions. We follow agile development methodologies to ensure flexibility, transparency, and rapid delivery.',
           icon: 'fa-solid fa-code',
@@ -211,7 +211,7 @@ export class ServiceCatalogService {
           title: 'Artificial Intelligence (AI)',
           name: 'Artificial Intelligence',
           description:
-            'Unlock the power of artificial intelligence to transform how your organization operates, makes decisions, and delivers value. At Digital Solutions Dimensions, we develop AI-driven solutions that automate processes, analyze data intelligently, and enhance decision-making across industries.',
+            'Unlock the power of artificial intelligence to transform how your organization operates, makes decisions, and delivers value. At DSD, we develop AI-driven solutions that automate processes, analyze data intelligently, and enhance decision-making across industries.',
           HowWeCanHelp:
             'Our AI specialists work closely with your organization to identify areas where artificial intelligence can deliver measurable impact. We design and implement end-to-end AI solutions from data collection and model training to deployment and performance monitoring.',
           icon: 'fa-solid fa-robot',
@@ -242,7 +242,7 @@ export class ServiceCatalogService {
           title: 'Emerging Technologies',
           name: 'Emerging Technologies',
           description:
-            'Stay ahead of the curve with emerging technology solutions that shape the future of digital innovation. At Digital Solutions Dimensions, we help organizations explore, adopt, and integrate next-generation technologies such as Internet of Things (IoT), Blockchain, Augmented Reality (AR), and Smart Automation.',
+            'Stay ahead of the curve with emerging technology solutions that shape the future of digital innovation. At DSD, we help organizations explore, adopt, and integrate next-generation technologies such as Internet of Things (IoT), Blockchain, Augmented Reality (AR), and Smart Automation.',
           HowWeCanHelp:
             'We begin by assessing your business readiness and identifying the technologies that offer the highest impact and ROI. Our experts then design customized implementation roadmaps, handle system integration, and ensure scalability and performance optimization.',
           icon: 'fa-solid fa-microchip',
@@ -273,7 +273,7 @@ export class ServiceCatalogService {
           title: 'Developing Creative Ideas',
           name: 'Creative Ideas',
           description:
-            'Transform imagination into impact with creative innovation services that bring new ideas to life. At Digital Solutions Dimensions, we help organizations explore new possibilities, develop original concepts, and translate creativity into practical business solutions.',
+            'Transform imagination into impact with creative innovation services that bring new ideas to life. At DSD, we help organizations explore new possibilities, develop original concepts, and translate creativity into practical business solutions.',
           HowWeCanHelp:
             'Our experts work alongside your team to brainstorm, refine, and prototype creative concepts aligned with your brand vision and goals. We conduct research, analyze market trends, and transform abstract ideas into actionable strategies and tangible solutions.',
           icon: 'fa-solid fa-lightbulb',
@@ -312,7 +312,7 @@ export class ServiceCatalogService {
           title: 'Business Intelligence & Analytics',
           name: 'BI & Analytics',
           description:
-            'Turn data into decisions with advanced business intelligence and analytics solutions that empower organizations to make smarter, faster, and data-driven decisions. At Digital Solutions Dimensions, we help clients harness the power of their data through interactive dashboards, predictive analytics, and performance monitoring systems.',
+            'Turn data into decisions with advanced business intelligence and analytics solutions that empower organizations to make smarter, faster, and data-driven decisions. At DSD, we help clients harness the power of their data through interactive dashboards, predictive analytics, and performance monitoring systems.',
           HowWeCanHelp:
             'Our BI specialists work with your team to design and implement customized data models, dashboards, and analytics frameworks tailored to your needs. We integrate diverse data sources into a unified platform, providing clear and interactive reports that support strategic decision-making.',
           icon: 'fa-solid fa-chart-line',
@@ -343,7 +343,7 @@ export class ServiceCatalogService {
           title: 'Data Transformation & Load',
           name: 'Data Transformation & Load',
           description:
-            'Ensure data accuracy, consistency, and reliability with Data Transformation and Load (ETL) services that empower intelligent decision-making. At Digital Solutions Dimensions, we specialize in building and managing ETL pipelines that extract, clean, transform, and load data across systems.',
+            'Ensure data accuracy, consistency, and reliability with Data Transformation and Load (ETL) services that empower intelligent decision-making. At DSD, we specialize in building and managing ETL pipelines that extract, clean, transform, and load data across systems.',
           HowWeCanHelp:
             'We analyze your existing data sources and architecture to design tailored ETL solutions that meet your business intelligence needs. Our experts handle everything from data extraction and transformation logic to performance tuning and continuous monitoring.',
           icon: 'fa-solid fa-database',
@@ -382,7 +382,7 @@ export class ServiceCatalogService {
           title: 'ERP (Enterprise Resource Planning)',
           name: 'ERP',
           description:
-            'Streamline and unify your business operations with comprehensive ERP solutions that integrate all your core functions into a single, efficient system. At Digital Solutions Dimensions, we design and implement ERP platforms that connect finance, HR, supply chain, inventory, and operations.',
+            'Streamline and unify your business operations with comprehensive ERP solutions that integrate all your core functions into a single, efficient system. At DSD, we design and implement ERP platforms that connect finance, HR, supply chain, inventory, and operations.',
           HowWeCanHelp:
             'Our ERP experts collaborate with your organization to analyze your business processes and design a system that fits your exact operational needs. We provide end-to-end services from planning and customization to deployment, training, and ongoing support.',
           icon: 'fa-solid fa-cogs',
@@ -413,7 +413,7 @@ export class ServiceCatalogService {
           title: 'BPMS (Business Process Management System)',
           name: 'BPMS',
           description:
-            'Optimize and automate your organizational workflows with Business Process Management System (BPMS) solutions that enhance efficiency, transparency, and control. At Digital Solutions Dimensions, we design intelligent BPMS platforms that map, monitor, and improve business processes across departments.',
+            'Optimize and automate your organizational workflows with Business Process Management System (BPMS) solutions that enhance efficiency, transparency, and control. At DSD, we design intelligent BPMS platforms that map, monitor, and improve business processes across departments.',
           HowWeCanHelp:
             'We start by analyzing your current workflows and identifying areas for automation and improvement. Our team then designs and deploys a tailored BPMS that integrates seamlessly with your existing systems.',
           icon: 'fa-solid fa-project-diagram',
@@ -444,7 +444,7 @@ export class ServiceCatalogService {
           title: 'ITSM (IT Service Management)',
           name: 'ITSM',
           description:
-            'Enhance the quality, efficiency, and reliability of your IT operations with IT Service Management (ITSM) solutions designed to align technology services with business objectives. At Digital Solutions Dimensions, we help organizations establish structured IT service frameworks based on international best practices such as ITIL.',
+            'Enhance the quality, efficiency, and reliability of your IT operations with IT Service Management (ITSM) solutions designed to align technology services with business objectives. At DSD, we help organizations establish structured IT service frameworks based on international best practices such as ITIL.',
           HowWeCanHelp:
             'We assess your existing IT processes, identify areas for improvement, and design an ITSM framework that enhances operational efficiency. Our solutions include incident management, change control, service request handling, and configuration management.',
           icon: 'fa-solid fa-server',
@@ -475,7 +475,7 @@ export class ServiceCatalogService {
           title: 'LMS (Learning Management System)',
           name: 'LMS',
           description:
-            'Empower education and training with Learning Management System (LMS) solutions that deliver, track, and enhance learning experiences efficiently. At Digital Solutions Dimensions, we develop advanced LMS platforms designed for schools, universities, and corporate institutions.',
+            'Empower education and training with Learning Management System (LMS) solutions that deliver, track, and enhance learning experiences efficiently. At DSD, we develop advanced LMS platforms designed for schools, universities, and corporate institutions.',
           HowWeCanHelp:
             'We work closely with your educational or training institution to design and implement a tailored LMS that fits your specific goals. Our experts ensure seamless integration with existing systems, provide training for instructors and administrators, and deliver continuous support.',
           icon: 'fa-solid fa-graduation-cap',
@@ -514,7 +514,7 @@ export class ServiceCatalogService {
           title: 'Cloud Computing',
           name: 'Cloud Computing',
           description:
-            'Empower your organization with scalable, secure, and cost-effective cloud computing solutions that optimize performance and enhance flexibility. At Digital Solutions Dimensions, we design and implement advanced cloud infrastructures that enable seamless collaboration, reduce hardware dependency, and ensure business continuity.',
+            'Empower your organization with scalable, secure, and cost-effective cloud computing solutions that optimize performance and enhance flexibility. At DSD, we design and implement advanced cloud infrastructures that enable seamless collaboration, reduce hardware dependency, and ensure business continuity.',
           HowWeCanHelp:
             'Our cloud specialists assess your existing IT environment, identify suitable cloud models (public, private, or hybrid), and create a seamless migration strategy. We handle every step from infrastructure setup and data migration to security configuration and post-deployment optimization.',
           icon: 'fa-solid fa-cloud',
@@ -545,7 +545,7 @@ export class ServiceCatalogService {
           title: 'IT Infrastructure Management',
           name: 'IT Infrastructure Management',
           description:
-            'Ensure reliability, performance, and scalability with end-to-end IT infrastructure management services that keep your business running seamlessly. At Digital Solutions Dimensions, we design, implement, and maintain robust infrastructure environments that support mission-critical operations.',
+            'Ensure reliability, performance, and scalability with end-to-end IT infrastructure management services that keep your business running seamlessly. At DSD, we design, implement, and maintain robust infrastructure environments that support mission-critical operations.',
           HowWeCanHelp:
             'We begin by assessing your existing infrastructure to identify gaps, inefficiencies, and upgrade opportunities. Our engineers then design and deploy optimized systems using advanced monitoring tools and automation to ensure stability and performance.',
           icon: 'fa-solid fa-network-wired',
@@ -576,7 +576,7 @@ export class ServiceCatalogService {
           title: 'IT Support & Maintenance',
           name: 'Technical Support',
           description:
-            'Keep your systems running smoothly with comprehensive IT support and maintenance services designed to ensure reliability, performance, and business continuity. At Digital Solutions Dimensions, we provide proactive monitoring, timely troubleshooting, and regular maintenance to minimize downtime.',
+            'Keep your systems running smoothly with comprehensive IT support and maintenance services designed to ensure reliability, performance, and business continuity. At DSD, we provide proactive monitoring, timely troubleshooting, and regular maintenance to minimize downtime.',
           HowWeCanHelp:
             'Our support team provides end-to-end assistance, including hardware and software maintenance, network troubleshooting, and performance optimization. We offer on-site and remote support, ensuring your critical systems remain operational around the clock.',
           icon: 'fa-solid fa-screwdriver-wrench',
@@ -607,7 +607,7 @@ export class ServiceCatalogService {
           title: 'Supply IT Infrastructure Hardware',
           name: 'SupplyIT',
           description:
-            'Empowering organizations with robust, reliable, and scalable IT infrastructure solutions that form the backbone of their digital operations. At Digital Solutions Dimensions, we supply, configure, and maintain high-performance hardware from the world\'s leading technology manufacturers.',
+            'Empowering organizations with robust, reliable, and scalable IT infrastructure solutions that form the backbone of their digital operations. At DSD, we supply, configure, and maintain high-performance hardware from the world\'s leading technology manufacturers.',
           HowWeCanHelp:
             'We assess your IT environment to design and implement optimized hardware infrastructure that supports long-term growth and operational continuity. From procurement and installation to configuration and after-sales support, our certified engineers ensure every component operates at peak efficiency.',
           icon: 'fa-solid fa-box',
@@ -638,7 +638,7 @@ export class ServiceCatalogService {
           title: 'Software License Supply & Installation',
           name: 'Software Licensing',
           description:
-            'Delivering trusted, compliant, and optimized software licensing solutions that ensure your organization operates efficiently and securely. At Digital Solutions Dimensions, we supply and install a wide range of licensed software products from leading global vendors.',
+            'Delivering trusted, compliant, and optimized software licensing solutions that ensure your organization operates efficiently and securely. At DSD, we supply and install a wide range of licensed software products from leading global vendors.',
           HowWeCanHelp:
             'We start by assessing your operational environment and identifying software requirements across departments. Our experts handle procurement, deployment, and activation with precision ensuring smooth integration and minimal disruption.',
           icon: 'fa-solid fa-certificate',
@@ -677,7 +677,7 @@ export class ServiceCatalogService {
           title: 'Cybersecurity Services',
           name: 'Cybersecurity',
           description:
-            'Protect your organization\'s digital assets with comprehensive cybersecurity solutions that ensure resilience against evolving threats. At Digital Solutions Dimensions, we deliver advanced security services designed to safeguard your data, networks, and systems from cyberattacks, unauthorized access, and operational disruptions.',
+            'Protect your organization\'s digital assets with comprehensive cybersecurity solutions that ensure resilience against evolving threats. At DSD, we deliver advanced security services designed to safeguard your data, networks, and systems from cyberattacks, unauthorized access, and operational disruptions.',
           HowWeCanHelp:
             'Our cybersecurity specialists assess your current infrastructure, identify vulnerabilities, and design a tailored security framework aligned with your industry standards. We implement multi-layered protection measures including firewalls, intrusion detection systems, endpoint security, and incident response plans.',
           icon: 'fa-solid fa-shield-halved',
@@ -716,7 +716,7 @@ export class ServiceCatalogService {
           title: 'Training the Trainers (TTT)',
           name: 'Training the Trainers (TTT)',
           description:
-            'Empower educators and professionals with Training the Trainers (TTT) programs designed to enhance teaching quality, instructional techniques, and digital readiness. At Digital Solutions Dimensions, we develop and deliver specialized training frameworks that equip trainers with the skills, tools, and methodologies needed to lead effective learning experiences.',
+            'Empower educators and professionals with Training the Trainers (TTT) programs designed to enhance teaching quality, instructional techniques, and digital readiness. At DSD, we develop and deliver specialized training frameworks that equip trainers with the skills, tools, and methodologies needed to lead effective learning experiences.',
           HowWeCanHelp:
             'We collaborate with educational institutions and training centers to design customized TTT programs that address specific needs and disciplines. Our experts provide interactive workshops, digital tools, and continuous evaluation to ensure measurable improvement in trainer performance.',
           icon: 'fa-solid fa-chalkboard-teacher',
@@ -747,7 +747,7 @@ export class ServiceCatalogService {
           title: 'Curriculums',
           name: 'Curriculums',
           description:
-            'Design and develop modern, technology-enabled curriculums that align with academic standards, industry needs, and future skills. At Digital Solutions Dimensions, we create customized curriculum frameworks for schools, universities, and training institutions integrating innovation, interactivity, and digital learning tools.',
+            'Design and develop modern, technology-enabled curriculums that align with academic standards, industry needs, and future skills. At DSD, we create customized curriculum frameworks for schools, universities, and training institutions integrating innovation, interactivity, and digital learning tools.',
           HowWeCanHelp:
             'We collaborate with educators, subject matter experts, and instructional designers to create tailored curriculums that meet your institution\'s goals. Our team ensures balance between academic rigor, technological innovation, and learner-centered design.',
           icon: 'fa-solid fa-book-open',
@@ -786,7 +786,7 @@ export class ServiceCatalogService {
           title: 'Search Engine Optimization (SEO)',
           name: 'SEO',
           description:
-            'Boost your organization\'s online visibility and digital presence through strategic, data-driven SEO solutions. At Digital Solutions Dimensions, we implement modern optimization techniques that align with the latest search engine algorithms, ensuring your website ranks higher, attracts the right audience, and achieves measurable results.',
+            'Boost your organization\'s online visibility and digital presence through strategic, data-driven SEO solutions. At DSD, we implement modern optimization techniques that align with the latest search engine algorithms, ensuring your website ranks higher, attracts the right audience, and achieves measurable results.',
           HowWeCanHelp:
             'Our SEO experts begin by conducting an in-depth website and keyword analysis to identify improvement opportunities. We then develop a tailored SEO strategy that includes technical audits, content optimization, link-building, and analytics reporting.',
           icon: 'fa-solid fa-magnifying-glass-chart',
@@ -817,7 +817,7 @@ export class ServiceCatalogService {
           title: 'Events & Advertisement',
           name: 'Events & Advertising',
           description:
-            'Delivering integrated event management and digital advertising solutions that enhance brand visibility and engagement. At Digital Solutions Dimensions, we plan, organize, and promote events both physical and virtual using creative digital strategies and advanced marketing technologies.',
+            'Delivering integrated event management and digital advertising solutions that enhance brand visibility and engagement. At DSD, we plan, organize, and promote events both physical and virtual using creative digital strategies and advanced marketing technologies.',
           HowWeCanHelp:
             'We combine creative storytelling with technology-driven marketing tools to design events and campaigns that leave a lasting impression. Our experts handle every detail from venue management and media coverage to digital advertising and post-event analytics.',
           icon: 'fa-solid fa-bullhorn',
