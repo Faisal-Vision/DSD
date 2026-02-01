@@ -393,8 +393,8 @@
 		right: 0;
 		width: 0;
 		height: 100%;
-	 background:url('../../../assets/images/bg/backbutton.png'), linear-gradient(-201deg, #123821 -14.59%, #123821 120%) !important;
-    background-color: #123821 !important;
+	 background:url('../../../assets/images/bg/backbutton.png'), linear-gradient(-201deg, #00adb1 -14.59%, #4B227A 120%) !important;
+    background-color: #00adb1 !important;
     // border-left: 6px solid #a79132;
 		transition: var(--transition);
 		z-index: -1;
@@ -728,7 +728,7 @@
 		i {
 			@include radius(44px, 44px, 44px);
 			border-radius: 0;
-			background: #a79132;
+			background: #00adb1;
 			font-size: 20px;
 			color: var(--secondary-color);
 			color: var(--white);
@@ -774,7 +774,7 @@
 			}
 			i {
 				color: a79132;
-				background: #123821;
+				background: #4B227A;
 			}
 		}
 	}
