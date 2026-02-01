@@ -1,6 +1,6 @@
 import { environment } from 'src/environments/environment';
 import { LangService } from '../../services/lang/lang.service';
-import { Component, OnInit } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { Router } from '@angular/router';
 // import { UserType } from 'src/app/enums/user-type';
@@ -21,6 +21,10 @@ export class NavbarComponent implements OnInit {
   mainStandards = [];
   currentEncUserId;
   isSidebarOpen = false;
+  navHidden = false;
+  navFixed = false;
+  private lastScrollTop = 0;
+  private scrollThreshold = 80;
 
   constructor(private lang: LangService,
               private translate: TranslateService,
@@ -49,6 +53,21 @@ export class NavbarComponent implements OnInit {
     }
   }
 
+  @HostListener('window:scroll')
+  onWindowScroll(): void {
+    const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+
+    if (currentScroll > this.scrollThreshold) {
+      this.navFixed = true;
+      this.navHidden = currentScroll > this.lastScrollTop;
+    } else {
+      this.navFixed = false;
+      this.navHidden = false;
+    }
+
+    this.lastScrollTop = Math.max(0, currentScroll);
+  }
+
   toggleSidebar() {
     this.isSidebarOpen = !this.isSidebarOpen;
 
@@ -58,8 +77,14 @@ export class NavbarComponent implements OnInit {
   // Dynamically change the logo based on the language (RTL/LTR)
   get logoSrc(): string {
     return this.isRTL
-      ? '../../../../assets/images/logo/svg/logo-gradiant-2.svg'
-      : '../../../../assets/images/logo/svg/dsd_logo_symbol_en_horizontal.svg';
+      ? '../../../../assets/images/logo/svg/DSD_Logo_Gradient_Arabic.svg'
+      : '../../../../assets/images/logo/svg/DSD_Logo_Gradient.svg';
+  }
+
+  get sidebarLogoSrc(): string {
+    return this.isRTL
+      ? 'assets/images/logo/svg/DSD_Logo_White_Arabic.svg'
+      : 'assets/images/logo/svg/DSD_Logo_White.svg';
   }
 
   // Handle language change dynamically

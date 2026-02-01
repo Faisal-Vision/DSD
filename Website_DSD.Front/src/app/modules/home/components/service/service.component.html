@@ -43,9 +43,11 @@
               <span class="services-one__sub-title">{{ service.name | translate }}</span>
             </div>
             <p class="services-one__text">
-              {{ (service.description | translate).length > 120
-                  ? ((service.description | translate) | slice:0:100) + '...' 
-                  : (service.description | translate) }}
+              <ng-container *ngIf="(service.description | translate).length > 120; else fullText">
+                {{ (service.description | translate) | slice:0:100 }}
+                <span class="read-more-dots" (click)="openDescription(service)">...</span>
+              </ng-container>
+              <ng-template #fullText>{{ service.description | translate }}</ng-template>
             </p>
             <div class="services-one__arrow">
               <a [routerLink]="['/service-details/', service.name]">
@@ -78,6 +80,17 @@
       </div>
   </section>
   <!-- Service area end here -->
+
+  <!-- Read more overlay -->
+  <div class="desc-overlay" *ngIf="expandedService" (click)="closeDescription()">
+    <div class="desc-overlay__card" (click)="$event.stopPropagation()">
+      <button class="desc-overlay__close" (click)="closeDescription()">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <h4 class="desc-overlay__title">{{ expandedService.name | translate }}</h4>
+      <p class="desc-overlay__text">{{ expandedService.description | translate }}</p>
+    </div>
+  </div>
 </main>
 
 <app-footer></app-footer>

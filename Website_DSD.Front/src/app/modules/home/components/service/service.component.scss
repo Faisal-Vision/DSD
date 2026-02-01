@@ -257,3 +257,84 @@ align-items: center;
     flex-direction: column;
   }
 }
+
+/* Read more dots */
+.read-more-dots {
+  color: $gold;
+  font-weight: 700;
+  cursor: pointer;
+  letter-spacing: 2px;
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: $green;
+  }
+}
+
+/* Description overlay */
+.desc-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+  animation: fadeIn 0.2s ease;
+}
+
+.desc-overlay__card {
+  position: relative;
+  background: #fff;
+  border-radius: 16px;
+  padding: 32px 28px 28px;
+  max-width: 540px;
+  width: 90%;
+  max-height: 80vh;
+  overflow-y: auto;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+  animation: slideUp 0.25s ease;
+}
+
+.desc-overlay__close {
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  background: none;
+  border: none;
+  font-size: 1.25rem;
+  color: #999;
+  cursor: pointer;
+  transition: color 0.2s ease;
+  line-height: 1;
+
+  &:hover {
+    color: $green;
+  }
+}
+
+.desc-overlay__title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: $green;
+  margin-bottom: 14px;
+  padding-inline-end: 24px;
+}
+
+.desc-overlay__text {
+  font-size: 0.95rem;
+  line-height: 1.75;
+  color: #444;
+  margin: 0;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}

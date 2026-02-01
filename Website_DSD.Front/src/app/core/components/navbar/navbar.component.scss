@@ -2,6 +2,19 @@
 
 
    
+:host {
+  display: block;
+}
+
+.header-area {
+  transition: transform 0.3s ease;
+  will-change: transform;
+
+  &.nav-hidden {
+    transform: translateY(-100%);
+  }
+}
+
 mat-icon {
     margin-inline-start: 8px;
     margin-inline-end: 0px;

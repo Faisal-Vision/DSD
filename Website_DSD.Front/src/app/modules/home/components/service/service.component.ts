@@ -14,9 +14,18 @@ export class ServiceComponent implements OnInit, OnDestroy {
   categories: ServiceCategory[] = [];
   isLoading = false;
   errorMessage: string | null = null;
+  expandedService: Service | null = null;
   private destroy$ = new Subject<void>();
 
   constructor(private serviceCatalogService: ServiceCatalogService) {}
+
+  openDescription(service: Service): void {
+    this.expandedService = service;
+  }
+
+  closeDescription(): void {
+    this.expandedService = null;
+  }
 
   ngOnInit(): void {
     this.loadCategories();

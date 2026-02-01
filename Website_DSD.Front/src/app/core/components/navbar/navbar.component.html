@@ -1,8 +1,8 @@
-<header class="header-area">
+<header class="header-area" [class.menu-fixed]="navFixed" [class.nav-hidden]="navHidden">
     <div class="container header__container flex-class">
       <div class="header__main d-flex align-items-center">
         <a RouterLinkActive="bg-danger" routerLink="/" class="logo">
-          <img [src]="logoSrc" style="width: 150px;" alt="logo" loading="lazy"/>
+          <img [src]="logoSrc" style="width: 120px;" alt="logo" loading="lazy"/>
         </a>
 
         <div class="main-menu">
@@ -79,7 +79,7 @@
     <div class="sidebar-content">
       <i class="fa-solid fa-times close-icon" (click)="toggleSidebar()"></i>
       <div class="text-center">
-      <img [src]="'assets/images/logo/svg/logo-white-2.svg'" alt="image" style="width: 100%" loading="lazy"/>
+      <img [src]="sidebarLogoSrc" alt="image" style="width: 100%" loading="lazy"/>
 
       </div>
       <ul>
