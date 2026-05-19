@@ -8,10 +8,17 @@
       <div class="main-menu">
         <nav class="d-none d-lg-block">
           <ul>
-            <li><a class="a-header" RouterLinkActive="bg-danger" routerLink="/about">{{"About" | translate}}</a></li>
             <li>
-              <a class="a-header" RouterLinkActive="bg-danger" [routerLink]="['/service']"
-                routerLinkActive="active">{{"Services" | translate}}</a>
+              <a class="a-header" RouterLinkActive="bg-danger" routerLink="/about">
+                <i class="hgi hgi-stroke hgi-rounded hgi-user-group nav-item-icon"></i>
+                {{"About" | translate}}
+              </a>
+            </li>
+            <li>
+              <a class="a-header" RouterLinkActive="bg-danger" [routerLink]="['/service']" routerLinkActive="active">
+                <i class="hgi hgi-stroke hgi-rounded hgi-laptop-programming nav-item-icon"></i>
+                {{"Services" | translate}}
+              </a>
             </li>
 
             <li class="solutions-dropdown-parent">
@@ -22,14 +29,18 @@
               </a>
               <ul class="sub-menu custom-solutions-dropdown">
                 <li *ngFor="let solution of solutions">
-                  <a [routerLink]="['/project-details', solution.name]">
-                    <i [class]="solution.icon + ' dropdown-item-icon'"></i>
+                  <a [routerLink]="['/project-details', solution.name]" class="a-header">
+                    <i [class]="solution.icon + ' dropdown-item-icon nav-item-icon'"></i>
                     {{ currentLang === 'ar' ? solution.titleAr : solution.titleEn }}
                   </a>
                 </li>
               </ul>
             </li>
-            <li><a class="a-header" RouterLinkActive="bg-danger" routerLink="/contact">{{"Contact" | translate}}</a>
+            <li>
+              <a class="a-header" RouterLinkActive="bg-danger" routerLink="/contact">
+                <i class="hgi hgi-stroke hgi-rounded hgi-call nav-item-icon"></i>
+                {{"Contact" | translate}}
+              </a>
             </li>
 
           </ul>

@@ -3,6 +3,8 @@
 }
 
 .header-area {
+  position: relative;
+  z-index: 1000;
   transition: transform 0.3s ease;
   will-change: transform;
 
@@ -181,6 +183,12 @@ mat-icon {
   font-size: 11px;
   transition: transform 0.3s ease;
   vertical-align: middle;
+  color: #0ca3af;
+  -webkit-text-fill-color: currentColor;
+
+  .a-header:hover & {
+    color: #77479b;
+  }
 }
 
 // Enhance standard submenu appearance specifically for our custom dropdown
@@ -320,13 +328,13 @@ mat-icon {
   vertical-align: middle;
   margin-inline-end: 8px;
   color: #0ca3af;
+  -webkit-text-fill-color: currentColor;
   transition: color 0.3s ease, transform 0.3s ease;
   display: inline-block;
 
   // hover effect on link hovers icon
   .a-header:hover & {
     color: #77479b;
-    transform: scale(1.15);
   }
 }
 

@@ -21,6 +21,7 @@ import { Error404Component } from './components/error-404/error-404.component';
 import { TermsAndConditionsComponent } from './components/terms-and-conditions/terms-and-conditions.component';
 import { PrivacyPolicyComponent } from './components/privacy-policy/privacy-policy.component';
 import { ProjectDetailsComponent } from './components/projects/project-details.component';
+import { ProjectsAreaComponent } from '../projects-area/projects-area.component';
 
 
 const routes: Routes = [
@@ -44,6 +45,10 @@ const routes: Routes = [
     component: ProjectDetailsComponent
   }
   ,
+  {
+    path: 'digital-solutions',
+    component: ProjectsAreaComponent
+  },
   {
     path: '',
     component: AboutAreaComponent
