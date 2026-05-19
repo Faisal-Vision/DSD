@@ -1123,5 +1123,7 @@
     "SUBMIT": "إرسال",
     "CANCEL": "إلغاء",
     "PROJECT": "المشروع"
-  }
+  },
+  "Failed to send request": "حدث خطا ما",
+  "Sent successfully": "تم الإرسال بنجاح"
 }

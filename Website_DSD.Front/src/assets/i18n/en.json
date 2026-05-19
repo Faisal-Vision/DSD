@@ -1015,5 +1015,7 @@
     "SUBMIT": "Submit",
     "CANCEL": "Cancel",
     "PROJECT": "Project"
-  }
+  },
+  "Failed to send request": "Failed to send request",
+  "Sent successfully": "Sent successfully"
 }
