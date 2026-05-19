@@ -1,0 +1,36 @@
+.projects-area {
+  padding: 100px 0;
+  background: #f8f9fa;
+  
+  .section-title {
+    margin-bottom: 60px;
+    
+    h2 {
+      font-size: 42px;
+      font-weight: 700;
+      color: #2c3e50;
+      margin-bottom: 20px;
+      position: relative;
+      
+      &:after {
+        content: '';
+        position: absolute;
+        bottom: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80px;
+        height: 4px;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        border-radius: 2px;
+      }
+    }
+    
+    p {
+      font-size: 16px;
+      color: #6c757d;
+      max-width: 600px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+  }
+}

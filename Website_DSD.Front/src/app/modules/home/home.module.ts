@@ -27,6 +27,9 @@ import { CounterCoreComponent } from '../counter-core/counter-core.component';
 import { TermsAndConditionsComponent } from './components/terms-and-conditions/terms-and-conditions.component';
 import { PrivacyPolicyComponent } from './components/privacy-policy/privacy-policy.component';
 import { DragDropModule } from '@angular/cdk/drag-drop';
+import { ProjectsListComponent } from './components/projects/projects-list.component';
+import { ProjectDetailsComponent } from './components/projects/project-details.component';
+import { ProjectsAreaComponent } from '../projects-area/projects-area.component';
 
 
 
@@ -54,7 +57,10 @@ import { DragDropModule } from '@angular/cdk/drag-drop';
     ValueCoreComponent,
     CounterCoreComponent,
     TermsAndConditionsComponent,
-    PrivacyPolicyComponent
+    PrivacyPolicyComponent,
+    ProjectsListComponent,
+    ProjectDetailsComponent,
+    ProjectsAreaComponent,
   ],
   schemas: [
     CUSTOM_ELEMENTS_SCHEMA

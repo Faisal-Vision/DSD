@@ -1,0 +1,352 @@
+// =============================================================================
+// Premium Project Cards Layout & Stylesheet (Brand Gradient Theme)
+// =============================================================================
+
+// Colors & Variables (Mapped to Theme CSS Variables for Dark/Light compatibility)
+$surface-bg: var(--main-bg, #ffffff);
+$border-color: var(--border, #e3e3e3);
+$text-primary: var(--secondary-color, #0f0d1d);
+$text-muted: var(--paragraph, #585858);
+
+// Brand Identity Palette
+$brand-color-1: #00adb1; // Teal
+$brand-color-2: #77479b; // Purple
+$brand-gradient: linear-gradient(135deg, #00adb1 0%, #77479b 100%);
+$brand-gradient-hover: linear-gradient(135deg, #00c2c6 0%, #8c57b2 100%);
+
+// Grid Container
+.case-grid {
+  margin-bottom: 2rem;
+}
+
+// Case Card Main Wrapper
+.case-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: var(--main-bg, #ffffff);
+  border-radius: 22px;
+  border: 1px solid #66339940;
+  /* box-shadow: inset 0 10px 30px #FF9800; */
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+  cursor: pointer;
+  z-index: 1;
+  box-shadow: 0 0px 4px #9e9e9e3b;
+
+  // Top Border / Accent strip using the Brand Gradient
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: $brand-gradient;
+    z-index: 10;
+    transition: background 0.4s ease;
+  }
+
+  // Hover States
+  &:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 45px rgba($brand-color-1, 0.12);
+    border-color: rgba($brand-color-1, 0.3);
+
+    .case-card__image {
+      img {
+        transform: scale(1.08);
+
+      }
+
+      .case-card__overlay {
+        opacity: 1;
+        visibility: visible;
+
+        span,
+        i {
+          transform: translateY(0);
+          opacity: 1;
+        }
+      }
+    }
+
+    .case-card__title a {
+      color: $brand-color-1;
+    }
+
+    .case-card__cta {
+      background: $brand-gradient;
+      color: #ffffff;
+      transform: rotate(360deg);
+      border-color: transparent;
+    }
+  }
+
+  // --- 1. Float Badge (Brand Gradient) ---
+  .case-card__badge {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 5;
+    display: inline-flex;
+    align-items: center;
+    padding: 2px 12px;
+    border-radius: 30px;
+    font-size: 10px;
+    font-weight: 600;
+    color: #ffffff;
+    background: linear-gradient(135deg, #00adb1 0%, #77479b 100%);
+    /* box-shadow: 0 4px 12px rgba(0, 173, 177, 0.25); */
+    backdrop-filter: blur(4px);
+    transition: all 0.3s ease;
+
+    i {
+      font-size: 0.85rem;
+    }
+  }
+
+  // --- 2. Image Container ---
+  .case-card__image {
+    position: relative;
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      // height: 100%;
+      object-fit: cover;
+      transition: transform 0.6s cubic-bezier(0.25, 0.8, 0.25, 1);
+      background: rgba(119, 71, 155, 0.04);
+    }
+
+    // Dynamic Tags/Notes Pills
+    .case-card__notes {
+      position: absolute;
+      bottom: 12px;
+      left: 12px;
+      right: 12px;
+      z-index: 4;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+
+      .note-pill {
+        display: inline-block;
+        padding: 4px 10px;
+        color: #ffffff;
+        font-size: 10px;
+        font-weight: 500;
+        backdrop-filter: blur(8px);
+        transition: all 0.3s ease;
+        border: 1px solid rgba(119, 71, 155, 0.2);
+        background: white;
+        color: #77479b;
+        border-radius: 52px;
+        line-height: 1.5;
+
+        &:hover {
+          background: rgba(#0f0d1d, 0.85);
+          border-color: rgba($brand-color-1, 0.5);
+        }
+      }
+    }
+
+    // Glassmorphism Explore Overlay
+    .case-card__overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgb(103 58 183 / 14%);
+      backdrop-filter: blur(6px);
+      z-index: 3;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.4s ease;
+      text-decoration: none;
+
+      span {
+        color: #ffffff;
+        font-size: 1rem;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        transform: translateY(15px);
+        opacity: 0;
+        transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1) 0.1s;
+      }
+
+      i {
+        color: #ffffff;
+        font-size: 1.2rem;
+        transform: translateY(15px);
+        opacity: 0;
+        transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1) 0.15s;
+      }
+    }
+  }
+
+  // --- 3. Card Body ---
+  .case-card__body {
+    padding: 1.75rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding-bottom: 12px;
+
+
+    .case-card__title {
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 1.4;
+      margin-bottom: 0.75rem;
+
+      a {
+        color: $text-primary;
+        text-decoration: none;
+        transition: color 0.3s ease;
+      }
+    }
+
+    .case-card__desc {
+      font-size: 14px;
+      color: var(--paragraph, #585858);
+      line-height: 1.9;
+      margin-bottom: 0;
+      flex-grow: 1;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    // --- 4. Card Footer ---
+    .case-card__footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-top: 1px solid rgba($border-color, 0.4);
+      padding-top: 1rem;
+      margin-top: auto;
+
+      .case-card__price {
+        font-size: 0.85rem;
+        font-weight: 700;
+        color: #ffffff;
+        background: $brand-gradient;
+        padding: 5px 12px;
+        border-radius: 8px;
+        letter-spacing: 0.3px;
+        box-shadow: 0 3px 8px rgba($brand-color-1, 0.15);
+      }
+
+      .case-card__cta {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        text-decoration: none;
+        transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+        border: 1px solid rgba(119, 71, 155, 0.2);
+        background: rgba(119, 71, 155, 0.04);
+        color: #77479b;
+
+        i {
+          font-size: 1rem;
+        }
+
+        &:hover {
+          background: $brand-gradient;
+          color: #ffffff;
+          transform: scale(1.05);
+        }
+      }
+    }
+  }
+}
+
+// =============================================================================
+// RTL Support (Arabic Mode Layout Corrections)
+// =============================================================================
+[dir="rtl"] {
+  .case-card {
+    .case-card__badge {
+      left: auto;
+      right: 15px;
+      flex-direction: row-reverse;
+
+      i {
+        margin-left: 0;
+        margin-right: 5px;
+      }
+    }
+
+    .case-card__image {
+      .case-card__notes {
+        left: 12px;
+        right: 12px;
+      }
+    }
+
+    .case-card__body {
+      .case-card__footer {
+        flex-direction: row-reverse;
+      }
+    }
+  }
+}
+
+// =============================================================================
+// Dark Mode Overrides
+// =============================================================================
+:root[data-theme="dark"] {
+  .case-card {
+    background: #16142c;
+    border-color: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+
+    &:hover {
+      box-shadow: 0 20px 45px rgba(0, 0, 0, 0.35);
+      border-color: rgba($brand-color-1, 0.4);
+    }
+
+    .case-card__image {
+      background: #0f0d1d;
+    }
+
+    .case-card__body {
+      .case-card__title a {
+        color: #ffffff;
+      }
+
+      .case-card__desc {
+        color: rgba(255, 255, 255, 0.7);
+      }
+
+      .case-card__footer {
+        border-top-color: rgba(255, 255, 255, 0.08);
+
+        .case-card__cta {
+          background: rgba(255, 255, 255, 0.08);
+          color: #ffffff;
+          border-color: rgba(255, 255, 255, 0.1);
+
+          &:hover {
+            background: $brand-gradient;
+            border-color: transparent;
+          }
+        }
+      }
+    }
+  }
+}
