@@ -5,6 +5,7 @@ namespace API.Controllers
 {
     [Route("api/[controller]/[action]")]
     [ApiController]
+    [Authorize]
     public class AdminController(IAdminService _adminService) : ControllerBase
     {
         [HttpGet]

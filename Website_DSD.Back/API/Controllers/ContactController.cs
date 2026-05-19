@@ -6,7 +6,6 @@ namespace API.Controllers;
 
 [Route("api/[controller]/[action]")]
 [ApiController]
-//[Authorize]
 
 public class ContactController(IContactService _contactService) : ControllerBase
 {
@@ -18,14 +17,21 @@ public class ContactController(IContactService _contactService) : ControllerBase
 
     }
 
+
+
     [HttpGet]
+    [Authorize]
     public async Task<IActionResult> GetAll()
     {
         return Ok(await _contactService.GetAll());
 
     }
 
+
+
     [HttpGet]
+    [Authorize]
+
     public async Task<IActionResult> GetById(long id)
     {
         return Ok(await _contactService.GetById(id));
@@ -34,6 +40,8 @@ public class ContactController(IContactService _contactService) : ControllerBase
     }
 
     [HttpPut]
+    [Authorize]
+
     public async Task<IActionResult> UpdateContact([FromBody] UpdatedContact model)
     {
         return Ok(await _contactService.UpdateContact(model));
@@ -41,6 +49,8 @@ public class ContactController(IContactService _contactService) : ControllerBase
     }
 
     [HttpDelete]
+    [Authorize]
+
     public async Task<IActionResult> Delete(long id)
     {
         return Ok(await _contactService.Delete(id));
