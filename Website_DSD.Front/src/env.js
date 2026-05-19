@@ -6,4 +6,5 @@
     // window.__env.BACKEND_URL = "https://www.dsd-techs.com/api/",
     // Setting this to false will disable console output
     window.__env.enableDebug = true;
+
 })(this);
