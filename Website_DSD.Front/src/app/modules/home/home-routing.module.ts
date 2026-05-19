@@ -20,65 +20,71 @@ import { ContactComponent } from './components/contact/contact.component';
 import { Error404Component } from './components/error-404/error-404.component';
 import { TermsAndConditionsComponent } from './components/terms-and-conditions/terms-and-conditions.component';
 import { PrivacyPolicyComponent } from './components/privacy-policy/privacy-policy.component';
+import { ProjectDetailsComponent } from './components/projects/project-details.component';
 
 
 const routes: Routes = [
 
   {
-    path:'',
-    component:HomeComponent
+    path: '',
+    component: HomeComponent
   },
   {
-    path:'',
-    component:BannerAreaComponent
+    path: '',
+    component: BannerAreaComponent
   }
   ,
   {
-    path:'',
-    component:ServiceAreaComponent
+    path: '',
+    component: ServiceAreaComponent
   }
   ,
   {
-    path:'',
-    component:AboutAreaComponent
+    path: 'project-details/:name',
+    component: ProjectDetailsComponent
   }
   ,
   {
-    path:'',
-    component:CounterAreaComponent
+    path: '',
+    component: AboutAreaComponent
   }
   ,
   {
-    path:'',
-    component:CaseAreaComponent
+    path: '',
+    component: CounterAreaComponent
   }
   ,
   {
-    path:'',
-    component:OfferAreaComponent
+    path: '',
+    component: CaseAreaComponent
+  }
+  ,
+  {
+    path: '',
+    component: OfferAreaComponent
   },
   {
-    path:'',
-    component:BrandAreaComponent
+    path: '',
+    component: BrandAreaComponent
   }
 
   ,
   {
-    path:'',
-    component:ProcessAreaComponent
+    path: '',
+    component: ProcessAreaComponent
   }
 
   ,
   {
-    path:'',
-    component:FooterComponent
+    path: '',
+    component: FooterComponent
   }
   ,
   {
-    path:'service',
-    component:ServiceComponent
+    path: 'service',
+    component: ServiceComponent
   }
-,
+  ,
   {
     path: 'service-details/:name',
     component: ServiceDetailsComponent
@@ -107,7 +113,7 @@ const routes: Routes = [
     path: 'contact',
     component: ContactComponent
   },
-     {path: '**', component: Error404Component, pathMatch: 'full'},
+  { path: '**', component: Error404Component, pathMatch: 'full' },
 
 
 ];

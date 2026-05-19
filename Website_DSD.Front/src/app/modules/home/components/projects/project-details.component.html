@@ -1,0 +1,486 @@
+<!-- Main Content -->
+<div class="pd-wrapper" *ngIf="project">
+
+  <!-- ===== HERO ===== -->
+  <section class="pd-hero reveal active ">
+    <div class="container ">
+      <div class="pd-hero-grid">
+
+        <!-- Text Side -->
+        <div class="pd-hero-text">
+          <div class="pd-solution-badge">
+            <div class="badge-dot"></div>
+
+            {{ translate.currentLang === 'ar' ? " منصة صميم" : "SMEEM Platform" }}
+
+          </div>
+          <h1 class="pd-main-title">
+            {{ (translate.currentLang === 'ar' ? project.titleAr : project.titleEn) }}
+          </h1>
+          <p class="pd-main-desc">
+            {{ (translate.currentLang === 'ar' ? project.descriptionAr : project.descriptionEn) }}
+          </p>
+          <div class="pd-actions">
+            <button class="btn-ghost" (click)="openDemoRequestDialog(project)">
+              <i class="hgi hgi-stroke hgi-rounded hgi-add-circle "></i> {{ 'PROJECTS.REQUEST_DEMO' | translate }}
+            </button>
+            <!-- <button class="btn-ghost" (click)="watchVideo()">
+              <i class="fa-regular fa-circle-play"></i>
+              {{ 'PROJECTS.WATCH_VIDEO' | translate }}
+            </button> -->
+          </div>
+        </div>
+
+        <!-- Visual Side -->
+        <div class="pd-hero-visual">
+          <div class="hero-screens">
+
+
+            <!-- Floating badge top -->
+            <!-- <div class="float-badge float-badge--top">
+              <div class="fb-icon">
+                <i class="fa-regular fa-arrow-trend-up"></i>
+              </div>
+              <span>95%+ {{ 'PROJECTS.CUSTOMER_SATISFACTION' | translate }}</span>
+            </div> -->
+
+            <div class="screen-main">
+              <div class="screen-topbar">
+                <span class="s-dot"></span>
+                <span class="s-dot"></span>
+                <span class="s-dot"></span>
+              </div>
+
+              <div class="screen-body">
+                <video class="screen-bg-video" autoplay loop muted playsinline>
+                  <source src="../../../../../assets/images/projects/Video-vd.mp4" type="video/mp4">
+                </video>
+
+                <div class="screen-video-overlay"></div>
+
+                <!-- <div class="project-mockup">
+      <div class="screen-cards-row">
+        <div class="screen-mini-card">
+          <span class="smc-label">{{ 'PROJECTS.INDICATORS' | translate }}</span>
+          <span class="smc-val">87%</span>
+          <div class="smc-bar-track">
+            <div class="smc-bar-fill" style="width:87%"></div>
+          </div>
+        </div>
+        <div class="screen-mini-card">
+          <span class="smc-label">{{ 'PROJECTS.GOALS' | translate }}</span>
+          <span class="smc-val">42</span>
+          <div class="smc-bar-track">
+            <div class="smc-bar-fill" style="width:70%"></div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="screen-chart-row">
+        <span class="smc-label mb-2 d-block">{{ 'PROJECTS.EXECUTION_PROGRESS' | translate }}</span>
+        <div class="mini-chart">
+          <div class="mini-bar" *ngFor="let h of chartBars">
+            <div class="mini-bar-fill" [style.height]="h + '%'"></div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+              </div>
+            </div>
+
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ===== END HERO ===== -->
+
+
+
+
+  <!-- ===== OVERVIEW SECTION ===== -->
+  <section class="pd-overview reveal active ">
+    <div class="container">
+      <div class="pd-overview-grid">
+
+
+
+        <!-- Right: Text -->
+        <div class="overview-text">
+          <span class="ov-label">{{ 'PROJECTS.OVERVIEW_LABEL' | translate }}</span>
+          <h2 class="ov-title">
+            {{ (translate.currentLang === 'ar' ? project.titleAr : project.titleEn) }}
+          </h2>
+          <p class="ov-desc">
+            {{ (translate.currentLang === 'ar' ? project.descriptionAr : project.descriptionEn) }}
+          </p>
+          <div class="ov-checks">
+            <div class="ov-check" *ngFor="let feature of project.aboutfeatures | slice:0:4">
+              <div class="ov-check-icon">
+                <i class="fa-regular fa-check"></i>
+              </div>
+              <span>{{ (translate.currentLang === 'ar' ? $any(feature).ar : $any(feature).en) }}</span>
+            </div>
+          </div>
+          <div class="ov-stats">
+            <div class="ov-stat">
+              <span class="ov-stat-val">15+</span>
+              <span class="ov-stat-lbl">{{ 'PROJECTS.ORGANIZATIONS' | translate }}</span>
+            </div>
+            <div class="ov-stat">
+              <span class="ov-stat-val">98%+</span>
+              <span class="ov-stat-lbl">{{ 'PROJECTS.CUSTOMER_SATISFACTION' | translate }}</span>
+            </div>
+            <div class="ov-stat">
+              <span class="ov-stat-val">80%+</span>
+              <span class="ov-stat-lbl">{{ 'PROJECTS.EFFICIENCY_INCREASE' | translate }}</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Left: Mockup -->
+        <!-- <div class="overview-mockup-wrap">
+          <div class="overview-mockup">
+            <div class="ov-mock-row">
+              <div class="ov-mock-card">
+                <div class="ov-card-top"></div>
+                <div class="ov-card-line"></div>
+                <div class="ov-card-line short"></div>
+                <div class="ov-card-line" style="width:80%"></div>
+              </div>
+              <div class="ov-mock-card">
+                <div class="ov-card-top ov-card-top--alt"></div>
+                <div class="ov-card-line"></div>
+                <div class="ov-card-line short"></div>
+              </div>
+            </div>
+            <div class="ov-mock-wide">
+              <div class="ov-wide-bar"></div>
+              <div class="ov-wide-mini-grid">
+                <div class="ov-mini-block"></div>
+                <div class="ov-mini-block"></div>
+                <div class="ov-mini-block"></div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+        <!-- Left: Video -->
+        <div class="overview-mockup-wrap">
+          <!-- <div class="video-iframe-container">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/9rf9OJthq84?rel=0&modestbranding=1"
+    title="Project Overview Video"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+  </iframe>
+</div> -->
+          <div class="project-mockup">
+            <img [src]="project.image" [alt]="translate.currentLang === 'ar' ? project.titleAr : project.titleEn"
+              style="width: 100%;max-width: 100%;">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ===== END OVERVIEW ===== -->
+
+
+  <!-- ===== FEATURES CARDS SECTION ===== -->
+  <section class="pd-features-section reveal active">
+    <div class="container">
+      <div class="pd-feat-header">
+        <h2 class="pd-feat-title">{{ 'PROJECTS.FEATURES' | translate }}</h2>
+        <p class="pd-feat-sub">
+        <p class="pd-feat-sub">
+          {{
+          translate.currentLang === 'ar'
+          ? 'كل ما تحتاجه لإدارة ' + project.shortTitleAr
+          : 'Everything you need to manage ' + project.shortTitleEn
+          }}
+        </p>
+      </div>
+      <div class="pd-feat-cards-grid">
+        <div class="pd-feat-card" *ngFor="let feature of project.features; let i = index">
+          <div class="pd-feat-card-icon" [ngClass]="['icon-variant-' + (i % 3)]">
+            <i [class]="feature.icon"></i>
+          </div>
+          <h4>{{ (translate.currentLang === 'ar' ? feature.ar : feature.en) }}</h4>
+
+          <p class="feature-description">
+            {{ (translate.currentLang === 'ar' ? feature.descriptionAr : feature.descriptionEn) }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ===== GALLERY SECTION ===== -->
+  <!-- ===== GALLERY SECTION ===== -->
+  <section class="pd-features-section" style="position: relative;">
+    <div class="calendar-bg-shape"></div>
+    <div class="container">
+      <div class="hiw-section">
+        <!-- <div class="hiw-header">
+        <h2 class="pd-feat-title">
+          {{ 'PROJECTS.GALLERY' | translate }}
+        </h2>
+        <p class="text-muted">
+          {{ 'PROJECTS.Some images related to the system' | translate }}
+        </p>
+      </div> -->
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6 mb-4" *ngFor="let imageItem of project?.images">
+          <div class="pd-card mt-3 p-3">
+            <!-- العنوان والوصف أعلى الصورة -->
+            <h3 class="task-title feature">
+              {{ (translate.currentLang === 'ar' ? imageItem.titleAr : imageItem.titleEn) }}
+            </h3>
+            <div class="grey-text mb-3">
+              {{ (translate.currentLang === 'ar' ? imageItem.descriptionAr : imageItem.descriptionEn) }}
+            </div>
+
+            <!-- الصورة -->
+            <div class="card-body brix---image-border-radius-24px p-0">
+              <img [src]="imageItem.url" alt="project-image" class="img-fluid rounded w-100 brix---image-width-100">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- ===== END FEATURES CARDS ===== -->
+  <!-- ===== GALLERY SECTION ===== -->
+  <!-- <section class="pd-features-section">
+
+  <div class="container">
+
+    <div class="hiw-section">
+      <div class="hiw-header">
+        <h2 class="pd-feat-title">
+          {{ 'PROJECTS.GALLERY' | translate }}
+        </h2>
+
+        <p class="text-muted">
+          {{ 'PROJECTS.Some images related to the system' | translate }}
+        </p>
+      </div>
+    </div>
+
+    <div class="w-layout-grid brix---grid-features-v11">
+
+      <div
+        class="brix---link-content w-inline-block"
+        *ngFor="let image of project?.images"
+      >
+
+        <div class="brix---image-border-radius-24px">
+
+          <img
+            [src]="image"
+            alt="project-image"
+            class="brix---image-width-100"
+          >
+
+          <div class="feature-title-overlay"></div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section> -->
+
+  <section class="pd-features-section back-section">
+    <div class="container">
+      <div class="hiw-section">
+        <div class="hiw-header">
+          <h2>{{ 'PROJECTS.HOW_IT_WORKS' | translate }}</h2>
+          <p>{{ 'PROJECTS.HOW_SUBTITLE' | translate }}</p>
+        </div>
+        <div class="hiw-track">
+          <div class="hiw-line"></div>
+          <div class="hiw-line-fill" [style.width]="getLineWidth()"></div>
+          <div class="hiw-step" *ngFor="let step of project?.steps; let i = index" [class.active]="activeStep === i"
+            [class.done]="i < activeStep" (click)="goStep(i)">
+            <div class="hiw-circle" [class.active]="activeStep === i" [class.done]="i < activeStep">
+              <span *ngIf="i >= activeStep">{{ step.num }}</span>
+              <i *ngIf="i < activeStep" class="fa-regular fa-check"></i>
+            </div>
+            <div class="hiw-step-title" [class.active]="activeStep === i">
+              {{ (translate.currentLang === 'ar' ? step.titleAr : step.titleEn) }}
+            </div>
+            <div class="hiw-step-desc">
+              {{ (translate.currentLang === 'ar' ? step.descAr : step.descEn) }}
+            </div>
+          </div>
+        </div>
+
+        <div class="hiw-detail" *ngIf="project.steps?.length && project.steps[activeStep]">
+          <div class="hiw-detail-num">{{ project.steps[activeStep].num }}</div>
+          <div class="hiw-detail-content">
+            <h4>{{ (translate.currentLang === 'ar' ? project.steps[activeStep].titleAr :
+              project.steps[activeStep].titleEn) }}</h4>
+            <p>{{ (translate.currentLang === 'ar' ? project.steps[activeStep].detailDescAr :
+              project.steps[activeStep].detailDescEn) }}</p>
+          </div>
+        </div>
+
+        <div class="hiw-dots">
+          <span class="hiw-dot" *ngFor="let step of project.steps; let i = index" [class.active]="activeStep === i"
+            (click)="goStep(i)">
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- ===== TESTIMONIALS SECTION ===== -->
+  <!-- <section class="pd-features-section reveal active">
+  <div class="container">
+
+
+
+
+            <div class="hiw-section">
+      <div class="hiw-header">
+        <h2 class="pd-feat-title">
+          {{ 'TESTIMONIALS.TITLE' | translate }}
+        </h2>
+          <p>{{ 'TESTIMONIALS.SUBTITLE' | translate }}</p>
+      </div>
+    </div>
+
+    <div class="testimonials-grid">
+      <div class="testimonial-card" *ngFor="let testimonial of project?.testimonials; let i = index" 
+           [style.borderTopColor]="testimonial.gradient ? null : testimonial.color"
+           [style.border-top]="'4px solid'">
+        
+        <div class="testimonial-rating">
+          <i class="fa-solid fa-star" *ngFor="let star of [1,2,3,4,5]"></i>
+    
+        </div>
+
+        <div class="testimonial-quote">
+          <i class="fa-solid fa-quote-right quote-icon"></i>
+          <p class="quote-text">
+            {{ (translate.currentLang === 'ar' ? testimonial.quoteAr : testimonial.quoteEn) }}
+          </p>
+        </div>
+
+        <div class="testimonial-author">
+          <div class="author-avatar" [style.background]="testimonial.gradient">
+            <span>{{ (translate.currentLang === 'ar' ? testimonial.nameAr.charAt(0) : testimonial.nameEn.charAt(0)) }}</span>
+          </div>
+          <div class="author-info">
+            <h4 class="author-name">
+              {{ (translate.currentLang === 'ar' ? testimonial.nameAr : testimonial.nameEn) }}
+            </h4>
+            <p class="author-position">
+              {{ (translate.currentLang === 'ar' ? testimonial.positionAr : testimonial.positionEn) }}
+            </p>
+        
+          </div>
+        </div>
+
+        <div class="testimonial-decoration" [style.background]="testimonial.gradient"></div>
+      </div>
+    </div>
+
+
+  </div>
+</section> -->
+
+  <section class="pd-features-section">
+
+    <div class="container">
+      <!-- ===== FAQ SECTION ===== -->
+
+      <div class="hiw-section">
+        <div class="hiw-header">
+          <h2 class="pd-feat-title">{{ 'PROJECTS.FAQ_TITLE' | translate }}</h2>
+          <p class="text-muted">{{ 'PROJECTS.FAQ_SUBTITLE' | translate }}</p>
+        </div>
+
+
+        <div class="faq-section py-2">
+          <div class="container-xxl">
+            <div class="row align-items-center">
+              <div class="col-lg-12 order-2 order-lg-1">
+
+                <div class="accordion-container">
+                  <div class="accordion-item shadow-sm border-0 mb-3 rounded-4 overflow-hidden"
+                    *ngFor="let faq of project.faqs; let i = index" [class.active]="faq.open">
+                    <div class="accordion-header d-flex justify-content-between align-items-center p-3 bg-white"
+                      (click)="toggleFaq(i)" style="cursor: pointer;">
+                      <span class="accordion-title fw-medium">
+                        {{ (translate.currentLang === 'ar' ? faq.questionAr : faq.questionEn) }}
+                      </span>
+                      <div class="accordion-icon-wrapper" [class.is-open]="faq.open">
+                        <div class="icon-circle">
+                          <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-content" [style.maxHeight]="faq.open ? '200px' : '0'"
+                      style="transition: all 0.4s ease;">
+                      <div class="content-inner p-3 bg-light text-secondary">
+                        {{ (translate.currentLang === 'ar' ? faq.answerAr : faq.answerEn) }}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="col-lg-5 order-1 order-lg-2 mb-5 mb-lg-0">
+                <div class="faq-visual-wrapper text-center">
+                  <div class="floating-image-container">
+                    <img src="../../../../../assets/images/projects/samem-qias.png" alt="Visual Support"
+                      class="img-fluid custom-tilt-shadow">
+                    <div class="blob-bg"></div>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+<app-footer></app-footer>

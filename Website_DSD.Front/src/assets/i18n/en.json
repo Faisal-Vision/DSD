@@ -10,7 +10,6 @@
   "View All Services": "View All Services  ",
   "Read More": "Read More ",
   "view All Portfolio": "view All Portfolio  ",
-
   "Benefits With Our Service": "Benefits With Our Service  ",
   "Leading Digital Innovation for a Modern World": " Leading Digital Innovation for a Modern World ",
   "Transforming Ideas into Digital Solutions": "Transforming Ideas into Digital Solutions",
@@ -26,9 +25,7 @@
   "We bring the latest innovations to empower your business.": "We bring the latest innovations to empower your business.",
   "Unlock new possibilities with advanced technologies.": "Unlock new possibilities with advanced technologies.",
   "Stay ahead in a rapidly evolving digital landscape. We bring the latest innovations to empower your business.": "Stay ahead in a rapidly evolving digital landscape. We bring the latest innovations to empower your business.",
-
   "Excellent IT Services": "Excellent IT Services",
-
   "Global Tech Solutions": "Global Tech Solutions",
   "A sophisticated AI-driven chatbot solution tailored for customer support automation and engagement enhancement.": "A sophisticated AI-driven chatbot solution tailored for customer support automation and engagement enhancement.",
   "Implemented an AI-powered chatbot to streamline customer interactions, improve response times, and enhance engagement with real-time, data-driven insights.": "Implemented an AI-powered chatbot to streamline customer interactions, improve response times, and enhance engagement with real-time, data-driven insights.",
@@ -121,7 +118,6 @@
   "Enhanced operational capabilities": "Enhanced operational capabilities",
   "Improved customer experiences": "Improved customer experiences",
   "Strategic competitive advantage": "Strategic competitive advantage",
-
   "Contact Information": "Contact Information",
   "Discover efficient and personalized support tailored to your needs. Our team is here to help you make informed decisions and provide seamless assistance whenever you need it.": "Discover efficient and personalized support tailored to your needs. Our team is here to help you make informed decisions and provide seamless assistance whenever you need it.",
   "Call Us 24/7": "Call Us 24/7",
@@ -166,44 +162,32 @@
   "Align training with international standards": "Align training with international standards",
   "Provide professional certification for instructors": "Provide professional certification for instructors",
   "Support lifelong learning and mentorship": "Support lifelong learning and mentorship",
-
   "Who can participate in the TTT program?": "Who can participate in the TTT program?",
   "The program is designed for graduating instructors, experienced educators, and trainers looking to enhance their teaching and leadership skills in technical education.": "The program is designed for graduating instructors, experienced educators, and trainers looking to enhance their teaching and leadership skills in technical education.",
-
   "What is the outcome of the TTT training?": "What is the outcome of the TTT training?",
   "Participants will be able to design, deliver, and evaluate effective training programs, and will receive certification recognized in the field of technical education.": "Participants will be able to design, deliver, and evaluate effective training programs, and will receive certification recognized in the field of technical education.",
-
   "How long does the TTT program take?": "How long does the TTT program take?",
   "The program duration varies depending on the modules selected, typically ranging from 2 to 6 weeks of intensive training.": "The program duration varies depending on the modules selected, typically ranging from 2 to 6 weeks of intensive training.",
-
   "Curriculums": "Curriculums",
   "We create, design, build and prepare internationally accredited curriculam and psychometric tests inspired by the largest competent systems and authorities worldwide.": "We create, design, build and prepare internationally accredited curriculam and psychometric tests inspired by the largest competent systems and authorities worldwide.",
   "We support institutions in developing high-quality curriculums that meet international standards. Our team ensures alignment with competency frameworks, designs assessment methods, and prepares complete curriculum documentation ready for accreditation.": "We support institutions in developing high-quality curriculums that meet international standards. Our team ensures alignment with competency frameworks, designs assessment methods, and prepares complete curriculum documentation ready for accreditation.",
-
   "Internationally accredited curriculum design": "Internationally accredited curriculum design",
   "Development of psychometric and competency-based assessments": "Development of psychometric and competency-based assessments",
   "Alignment with global education standards": "Alignment with global education standards",
   "Comprehensive curriculum documentation and implementation support": "Comprehensive curriculum documentation and implementation support",
-
   "What types of curriculums do you develop?": "What types of curriculums do you develop?",
   "We develop vocational, technical, academic, and competency-based curriculums tailored to the needs of institutions and international accreditation bodies.": "We develop vocational, technical, academic, and competency-based curriculums tailored to the needs of institutions and international accreditation bodies.",
-
   "Do you provide psychometric test development?": "Do you provide psychometric test development?",
   "Yes, we create standardized psychometric assessments based on global measurement and evaluation practices.": "Yes, we create standardized psychometric assessments based on global measurement and evaluation practices.",
   "Data Transformation & Load": "Data Transformation & Load",
-
   "We specialize in transforming raw, fragmented data into clean, structured, and analytics-ready datasets. Our ETL processes ensure data accuracy, consistency, and reliability by applying advanced transformation rules before securely loading the data into your preferred systems.": "We specialize in transforming raw, fragmented data into clean, structured, and analytics-ready datasets. Our ETL processes ensure data accuracy, consistency, and reliability by applying advanced transformation rules before securely loading the data into your preferred systems.",
-
   "We analyze your existing data sources, identify inconsistencies, and apply robust transformation workflows. Our team ensures proper mapping, validation, cleansing, and secure data loading across platforms, enabling trusted reporting and seamless integration with BI tools and databases.": "We analyze your existing data sources, identify inconsistencies, and apply robust transformation workflows. Our team ensures proper mapping, validation, cleansing, and secure data loading across platforms, enabling trusted reporting and seamless integration with BI tools and databases.",
-
   "Higher data accuracy and quality": "Higher data accuracy and quality",
   "Consistent and validated datasets ready for analytics": "Consistent and validated datasets ready for analytics",
   "Automated ETL workflows that reduce manual effort": "Automated ETL workflows that reduce manual effort",
   "Improved system integration and reporting reliability": "Improved system integration and reporting reliability",
-
   "What is data transformation?": "What is data transformation?",
   "It is the process of converting raw data into a clean and organized structure suitable for analysis and system integration.": "It is the process of converting raw data into a clean and organized structure suitable for analysis and system integration.",
-
   "Why is ETL important?": "Why is ETL important?",
   "ETL ensures data quality, consistency, and reliability by automatically extracting data, applying transformations, and loading it into target systems.": "ETL ensures data quality, consistency, and reliability by automatically extracting data, applying transformations, and loading it into target systems.",
   "Consultancy": "Consultancy (Proposals, Studies & Plans)",
@@ -213,7 +197,6 @@
   "A digital consultant helps businesses develop and implement strategies to leverage technology effectively.": "A digital consultant helps businesses develop and implement strategies to leverage technology effectively.",
   "Do you provide ongoing consulting?": "Do you provide ongoing consulting?",
   "Yes, we offer both one-time consultations and ongoing support for digital strategy implementation.": "Yes, we offer both one-time consultations and ongoing support for digital strategy implementation.",
-
   "SupplyIT": "Supply IT Infrastructure Hardware",
   "Innovative AI solutions designed to automate tasks, analyze data, and create smarter systems that improve your business outcomes.": "Innovative AI solutions designed to automate tasks, analyze data, and create smarter systems that improve your business outcomes.",
   "We’ll guide you through the process of identifying where AI can have the greatest impact on your business, from enhancing customer experiences to optimizing back-office operations.": "We’ll guide you through the process of identifying where AI can have the greatest impact on your business, from enhancing customer experiences to optimizing back-office operations.",
@@ -221,7 +204,6 @@
   "We provide AI solutions such as machine learning models, natural language processing, and predictive analytics.": "We provide AI solutions such as machine learning models, natural language processing, and predictive analytics.",
   "Is AI suitable for small businesses?": "Is AI suitable for small businesses?",
   "Yes, AI solutions can be tailored to fit businesses of all sizes and can offer valuable efficiency gains.": "Yes, AI solutions can be tailored to fit businesses of all sizes and can offer valuable efficiency gains.",
-
   "ERP": "ERP",
   "Strategic guidance focused on improving management practices, optimizing resource allocation, and achieving business objectives.": "Strategic guidance focused on improving management practices, optimizing resource allocation, and achieving business objectives.",
   "Our consultants will conduct an in-depth assessment of your management and operational processes, identify areas for improvement, and provide actionable strategies for growth.": "Our consultants will conduct an in-depth assessment of your management and operational processes, identify areas for improvement, and provide actionable strategies for growth.",
@@ -230,7 +212,6 @@
   "Management consulting involves advising businesses on best practices and strategies to improve performance and achieve goals.": "Management consulting involves advising businesses on best practices and strategies to improve performance and achieve goals.",
   "How can management consulting benefit my business?": "How can management consulting benefit my business?",
   "Management consulting helps streamline operations, improve decision-making, and align business goals with actionable strategies.": "Management consulting helps streamline operations, improve decision-making, and align business goals with actionable strategies.",
-
   "BPMS": "BPMS",
   "We bring innovation and creativity to the forefront, transforming abstract ideas into tangible solutions.": "We bring innovation and creativity to the forefront, transforming abstract ideas into tangible solutions.",
   "Our experts work alongside you to generate and refine creative concepts that align with your brand vision.": "Our experts work alongside you to generate and refine creative concepts that align with your brand vision.",
@@ -238,7 +219,6 @@
   "We combine industry research, brainstorming sessions, and collaborative workshops to generate creative ideas that align with your brand and target audience.": "We combine industry research, brainstorming sessions, and collaborative workshops to generate creative ideas that align with your brand and target audience.",
   "Can creativity really make a difference in business success?": "Can creativity really make a difference in business success?",
   "Absolutely. Creative ideas differentiate your brand, capture attention, and foster unique customer experiences, which can lead to increased engagement and loyalty.": "Absolutely. Creative ideas differentiate your brand, capture attention, and foster unique customer experiences, which can lead to increased engagement and loyalty.",
-
   "LMS": "LMS",
   "Stay ahead of the curve by adopting the latest technologies that drive business innovation.": "Stay ahead of the curve by adopting the latest technologies that drive business innovation.",
   "We assess the potential of various emerging technologies to enhance your business operations and strategy.": "We assess the potential of various emerging technologies to enhance your business operations and strategy.",
@@ -246,7 +226,6 @@
   "Emerging technologies are new, innovative tech advancements, such as blockchain, artificial intelligence, and IoT, that have the potential to impact industries significantly.": "Emerging technologies are new, innovative tech advancements, such as blockchain, artificial intelligence, and IoT, that have the potential to impact industries significantly.",
   "How do you determine which technologies suit my business?": "How do you determine which technologies suit my business?",
   "We analyze your business needs, goals, and industry trends to identify which emerging technologies can offer the most benefit and create a competitive advantage.": "We analyze your business needs, goals, and industry trends to identify which emerging technologies can offer the most benefit and create a competitive advantage.",
-
   "ITSM": "ITSM",
   "Improving IT service management through best practices.": "Improving IT service management through best practices.",
   "We assess your processes and implement ITIL-based improvements.": "We assess your processes and implement ITIL-based improvements.",
@@ -267,7 +246,6 @@
     "missionTitle": "Mission",
     "missionText": "To deliver exceptional, high-value software and technology solutions that enable organizations to excel, grow, and succeed. Through a team of highly skilled experts and professionals, we combine innovation and experience to provide tailored services that exceed expectations and support our clients’ long-term success."
   },
-
   "CoreValuesTitle": "Core Values",
   "Innovation": "Innovation",
   "InnovationText": "We foster creativity and forward-thinking to design solutions that drive digital transformation and redefine what's possible.",
@@ -383,7 +361,6 @@
   "Search, social, programmatic advertising, email, webinars, conferences, exhibitions, and community activations.": "Search, social, programmatic advertising, email, webinars, conferences, exhibitions, and community activations.",
   "How do you measure success?": "How do you measure success?",
   "We define KPIs upfront (traffic, conversions, reach, satisfaction) and provide detailed post-campaign or post-event reports with improvement actions.": "We define KPIs upfront (traffic, conversions, reach, satisfaction) and provide detailed post-campaign or post-event reports with improvement actions.",
-
   "Digital Transformation": "Digital Transformation",
   "Digital Solutions": "Digital Solutions",
   "Search Engine Optimization (SEO)": "Search Engine Optimization (SEO)",
@@ -406,329 +383,225 @@
   "IT Infrastructure Hardware Supply": "IT Infrastructure Hardware Supply",
   "Software Licensing Supply & Installation": "Software Licensing Supply & Installation",
   "Events & Advertising": "Events & Advertising",
-
   "We lead the journey of innovation and efficiency by transforming traditional processes into smart digital systems. At  DSD, we build flexible, data-driven institutional ecosystems that enhance performance, reduce costs, and achieve sustainable value.": "We lead the journey of innovation and efficiency by transforming traditional processes into smart digital systems. At  DSD, we build flexible, data-driven institutional ecosystems that enhance performance, reduce costs, and achieve sustainable value.",
-
   "We design and develop customized digital solutions that simplify processes, improve productivity, and enable organizations to deliver greater value. At  DSD, we excel in building integrated platforms and applications that automate procedures, connect systems, and provide real-time data.": "We design and develop customized digital solutions that simplify processes, improve productivity, and enable organizations to deliver greater value. At  DSD, we excel in building integrated platforms and applications that automate procedures, connect systems, and provide real-time data.",
-
   "Elevate your online presence through data-driven SEO solutions and smart strategies. At  DSD, we employ the latest optimization techniques aligned with modern search engine algorithms to ensure your website ranks at the top, attracts target audiences, and achieves measurable results.": "Elevate your online presence through data-driven SEO solutions and smart strategies. At  DSD, we employ the latest optimization techniques aligned with modern search engine algorithms to ensure your website ranks at the top, attracts target audiences, and achieves measurable results.",
-
   "We empower your organization through strategic digital consulting services that connect technology with institutional goals. At  DSD, we provide expertise to help organizations navigate complex digital challenges, optimize technology investments, and achieve sustainable digital transformation success.": "We empower your organization through strategic digital consulting services that connect technology with institutional goals. At  DSD, we provide expertise to help organizations navigate complex digital challenges, optimize technology investments, and achieve sustainable digital transformation success.",
-
   "Discover the power of artificial intelligence to transform how your organization operates, makes decisions, and delivers value. At  DSD, we develop intelligent AI-based solutions for process automation, smart data analysis, and enhanced decision quality across various sectors.": "Discover the power of artificial intelligence to transform how your organization operates, makes decisions, and delivers value. At  DSD, we develop intelligent AI-based solutions for process automation, smart data analysis, and enhanced decision quality across various sectors.",
-
   "Achieve institutional excellence through strategic management consulting that empowers leadership, optimizes resource utilization, and supports sustainable performance. At  DSD, we provide data-driven consulting services aimed at developing management practices and improving decision quality.": "Achieve institutional excellence through strategic management consulting that empowers leadership, optimizes resource utilization, and supports sustainable performance. At  DSD, we provide data-driven consulting services aimed at developing management practices and improving decision quality.",
-
   "Transform imagination into real impact through creative innovation services that turn new ideas into practical, tangible solutions. At  DSD, we help organizations explore new horizons, develop original concepts, and translate creativity into viable commercial solutions.": "Transform imagination into real impact through creative innovation services that turn new ideas into practical, tangible solutions. At  DSD, we help organizations explore new horizons, develop original concepts, and translate creativity into viable commercial solutions.",
-
   "Stay at the forefront of digital evolution with emerging technology services that shape the future of innovation and technical transformation. At  DSD, we help organizations explore, adopt, and integrate modern technologies like IoT, Blockchain, AR, and intelligent automation.": "Stay at the forefront of digital evolution with emerging technology services that shape the future of innovation and technical transformation. At  DSD, we help organizations explore, adopt, and integrate modern technologies like IoT, Blockchain, AR, and intelligent automation.",
-
   "We empower your organization through flexible, secure, and cost-effective cloud computing solutions that improve performance and enhance operational flexibility. At  DSD, we design and implement advanced cloud infrastructures enabling seamless collaboration, reducing hardware dependence, and ensuring business continuity.": "We empower your organization through flexible, secure, and cost-effective cloud computing solutions that improve performance and enhance operational flexibility. At  DSD, we design and implement advanced cloud infrastructures enabling seamless collaboration, reducing hardware dependence, and ensuring business continuity.",
-
   "Protect your digital assets through comprehensive cybersecurity solutions that ensure resilience and readiness to face evolving threats. At  DSD, we provide advanced security services aimed at protecting data, networks, and systems from cyberattacks, unauthorized access, and operational disruptions.": "Protect your digital assets through comprehensive cybersecurity solutions that ensure resilience and readiness to face evolving threats. At  DSD, we provide advanced security services aimed at protecting data, networks, and systems from cyberattacks, unauthorized access, and operational disruptions.",
-
   "Achieve high performance, reliability, and sustainability through comprehensive IT infrastructure management services ensuring uninterrupted business continuity. At  DSD, we design, implement, and manage robust technical environments supporting critical institutional operations while improving operational efficiency and reducing costs.": "Achieve high performance, reliability, and sustainability through comprehensive IT infrastructure management services ensuring uninterrupted business continuity. At  DSD, we design, implement, and manage robust technical environments supporting critical institutional operations while improving operational efficiency and reducing costs.",
-
   "Transform your business operations through customized software solutions designed to meet your unique needs. At  DSD, we design, develop, and deploy powerful, scalable, and user-friendly applications that simplify procedures, improve efficiency, and deliver an outstanding user experience.": "Transform your business operations through customized software solutions designed to meet your unique needs. At  DSD, we design, develop, and deploy powerful, scalable, and user-friendly applications that simplify procedures, improve efficiency, and deliver an outstanding user experience.",
-
   "Maintain operational system stability through comprehensive technical support and maintenance services ensuring reliability and business continuity. At  DSD, we provide proactive monitoring, immediate issue resolution, and periodic maintenance to minimize downtime and ensure optimal system performance.": "Maintain operational system stability through comprehensive technical support and maintenance services ensuring reliability and business continuity. At  DSD, we provide proactive monitoring, immediate issue resolution, and periodic maintenance to minimize downtime and ensure optimal system performance.",
-
   "Transform your data into decisions through advanced business intelligence and analytics solutions that enable organizations to make faster, more accurate data-driven decisions. At  DSD, we help clients leverage the power of data through interactive dashboards, predictive analytics, and performance monitoring systems.": "Transform your data into decisions through advanced business intelligence and analytics solutions that enable organizations to make faster, more accurate data-driven decisions. At  DSD, we help clients leverage the power of data through interactive dashboards, predictive analytics, and performance monitoring systems.",
-
   "Simplify and unify your operational processes through comprehensive Enterprise Resource Planning (ERP) systems that connect all your organizational functions within one integrated and efficient system. At  DSD, we design and implement ERP systems connecting finance, HR, supply chain, inventory, and operations.": "Simplify and unify your operational processes through comprehensive Enterprise Resource Planning (ERP) systems that connect all your organizational functions within one integrated and efficient system. At  DSD, we design and implement ERP systems connecting finance, HR, supply chain, inventory, and operations.",
-
   "Optimize and automate your organizational processes through Business Process Management Systems (BPMS) that enhance efficiency, transparency, and control. At  DSD, we design intelligent BPMS platforms that document, monitor, and improve processes across departments, eliminating redundancy and ensuring performance consistency.": "Optimize and automate your organizational processes through Business Process Management Systems (BPMS) that enhance efficiency, transparency, and control. At  DSD, we design intelligent BPMS platforms that document, monitor, and improve processes across departments, eliminating redundancy and ensuring performance consistency.",
-
   "Enhance education and training environments through Learning Management Systems (LMS) that deliver effective, measurable digital learning experiences. At  DSD, we develop advanced LMS platforms customized for schools, universities, and training institutions, enabling e-learning, skill development, and performance tracking.": "Enhance education and training environments through Learning Management Systems (LMS) that deliver effective, measurable digital learning experiences. At  DSD, we develop advanced LMS platforms customized for schools, universities, and training institutions, enabling e-learning, skill development, and performance tracking.",
-
   "Elevate the quality, efficiency, and reliability of IT operations through IT Service Management (ITSM) systems designed to align technical services with business objectives. At  DSD, we help organizations build technical management frameworks based on global best practices like ITIL.": "Elevate the quality, efficiency, and reliability of IT operations through IT Service Management (ITSM) systems designed to align technical services with business objectives. At  DSD, we help organizations build technical management frameworks based on global best practices like ITIL.",
-
   "Obtain accurate, consistent, and reliable data through Data Transformation & Load (ETL) services supporting intelligent decision-making. At  DSD, we design and manage integrated ETL systems to extract, cleanse, transform, and load data between different systems, ensuring information standardization and readiness for analysis.": "Obtain accurate, consistent, and reliable data through Data Transformation & Load (ETL) services supporting intelligent decision-making. At  DSD, we design and manage integrated ETL systems to extract, cleanse, transform, and load data between different systems, ensuring information standardization and readiness for analysis.",
-
   "We empower educators and trainers through Training the Trainers (TTT) programs designed to enhance teaching quality, develop training skills, and improve digital readiness. At  DSD, we develop and implement specialized training frameworks equipping trainers with the skills, tools, and methodologies needed to deliver effective, impactful learning experiences.": "We empower educators and trainers through Training the Trainers (TTT) programs designed to enhance teaching quality, develop training skills, and improve digital readiness. At  DSD, we develop and implement specialized training frameworks equipping trainers with the skills, tools, and methodologies needed to deliver effective, impactful learning experiences.",
-
   "We design and develop modern technology-supported curricula aligned with academic standards, labor market needs, and future skills. At  DSD, we provide customized curriculum frameworks for schools, universities, and training centers, combining creativity, interaction, and digital learning tools.": "We design and develop modern technology-supported curricula aligned with academic standards, labor market needs, and future skills. At  DSD, we provide customized curriculum frameworks for schools, universities, and training centers, combining creativity, interaction, and digital learning tools.",
-
   "We provide strategic consulting services that enable organizations to make informed decisions, design effective plans, and achieve measurable results. At  DSD, we offer comprehensive consulting support including proposal preparation, technical and feasibility studies, operational assessments, and strategic plans across various sectors.": "We provide strategic consulting services that enable organizations to make informed decisions, design effective plans, and achieve measurable results. At  DSD, we offer comprehensive consulting support including proposal preparation, technical and feasibility studies, operational assessments, and strategic plans across various sectors.",
-
   "We provide organizations with robust, reliable, and scalable technical infrastructure solutions forming the foundation for digital operations. At  DSD, we supply, configure, and support computing equipment from leading global brands including Dell, Cisco, Honeywell, Bosch, TP-Link, 3M, and Dell EMC.": "We provide organizations with robust, reliable, and scalable technical infrastructure solutions forming the foundation for digital operations. At  DSD, we supply, configure, and support computing equipment from leading global brands including Dell, Cisco, Honeywell, Bosch, TP-Link, 3M, and Dell EMC.",
-
   "We provide reliable, compliant, and secure software licensing solutions enabling your organization to operate efficiently with full legal compliance. At  DSD, we supply and install a wide range of licensed software from leading global companies including Microsoft, Adobe, Oracle, and others.": "We provide reliable, compliant, and secure software licensing solutions enabling your organization to operate efficiently with full legal compliance. At  DSD, we supply and install a wide range of licensed software from leading global companies including Microsoft, Adobe, Oracle, and others.",
-
   "We provide integrated solutions in event organization and digital advertising that enhance brand visibility and audience engagement. At  DSD, we plan, organize, and promote events whether in-person or virtual through innovative marketing strategies and advanced digital technologies.": "We provide integrated solutions in event organization and digital advertising that enhance brand visibility and audience engagement. At  DSD, we plan, organize, and promote events whether in-person or virtual through innovative marketing strategies and advanced digital technologies.",
-
   "Original licenses compliant with laws and standards": "Original licenses compliant with laws and standards",
   "Effective license management reducing costs and increasing efficiency": "Effective license management reducing costs and increasing efficiency",
   "Complete and seamless software installation and configuration": "Complete and seamless software installation and configuration",
   "Reduced security risks and ensured legal compliance": "Reduced security risks and ensured legal compliance",
   "Continuous updates, maintenance, and technical support": "Continuous updates, maintenance, and technical support",
-
   "Enhanced operational efficiency and workflow improvement": "Enhanced operational efficiency and workflow improvement",
   "Better customer and end-user experience": "Better customer and end-user experience",
   "Data-driven decision-making support": "Data-driven decision-making support",
   "Scalability and sustainable growth": "Scalability and sustainable growth",
   "Strategic alignment with Vision 2030 digital targets": "Strategic alignment with Vision 2030 digital targets",
-
   "Fully customized solutions based on business needs": "Fully customized solutions based on business needs",
   "Simplified and automated processes": "Simplified and automated processes",
   "Reduced operational costs and manual effort": "Reduced operational costs and manual effort",
   "Instant visibility and improved decision quality": "Instant visibility and improved decision quality",
   "Scalable technical architecture that grows with your organization": "Scalable technical architecture that grows with your organization",
-
   "Increased website visibility and higher search rankings": "Increased website visibility and higher search rankings",
   "Attracting qualified traffic that enhances growth and sales opportunities": "Attracting qualified traffic that enhances growth and sales opportunities",
   "Improved brand credibility and digital reputation": "Improved brand credibility and digital reputation",
   "Sustainable organic growth and reduced advertising costs": "Sustainable organic growth and reduced advertising costs",
   "Continuous performance reports and analytics": "Continuous performance reports and analytics",
-
   "What software licenses do you provide?": "What software licenses do you provide?",
   "Do you help with license management?": "Do you help with license management?",
-
   "What is digital transformation?": "What is digital transformation?",
   "How long does digital transformation take?": "How long does digital transformation take?",
-
   "What types of digital solutions do you offer?": "What types of digital solutions do you offer?",
   "Do you provide support after implementation?": "Do you provide support after implementation?",
-
   "How long does it take to see SEO results?": "How long does it take to see SEO results?",
   "Do you guarantee first-page rankings?": "Do you guarantee first-page rankings?",
-
   "What cloud platforms do you work with?": "What cloud platforms do you work with?",
   "Is cloud computing secure?": "Is cloud computing secure?",
-
   "What cybersecurity services do you provide?": "What cybersecurity services do you provide?",
   "How often should we update our security measures?": "How often should we update our security measures?",
-
   "What does IT infrastructure management include?": "What does IT infrastructure management include?",
   "Do you provide on-site support?": "Do you provide on-site support?",
-
   "What types of applications do you develop?": "What types of applications do you develop?",
   "What is your development process?": "What is your development process?",
-
   "What support levels do you offer?": "What support levels do you offer?",
   "How quickly do you respond to issues?": "How quickly do you respond to issues?",
-
   "What is Business Intelligence?": "What is Business Intelligence?",
   "What tools do you use for BI?": "What tools do you use for BI?",
-
   "What ERP systems do you implement?": "What ERP systems do you implement?",
   "How long does ERP implementation take?": "How long does ERP implementation take?",
-
   "What is BPMS?": "What is BPMS?",
   "How does BPMS differ from workflow management?": "How does BPMS differ from workflow management?",
-
   "What features does your LMS include?": "What features does your LMS include?",
   "Can the LMS be customized?": "Can the LMS be customized?",
-
   "Why is ITIL important?": "Why is ITIL important?",
-
   "What is ETL?": "What is ETL?",
   "Why is data transformation important?": "Why is data transformation important?",
-
   "Who can participate in TTT programs?": "Who can participate in TTT programs?",
   "What certification is provided?": "What certification is provided?",
-
   "What types of consulting services do you offer?": "What types of consulting services do you offer?",
   "How long does a typical consulting engagement take?": "How long does a typical consulting engagement take?",
-
   "What types of hardware do you supply?": "What types of hardware do you supply?",
   "Do you provide installation and configuration?": "Do you provide installation and configuration?",
-
   "What types of events do you organize?": "What types of events do you organize?",
   "Do you provide post-event analysis?": "Do you provide post-event analysis?",
-
   "We provide licenses for operating systems, productivity suites, design software, databases, security solutions, and enterprise applications from major vendors.": "We provide licenses for operating systems, productivity suites, design software, databases, security solutions, and enterprise applications from major vendors.",
-
   "Yes, we provide license management services including tracking, renewal reminders, compliance audits, and optimization recommendations.": "Yes, we provide license management services including tracking, renewal reminders, compliance audits, and optimization recommendations.",
-
   "Digital transformation is the process of integrating digital technology into all areas of business, fundamentally changing how organizations operate and deliver value to customers.": "Digital transformation is the process of integrating digital technology into all areas of business, fundamentally changing how organizations operate and deliver value to customers.",
-
   "The timeline varies based on the scope and complexity of the project, typically ranging from several months to a few years for comprehensive transformation.": "The timeline varies based on the scope and complexity of the project, typically ranging from several months to a few years for comprehensive transformation.",
-
   "We offer enterprise systems, web applications, mobile apps, and digital workflow management systems tailored to your specific requirements.": "We offer enterprise systems, web applications, mobile apps, and digital workflow management systems tailored to your specific requirements.",
-
   "Yes, we provide comprehensive post-implementation support including training, maintenance, and continuous optimization.": "Yes, we provide comprehensive post-implementation support including training, maintenance, and continuous optimization.",
-
   "Typically, significant SEO results become visible within 3-6 months, though this varies based on competition and current website status.": "Typically, significant SEO results become visible within 3-6 months, though this varies based on competition and current website status.",
-
   "While we cannot guarantee specific rankings due to search engine algorithm complexity, we follow proven strategies to maximize your visibility and organic traffic.": "While we cannot guarantee specific rankings due to search engine algorithm complexity, we follow proven strategies to maximize your visibility and organic traffic.",
-
   "A digital consultant helps businesses develop and implement strategies to leverage technology effectively, bridging the gap between business objectives and technical solutions.": "A digital consultant helps businesses develop and implement strategies to leverage technology effectively, bridging the gap between business objectives and technical solutions.",
-
   "Yes, we offer both one-time consultations and ongoing support for digital strategy implementation and optimization.": "Yes, we offer both one-time consultations and ongoing support for digital strategy implementation and optimization.",
-
   "What We Offer": "What We Offer",
   "Get Started": "Get Started",
   "Our experts begin with a comprehensive analysis of your website and keywords to identify development opportunities, then create a customized SEO plan including technical audits, content optimization, link building, and performance analysis.": "Our experts begin with a comprehensive analysis of your website and keywords to identify development opportunities, then create a customized SEO plan including technical audits, content optimization, link building, and performance analysis.",
-
   "Our team of experts collaborates with your organization through all transformation stages,from assessment and roadmap design to implementation and continuous monitoring. We identify the highest-impact improvement opportunities, implement digital tools suited to your needs, and provide post-implementation training and support.": "Our team of experts collaborates with your organization through all transformation stages,from assessment and roadmap design to implementation and continuous monitoring. We identify the highest-impact improvement opportunities, implement digital tools suited to your needs, and provide post-implementation training and support.",
-
   "Our experts collaborate with your team to analyze current challenges, design appropriate digital tools, and implement them for optimal performance and user experience. We use the latest development frameworks and Agile methodologies to ensure fast execution, seamless integration, and solution sustainability.": "Our experts collaborate with your team to analyze current challenges, design appropriate digital tools, and implement them for optimal performance and user experience. We use the latest development frameworks and Agile methodologies to ensure fast execution, seamless integration, and solution sustainability.",
-
   "We start by evaluating your current digital environment to identify strengths, opportunities, and development areas, then design a customized digital strategy that connects technology with people and processes to achieve tangible impact.": "We start by evaluating your current digital environment to identify strengths, opportunities, and development areas, then design a customized digital strategy that connects technology with people and processes to achieve tangible impact.",
-
   "Our AI experts work with your organization to identify areas where AI can have the greatest impact. We design and implement comprehensive solutions from data collection and model training to deployment and periodic performance monitoring.": "Our AI experts work with your organization to identify areas where AI can have the greatest impact. We design and implement comprehensive solutions from data collection and model training to deployment and periodic performance monitoring.",
-
   "We begin with a comprehensive assessment of the management framework and organizational processes to identify gaps and improvement areas, then design and implement strategies that enhance efficiency, improve resource management, and strengthen leadership effectiveness.": "We begin with a comprehensive assessment of the management framework and organizational processes to identify gaps and improvement areas, then design and implement strategies that enhance efficiency, improve resource management, and strengthen leadership effectiveness.",
-
   "Our expert team works alongside yours to innovate, refine, and prototype ideas aligned with your brand vision and goals. We conduct analytical research, study market trends, and transform abstract concepts into executable strategies and practical solutions.": "Our expert team works alongside yours to innovate, refine, and prototype ideas aligned with your brand vision and goals. We conduct analytical research, study market trends, and transform abstract concepts into executable strategies and practical solutions.",
-
   "We start by assessing your organization's technical readiness and identifying technologies with the greatest impact and highest ROI. Then we design a customized implementation roadmap, handle system integration, ensure scalability, and optimize performance.": "We start by assessing your organization's technical readiness and identifying technologies with the greatest impact and highest ROI. Then we design a customized implementation roadmap, handle system integration, ensure scalability, and optimize performance.",
-
   "Our experts evaluate your current technical environment to determine the most suitable cloud model (public, private, hybrid), then prepare a smooth cloud migration plan. We handle all stages from infrastructure setup and data migration to security configurations and post-implementation optimization.": "Our experts evaluate your current technical environment to determine the most suitable cloud model (public, private, hybrid), then prepare a smooth cloud migration plan. We handle all stages from infrastructure setup and data migration to security configurations and post-implementation optimization.",
-
   "Our cybersecurity experts assess your current infrastructure to identify vulnerabilities and design a customized security framework compliant with your industry standards. We implement multiple protection layers including firewalls, intrusion detection systems, endpoint protection, and incident response plans.": "Our cybersecurity experts assess your current infrastructure to identify vulnerabilities and design a customized security framework compliant with your industry standards. We implement multiple protection layers including firewalls, intrusion detection systems, endpoint protection, and incident response plans.",
-
   "We start with a comprehensive assessment of current infrastructure to identify gaps and improvement opportunities, then our engineers design and implement optimized systems using the latest monitoring and automation tools to ensure stability and efficiency.": "We start with a comprehensive assessment of current infrastructure to identify gaps and improvement opportunities, then our engineers design and implement optimized systems using the latest monitoring and automation tools to ensure stability and efficiency.",
-
   "Our specialized team works to understand your challenges and needs precisely to design integrated software solutions meeting your operational objectives. We follow Agile development methodology to ensure transparency, flexibility, and rapid execution.": "Our specialized team works to understand your challenges and needs precisely to design integrated software solutions meeting your operational objectives. We follow Agile development methodology to ensure transparency, flexibility, and rapid execution.",
-
   "Our team provides complete support in all technical aspects, including hardware and software maintenance, network troubleshooting, and overall performance optimization. We offer both remote and on-site support to ensure critical systems operate continuously without interruption.": "Our team provides complete support in all technical aspects, including hardware and software maintenance, network troubleshooting, and overall performance optimization. We offer both remote and on-site support to ensure critical systems operate continuously without interruption.",
-
   "Our BI experts collaborate with your team to design and implement data models, dashboards, and analytics systems customized to your needs. We integrate various data sources into a unified platform providing clear interactive reports supporting strategic decision-making.": "Our BI experts collaborate with your team to design and implement data models, dashboards, and analytics systems customized to your needs. We integrate various data sources into a unified platform providing clear interactive reports supporting strategic decision-making.",
-
   "Our ERP experts collaborate with your organization to analyze processes and design a system matching your precise operational needs. We provide integrated services including planning, customization, implementation, training, and continuous support.": "Our ERP experts collaborate with your organization to analyze processes and design a system matching your precise operational needs. We provide integrated services including planning, customization, implementation, training, and continuous support.",
-
   "We start by analyzing current workflows to identify improvement opportunities and automation potential, then design and implement a customized BPMS that integrates seamlessly with your existing systems.": "We start by analyzing current workflows to identify improvement opportunities and automation potential, then design and implement a customized BPMS that integrates seamlessly with your existing systems.",
-
   "Our team collaborates with your educational or training institution to design and implement an LMS matching your educational goals and requirements. We ensure seamless integration with existing systems, provide training for instructors and administrators, and offer continuous post-implementation support.": "Our team collaborates with your educational or training institution to design and implement an LMS matching your educational goals and requirements. We ensure seamless integration with existing systems, provide training for instructors and administrators, and offer continuous post-implementation support.",
-
   "We evaluate current technical processes to identify development opportunities, then design a customized ITSM framework that enhances operational efficiency and ensures service continuity. Our solutions include incident management, change control, request management, and system configuration.": "We evaluate current technical processes to identify development opportunities, then design a customized ITSM framework that enhances operational efficiency and ensures service continuity. Our solutions include incident management, change control, request management, and system configuration.",
-
   "We analyze your data sources and current structure to design customized ETL solutions meeting your business intelligence needs. Our team handles all implementation stages from extraction and transformation to optimization and continuous performance monitoring.": "We analyze your data sources and current structure to design customized ETL solutions meeting your business intelligence needs. Our team handles all implementation stages from extraction and transformation to optimization and continuous performance monitoring.",
-
   "We collaborate with educational institutions and training centers to design customized TTT programs meeting their specific needs across various fields. We provide interactive workshops, advanced digital tools, and continuous assessments to ensure tangible improvement in trainer performance.": "We collaborate with educational institutions and training centers to design customized TTT programs meeting their specific needs across various fields. We provide interactive workshops, advanced digital tools, and continuous assessments to ensure tangible improvement in trainer performance.",
-
   "We collaborate with academics, experts, and instructional designers to develop customized curricula aligned with your educational institution's goals. We balance academic rigor with technical innovation and learner-centered design.": "We collaborate with academics, experts, and instructional designers to develop customized curricula aligned with your educational institution's goals. We balance academic rigor with technical innovation and learner-centered design.",
-
   "We collaborate with your organization to understand objectives, evaluate current status, and develop customized studies and plans supporting desired outcomes. Our team prepares professional documents, business studies, and comprehensive implementation plans ensuring clarity of vision and sustainability of impact.": "We collaborate with your organization to understand objectives, evaluate current status, and develop customized studies and plans supporting desired outcomes. Our team prepares professional documents, business studies, and comprehensive implementation plans ensuring clarity of vision and sustainability of impact.",
-
   "We evaluate your IT environment to design and implement optimized infrastructure supporting long-term growth and business continuity. Our certified team handles all stages from procurement and installation to configuration and continuous technical support, ensuring equipment operates at maximum efficiency.": "We evaluate your IT environment to design and implement optimized infrastructure supporting long-term growth and business continuity. Our certified team handles all stages from procurement and installation to configuration and continuous technical support, ensuring equipment operates at maximum efficiency.",
-
   "We start by evaluating your work environment to determine software needs across different departments, then handle procurement, installation, and activation with precision and professionalism. Our team ensures seamless software integration without impacting business continuity.": "We start by evaluating your work environment to determine software needs across different departments, then handle procurement, installation, and activation with precision and professionalism. Our team ensures seamless software integration without impacting business continuity.",
-
   "We blend technical creativity with marketing vision to design events and campaigns that leave a strong impression on your target audience. Our team handles all details from venue selection and media coverage to digital advertising and post-event results analysis.": "We blend technical creativity with marketing vision to design events and campaigns that leave a strong impression on your target audience. Our team handles all details from venue selection and media coverage to digital advertising and post-event results analysis.",
-
   "Specialized consulting tailored to your organization's digital maturity": "Specialized consulting tailored to your organization's digital maturity",
   "Strategic planning for digital transformation with clear roadmap": "Strategic planning for digital transformation with clear roadmap",
   "Better alignment between institutional goals and technical initiatives": "Better alignment between institutional goals and technical initiatives",
   "Improved resource utilization and spending efficiency": "Improved resource utilization and spending efficiency",
   "Higher readiness to keep pace with future technologies": "Higher readiness to keep pace with future technologies",
-
   "Automation of repetitive tasks and reduced manual intervention": "Automation of repetitive tasks and reduced manual intervention",
   "Deep data analysis and instant business insights": "Deep data analysis and instant business insights",
   "Enhanced customer experience through intelligent interactive systems": "Enhanced customer experience through intelligent interactive systems",
   "Predictive analytics supporting strategic decisions": "Predictive analytics supporting strategic decisions",
   "Increased efficiency and accelerated innovation in institutional processes": "Increased efficiency and accelerated innovation in institutional processes",
-
   "Improved operational and administrative efficiency": "Improved operational and administrative efficiency",
   "Enhanced strategic planning and decision-making quality": "Enhanced strategic planning and decision-making quality",
   "Data-driven analytical insights supporting institutional growth": "Data-driven analytical insights supporting institutional growth",
   "Strengthened leadership effectiveness and goal alignment": "Strengthened leadership effectiveness and goal alignment",
   "Increased profitability and sustainable institutional performance": "Increased profitability and sustainable institutional performance",
-
   "Enhanced innovation and creative problem-solving": "Enhanced innovation and creative problem-solving",
   "Strengthened brand identity and market differentiation": "Strengthened brand identity and market differentiation",
   "New growth and expansion opportunities": "New growth and expansion opportunities",
   "Increased customer engagement through unique innovative experiences": "Increased customer engagement through unique innovative experiences",
   "Established culture of continuous improvement and idea generation": "Established culture of continuous improvement and idea generation",
-
   "Future-proof solutions supporting innovation and sustainability": "Future-proof solutions supporting innovation and sustainability",
   "Enhanced operational capabilities through advanced technologies": "Enhanced operational capabilities through advanced technologies",
   "Greater flexibility to keep pace with technical and market changes": "Greater flexibility to keep pace with technical and market changes",
   "Improved customer experience via intelligent interactive systems": "Improved customer experience via intelligent interactive systems",
   "Strategic advantage through early adoption of modern technologies": "Strategic advantage through early adoption of modern technologies",
-
   "High scalability flexibility according to business needs": "High scalability flexibility according to business needs",
   "Reduced infrastructure and maintenance costs": "Reduced infrastructure and maintenance costs",
   "Enhanced data security and compliance with standards": "Enhanced data security and compliance with standards",
   "Business continuity with backup and disaster recovery solutions": "Business continuity with backup and disaster recovery solutions",
   "Improved collaboration and remote system access": "Improved collaboration and remote system access",
-
   "Advanced protection against cyber threats and vulnerabilities": "Advanced protection against cyber threats and vulnerabilities",
   "Continuous monitoring and proactive attack detection": "Continuous monitoring and proactive attack detection",
   "Enhanced data integrity, privacy, and regulatory compliance": "Enhanced data integrity, privacy, and regulatory compliance",
   "Reduced downtime through preventive risk management": "Reduced downtime through preventive risk management",
   "Increased customer trust and organizational resilience": "Increased customer trust and organizational resilience",
-
   "Stable, high-performance technical environment": "Stable, high-performance technical environment",
   "Reduced downtime and faster issue resolution": "Reduced downtime and faster issue resolution",
   "Optimized operational costs and resource utilization": "Optimized operational costs and resource utilization",
   "Scalable, future-ready infrastructure": "Scalable, future-ready infrastructure",
   "Proactive monitoring and 24/7 technical support": "Proactive monitoring and 24/7 technical support",
-
   "Fully customized applications according to business requirements": "Fully customized applications according to business requirements",
   "Seamless integration with existing systems and databases": "Seamless integration with existing systems and databases",
   "Improved operational efficiency and process automation": "Improved operational efficiency and process automation",
   "Scalable architecture supporting future growth": "Scalable architecture supporting future growth",
   "Modern, user-friendly interfaces enhancing user experience": "Modern, user-friendly interfaces enhancing user experience",
-
   "Continuous system monitoring and proactive issue detection": "Continuous system monitoring and proactive issue detection",
   "Fast response and reduced downtime": "Fast response and reduced downtime",
   "Improved system performance and stability": "Improved system performance and stability",
   "Extended lifespan of technical assets and infrastructure": "Extended lifespan of technical assets and infrastructure",
   "24/7 available technical support experts": "24/7 available technical support experts",
-
   "Instant access to accurate, actionable data": "Instant access to accurate, actionable data",
   "Data-driven decision support through analysis and insights": "Data-driven decision support through analysis and insights",
   "Clearer visibility of performance and operational processes": "Clearer visibility of performance and operational processes",
   "Predictive analytics supporting growth and innovation": "Predictive analytics supporting growth and innovation",
   "Increased efficiency through automated reporting and analysis": "Increased efficiency through automated reporting and analysis",
-
   "Centralized management of all institutional processes": "Centralized management of all institutional processes",
   "Increased efficiency and reduced manual procedures": "Increased efficiency and reduced manual procedures",
   "Real-time reporting and clear performance visibility": "Real-time reporting and clear performance visibility",
   "Better resource planning and greater cost control": "Better resource planning and greater cost control",
   "Flexible architecture scalable for future growth": "Flexible architecture scalable for future growth",
-
   "Simplified procedures and reduced manual work": "Simplified procedures and reduced manual work",
   "Better visibility and control over workflow processes": "Better visibility and control over workflow processes",
   "Accelerated decision-making through real-time performance monitoring": "Accelerated decision-making through real-time performance monitoring",
   "Enhanced compliance and institutional accountability": "Enhanced compliance and institutional accountability",
   "Flexibility to develop and scale processes with business growth": "Flexibility to develop and scale processes with business growth",
-
   "Centralized platform for managing courses and learners": "Centralized platform for managing courses and learners",
   "Anytime, anywhere access to education": "Anytime, anywhere access to education",
   "Real-time reporting for performance tracking and evaluation": "Real-time reporting for performance tracking and evaluation",
   "Integration with e-learning tools and digital content sources": "Integration with e-learning tools and digital content sources",
   "Secure, user-friendly interface for all users": "Secure, user-friendly interface for all users",
-
   "Standardized technical processes according to international standards": "Standardized technical processes according to international standards",
   "Faster response and more efficient problem resolution": "Faster response and more efficient problem resolution",
   "Better visibility and control over technical operations": "Better visibility and control over technical operations",
   "Increased user satisfaction and productivity": "Increased user satisfaction and productivity",
   "Continuous improvement based on performance indicators and data": "Continuous improvement based on performance indicators and data",
-
   "Centralized, clean data ready for analysis and reporting": "Centralized, clean data ready for analysis and reporting",
   "Improved data quality, consistency, and integrity": "Improved data quality, consistency, and integrity",
   "Faster access to accurate business insights": "Faster access to accurate business insights",
   "Simplified integration between different systems and platforms": "Simplified integration between different systems and platforms",
   "Reduced manual effort through automated data workflows": "Reduced manual effort through automated data workflows",
-
   "Enhanced training efficiency and teaching quality": "Enhanced training efficiency and teaching quality",
   "Improved communication and interaction with trainees": "Improved communication and interaction with trainees",
   "Integration of modern technologies in the training process": "Integration of modern technologies in the training process",
   "Standardized training methods according to international standards": "Standardized training methods according to international standards",
   "Built institutional capabilities supporting sustainable knowledge transfer": "Built institutional capabilities supporting sustainable knowledge transfer",
-
   "Alignment with local and international educational standards": "Alignment with local and international educational standards",
   "Integration of digital tools and advanced interactive content": "Integration of digital tools and advanced interactive content",
   "Enhanced learner engagement and knowledge retention": "Enhanced learner engagement and knowledge retention",
   "High flexibility for application across different stages and specializations": "High flexibility for application across different stages and specializations",
   "Development of creativity, critical thinking, and innovation skills": "Development of creativity, critical thinking, and innovation skills",
-
   "Customized proposal and feasibility study preparation": "Customized proposal and feasibility study preparation",
   "Data-driven analytical insights supporting strategic decision-making": "Data-driven analytical insights supporting strategic decision-making",
   "Clear, actionable implementation plans": "Clear, actionable implementation plans",
   "Project alignment with institutional objectives": "Project alignment with institutional objectives",
   "Improved efficiency, governance, and resource management": "Improved efficiency, governance, and resource management",
-
   "Access to globally trusted brand equipment": "Access to globally trusted brand equipment",
   "Complete integration and harmony between systems and components": "Complete integration and harmony between systems and components",
   "High performance, stability, and operational flexibility": "High performance, stability, and operational flexibility",
   "Reduced downtime through proactive setup and support": "Reduced downtime through proactive setup and support",
   "Customized solutions aligned with IT infrastructure strategy": "Customized solutions aligned with IT infrastructure strategy",
-
   "Comprehensive event and advertising planning and execution": "Comprehensive event and advertising planning and execution",
   "Digital expansion through precisely targeted promotional campaigns": "Digital expansion through precisely targeted promotional campaigns",
   "Creative content design and attractive visual elements": "Creative content design and attractive visual elements",
@@ -736,33 +609,24 @@
   "Increased brand awareness and enhanced customer loyalty": "Increased brand awareness and enhanced customer loyalty",
   "Suggested questions": "Suggested Questions ",
   "PrivacyPolicyIntro": "This policy has been prepared to help you understand the nature of the data we collect from you when you visit our website and how we handle this personal information.",
-
   "PrivacyPolicy_Browsing_Title": "Browsing",
   "PrivacyPolicy_Browsing_Text": "This website is not designed to collect your personal information from your computer while browsing. Any data used will only be the information you provide voluntarily and knowingly.",
-
   "PrivacyPolicy_IP_Title": "Internet Protocol (IP) Address",
   "PrivacyPolicy_IP_Text": "Whenever you visit any website, including this one, the hosting server logs your IP address, the date and time of your visit, the type of browser you use, and the URL of any website that referred you to this site.",
-
   "PrivacyPolicy_Surveys_Title": "Online Surveys",
   "PrivacyPolicy_Surveys_Text": "Online surveys we conduct allow us to collect specific data such as your opinions and feelings about our website. Your responses are highly valuable and appreciated, as they help us improve our website. You are free to provide your name and any other optional information.",
-
   "PrivacyPolicy_Links_Title": "Links to Other Websites",
   "PrivacyPolicy_Links_Text": "Our website may contain links to other websites or advertisements from third-party sites. We are not responsible for the data collection methods used by those websites. You can review the privacy policies and content of any websites accessed through links on our site.",
   "Terms_Title": "Terms of Use",
-
   "Terms_Intro": "The DSD website and all its associated services and sub-sites are provided for your personal use. Your access and use of this website are subject to the terms and conditions of use and the applicable regulations in the Kingdom. Accessing or using the website constitutes full and unconditional acceptance of these terms, whether you are a registered user or not. This acceptance becomes effective from the date of your first use of the website.",
-
   "Terms_Modification": "Any modification to these terms becomes effective immediately upon announcement, unless stated otherwise. Your continued use of the website after any modification is announced constitutes full acceptance of that modification.",
-
   "Terms_Restrictions_Title": "Usage Restrictions",
-
   "Terms_Restrictions_Text1": "Uploading or submitting files that contain software, materials, data, or other information that you do not own or are not licensed to use.",
   "Terms_Restrictions_Text2": "Uploading or submitting files that contain viruses, corrupted data, or any malicious software, or performing any action that may affect the security, integrity, or availability of information on the website.",
   "Terms_Restrictions_Text3": "Publishing, advertising, distributing, or circulating materials or information that defame others, violate laws, or contain pornographic, obscene, or Islamic law–violating content, or any illegal materials through DSD services.",
   "Terms_Restrictions_Text4": "Using any tool, program, or procedure to intercept or attempt to intercept the proper operation of the DSD website.",
   "Terms_Restrictions_Text5": "Performing any action that imposes an unreasonable, excessive, or inappropriate load on the infrastructure of the DSD website.",
   "Terms_Restrictions_Text6": "Any act that constitutes a violation of the Anti–Cyber Crime Law or any related regulations in the Kingdom.",
-
   "Corporate Overview": "Corporate Overview",
   "ISO 9001:2015 Certified": "ISO 9001:2015 Certified",
   "DSD is a Saudi-based technology company committed to empowering organizations through advanced digital transformation, IT infrastructure, and intelligent solutions. Guided by the aspirations of Saudi Vision 2030, we strive to accelerate the Kingdom's transition toward a smart, efficient, and innovation-driven digital economy.": "DSD is a Saudi-based technology company committed to empowering organizations through advanced digital transformation, IT infrastructure, and intelligent solutions. Guided by the aspirations of Saudi Vision 2030, we strive to accelerate the Kingdom's transition toward a smart, efficient, and innovation-driven digital economy.",
@@ -806,7 +670,6 @@
   "Custom Software & Emerging Tech": "Custom Software & Emerging Tech",
   "Managed IT & Cloud Operations": "Managed IT & Cloud Operations",
   "Security & Compliance": "Security & Compliance",
-
   "Combines Digital Transformation, Digital Consultancy, Management Consulting, and Consultancy (Proposals, Studies & Plans) into one advisory stream aligned with Vision 2030.": "Combines Digital Transformation, Digital Consultancy, Management Consulting, and Consultancy (Proposals, Studies & Plans) into one advisory stream aligned with Vision 2030.",
   "Unifies Digital Solutions, Software Development, Artificial Intelligence (AI), Emerging Technologies, and Creative Ideas Development into one innovation engine.": "Unifies Digital Solutions, Software Development, Artificial Intelligence (AI), Emerging Technologies, and Creative Ideas Development into one innovation engine.",
   "Brings together Business Intelligence & Analytics and Data Transformation & Load (ETL) to cover ingestion, integration, and intelligent decisioning.": "Brings together Business Intelligence & Analytics and Data Transformation & Load (ETL) to cover ingestion, integration, and intelligent decisioning.",
@@ -815,7 +678,6 @@
   "Keeps Cybersecurity Services as a standalone pillar covering governance, protection, and awareness.": "Keeps Cybersecurity Services as a standalone pillar covering governance, protection, and awareness.",
   "Groups Training the Trainers (TTT) and Curriculum development under one education practice.": "Groups Training the Trainers (TTT) and Curriculum development under one education practice.",
   "Merges Search Engine Optimization (SEO), Events & Advertising, and creative storytelling into a unified experience practice.": "Merges Search Engine Optimization (SEO), Events & Advertising, and creative storytelling into a unified experience practice.",
-
   "Drive innovation and efficiency by transitioning to digital processes and intelligent solutions. At  DSD, we focus on transforming traditional operations into agile, data-driven ecosystems that enhance performance, reduce costs, and create lasting value.": "Drive innovation and efficiency by transitioning to digital processes and intelligent solutions. At  DSD, we focus on transforming traditional operations into agile, data-driven ecosystems that enhance performance, reduce costs, and create lasting value.",
   "Our expert team partners with your organization across every phase of transformation from assessment and roadmap design to technology deployment and continuous improvement. We identify high-impact opportunities, implement digital tools tailored to your needs, and provide staff training and post-implementation support.": "Our expert team partners with your organization across every phase of transformation from assessment and roadmap design to technology deployment and continuous improvement. We identify high-impact opportunities, implement digital tools tailored to your needs, and provide staff training and post-implementation support.",
   "Enhanced operational efficiency and workflow optimization": "Enhanced operational efficiency and workflow optimization",
@@ -823,7 +685,6 @@
   "Data-driven decision-making and performance visibility": "Data-driven decision-making and performance visibility",
   "Greater scalability and long-term business growth": "Greater scalability and long-term business growth",
   "Stronger alignment with Vision 2030 digital objectives": "Stronger alignment with Vision 2030 digital objectives",
-
   "Digital Consulting": "Digital Consulting",
   "Empower your organization with strategic digital consulting services that align technology with business goals. At  DSD, we provide expert guidance to help organizations navigate complex digital challenges, optimize their IT investments, and achieve long-term transformation success.": "Empower your organization with strategic digital consulting services that align technology with business goals. At  DSD, we provide expert guidance to help organizations navigate complex digital challenges, optimize their IT investments, and achieve long-term transformation success.",
   "We begin by assessing your current digital landscape, identifying strengths, challenges, and opportunities for improvement. Our team then designs a customized digital strategy that integrates technology, people, and processes to achieve measurable impact.": "We begin by assessing your current digital landscape, identifying strengths, challenges, and opportunities for improvement. Our team then designs a customized digital strategy that integrates technology, people, and processes to achieve measurable impact.",
@@ -832,7 +693,6 @@
   "Improved alignment between business objectives and digital initiatives": "Improved alignment between business objectives and digital initiatives",
   "Optimized resource utilization and cost efficiency": "Optimized resource utilization and cost efficiency",
   "Greater agility and readiness for future technology trends": "Greater agility and readiness for future technology trends",
-
   "Achieve organizational excellence with strategic management consulting that empowers leadership, optimizes resources, and drives sustainable performance. At  DSD, we provide data-driven consulting services designed to improve management practices, align business goals with operational execution, and enhance overall decision-making.": "Achieve organizational excellence with strategic management consulting that empowers leadership, optimizes resources, and drives sustainable performance. At  DSD, we provide data-driven consulting services designed to improve management practices, align business goals with operational execution, and enhance overall decision-making.",
   "We start by conducting a detailed assessment of your management framework and processes to identify performance gaps and improvement areas. Our consultants then design and implement strategies that enhance efficiency, optimize resource allocation, and strengthen leadership effectiveness.": "We start by conducting a detailed assessment of your management framework and processes to identify performance gaps and improvement areas. Our consultants then design and implement strategies that enhance efficiency, optimize resource allocation, and strengthen leadership effectiveness.",
   "Improved operational and managerial efficiency": "Improved operational and managerial efficiency",
@@ -842,7 +702,6 @@
   "Increased profitability and sustainable performance": "Increased profitability and sustainable performance",
   "Management consulting involves advising businesses on best practices and strategies to improve performance, optimize operations, and achieve organizational goals.": "Management consulting involves advising businesses on best practices and strategies to improve performance, optimize operations, and achieve organizational goals.",
   "It helps streamline operations, improve decision-making, enhance leadership capabilities, and align business goals with actionable strategies.": "It helps streamline operations, improve decision-making, enhance leadership capabilities, and align business goals with actionable strategies.",
-
   "Delivering strategic consultancy services that empower organizations to make informed decisions, design effective plans, and achieve measurable outcomes. At  DSD, we provide end-to-end consulting support covering business proposals, feasibility studies, operational assessments, and strategic plans across multiple sectors.": "Delivering strategic consultancy services that empower organizations to make informed decisions, design effective plans, and achieve measurable outcomes. At  DSD, we provide end-to-end consulting support covering business proposals, feasibility studies, operational assessments, and strategic plans across multiple sectors.",
   "We partner with your organization to understand objectives, assess current conditions, and develop customized studies and strategic frameworks. Our experts prepare professional documentation, business cases, and execution plans designed to ensure clarity, impact, and sustainability.": "We partner with your organization to understand objectives, assess current conditions, and develop customized studies and strategic frameworks. Our experts prepare professional documentation, business cases, and execution plans designed to ensure clarity, impact, and sustainability.",
   "Comprehensive proposals and feasibility studies tailored to your needs": "Comprehensive proposals and feasibility studies tailored to your needs",
@@ -852,7 +711,6 @@
   "Enhanced efficiency, governance, and resource allocation": "Enhanced efficiency, governance, and resource allocation",
   "We offer feasibility studies, business plans, strategic roadmaps, operational assessments, RFP responses, and project proposals across technology and business domains.": "We offer feasibility studies, business plans, strategic roadmaps, operational assessments, RFP responses, and project proposals across technology and business domains.",
   "Duration varies based on scope and complexity, ranging from a few weeks for focused assessments to several months for comprehensive strategic planning.": "Duration varies based on scope and complexity, ranging from a few weeks for focused assessments to several months for comprehensive strategic planning.",
-
   "We design and build customized digital solutions that streamline business operations, enhance productivity, and empower organizations to deliver greater value. At  DSD, we specialize in developing integrated platforms and applications that automate workflows, connect systems, and deliver real-time insights.": "We design and build customized digital solutions that streamline business operations, enhance productivity, and empower organizations to deliver greater value. At  DSD, we specialize in developing integrated platforms and applications that automate workflows, connect systems, and deliver real-time insights.",
   "Our experts collaborate with your team to analyze current challenges, design digital tools, and implement solutions that improve performance and customer satisfaction. We use modern development frameworks and agile methodologies to ensure rapid delivery, seamless integration, and long-term maintainability.": "Our experts collaborate with your team to analyze current challenges, design digital tools, and implement solutions that improve performance and customer satisfaction. We use modern development frameworks and agile methodologies to ensure rapid delivery, seamless integration, and long-term maintainability.",
   "Tailored solutions designed around your exact business needs": "Tailored solutions designed around your exact business needs",
@@ -860,16 +718,13 @@
   "Reduced operational costs and manual workload": "Reduced operational costs and manual workload",
   "Real-time visibility and improved decision-making": "Real-time visibility and improved decision-making",
   "Scalable architecture that grows with your organization": "Scalable architecture that grows with your organization",
-
   "Transform your business operations with custom software solutions tailored to your unique requirements. At  DSD, we design, develop, and deploy robust, scalable, and user-friendly applications that streamline processes, enhance efficiency, and deliver exceptional user experiences.": "Transform your business operations with custom software solutions tailored to your unique requirements. At  DSD, we design, develop, and deploy robust, scalable, and user-friendly applications that streamline processes, enhance efficiency, and deliver exceptional user experiences.",
   "Our development team collaborates closely with your organization to understand challenges, define requirements, and build tailored software solutions. We follow agile development methodologies to ensure flexibility, transparency, and rapid delivery.": "Our development team collaborates closely with your organization to understand challenges, define requirements, and build tailored software solutions. We follow agile development methodologies to ensure flexibility, transparency, and rapid delivery.",
   "Fully customized applications built around your business needs": "Fully customized applications built around your business needs",
-
   "Improved efficiency and automation across departments": "Improved efficiency and automation across departments",
   "Enhanced user experience through modern, intuitive interfaces": "Enhanced user experience through modern, intuitive interfaces",
   "We develop web applications, desktop software, mobile apps (iOS/Android), and enterprise systems tailored to your specific needs.": "We develop web applications, desktop software, mobile apps (iOS/Android), and enterprise systems tailored to your specific needs.",
   "We follow Agile methodology with iterative sprints, regular client feedback, continuous testing, and incremental delivery for faster time-to-market.": "We follow Agile methodology with iterative sprints, regular client feedback, continuous testing, and incremental delivery for faster time-to-market.",
-
   "Artificial Intelligence": "Artificial Intelligence",
   "Unlock the power of artificial intelligence to transform how your organization operates, makes decisions, and delivers value. At  DSD, we develop AI-driven solutions that automate processes, analyze data intelligently, and enhance decision-making across industries.": "Unlock the power of artificial intelligence to transform how your organization operates, makes decisions, and delivers value. At  DSD, we develop AI-driven solutions that automate processes, analyze data intelligently, and enhance decision-making across industries.",
   "Our AI specialists work closely with your organization to identify areas where artificial intelligence can deliver measurable impact. We design and implement end-to-end AI solutions from data collection and model training to deployment and performance monitoring.": "Our AI specialists work closely with your organization to identify areas where artificial intelligence can deliver measurable impact. We design and implement end-to-end AI solutions from data collection and model training to deployment and performance monitoring.",
@@ -880,7 +735,6 @@
   "Increased efficiency, speed, and innovation across operations": "Increased efficiency, speed, and innovation across operations",
   "We provide machine learning models, natural language processing, predictive analytics, computer vision, and intelligent automation solutions.": "We provide machine learning models, natural language processing, predictive analytics, computer vision, and intelligent automation solutions.",
   "Yes, AI solutions can be tailored to fit businesses of all sizes and offer valuable efficiency gains and competitive advantages.": "Yes, AI solutions can be tailored to fit businesses of all sizes and offer valuable efficiency gains and competitive advantages.",
-
   "Stay ahead of the curve with emerging technology solutions that shape the future of digital innovation. At  DSD, we help organizations explore, adopt, and integrate next-generation technologies such as Internet of Things (IoT), Blockchain, Augmented Reality (AR), and Smart Automation.": "Stay ahead of the curve with emerging technology solutions that shape the future of digital innovation. At  DSD, we help organizations explore, adopt, and integrate next-generation technologies such as Internet of Things (IoT), Blockchain, Augmented Reality (AR), and Smart Automation.",
   "We begin by assessing your business readiness and identifying the technologies that offer the highest impact and ROI. Our experts then design customized implementation roadmaps, handle system integration, and ensure scalability and performance optimization.": "We begin by assessing your business readiness and identifying the technologies that offer the highest impact and ROI. Our experts then design customized implementation roadmaps, handle system integration, and ensure scalability and performance optimization.",
   "Future-proof solutions that drive innovation and sustainability": "Future-proof solutions that drive innovation and sustainability",
@@ -889,7 +743,6 @@
   "Strategic advantage through early technology adoption": "Strategic advantage through early technology adoption",
   "Emerging technologies are new, innovative tech advancements such as IoT, blockchain, AR/VR, AI, and quantum computing that are reshaping industries.": "Emerging technologies are new, innovative tech advancements such as IoT, blockchain, AR/VR, AI, and quantum computing that are reshaping industries.",
   "We analyze your business needs, goals, industry trends, and technical readiness to identify which emerging technologies offer the most benefit and value.": "We analyze your business needs, goals, industry trends, and technical readiness to identify which emerging technologies offer the most benefit and value.",
-
   "Developing Creative Ideas": "Developing Creative Ideas",
   "Creative Ideas": "Creative Ideas",
   "Transform imagination into impact with creative innovation services that bring new ideas to life. At  DSD, we help organizations explore new possibilities, develop original concepts, and translate creativity into practical business solutions.": "Transform imagination into impact with creative innovation services that bring new ideas to life. At  DSD, we help organizations explore new possibilities, develop original concepts, and translate creativity into practical business solutions.",
@@ -901,7 +754,6 @@
   "Promotes a culture of continuous improvement and idea generation": "Promotes a culture of continuous improvement and idea generation",
   "We combine industry research, brainstorming sessions, design thinking methodologies, and collaborative workshops to generate and refine creative ideas.": "We combine industry research, brainstorming sessions, design thinking methodologies, and collaborative workshops to generate and refine creative ideas.",
   "Absolutely. Creative ideas differentiate your brand, capture attention, foster unique customer experiences, and drive innovation-led growth.": "Absolutely. Creative ideas differentiate your brand, capture attention, foster unique customer experiences, and drive innovation-led growth.",
-
   "BI & Analytics": "BI & Analytics",
   "Turn data into decisions with advanced business intelligence and analytics solutions that empower organizations to make smarter, faster, and data-driven decisions. At  DSD, we help clients harness the power of their data through interactive dashboards, predictive analytics, and performance monitoring systems.": "Turn data into decisions with advanced business intelligence and analytics solutions that empower organizations to make smarter, faster, and data-driven decisions. At  DSD, we help clients harness the power of their data through interactive dashboards, predictive analytics, and performance monitoring systems.",
   "Our BI specialists work with your team to design and implement customized data models, dashboards, and analytics frameworks tailored to your needs. We integrate diverse data sources into a unified platform, providing clear and interactive reports that support strategic decision-making.": "Our BI specialists work with your team to design and implement customized data models, dashboards, and analytics frameworks tailored to your needs. We integrate diverse data sources into a unified platform, providing clear and interactive reports that support strategic decision-making.",
@@ -912,7 +764,6 @@
   "Increased efficiency through automation of reporting and analysis": "Increased efficiency through automation of reporting and analysis",
   "BI is the process of collecting, processing, and analyzing business data to provide actionable insights that support decision-making and strategic planning.": "BI is the process of collecting, processing, and analyzing business data to provide actionable insights that support decision-making and strategic planning.",
   "We work with leading BI platforms including Power BI, Tableau, QlikView, and custom-built analytics solutions based on your requirements.": "We work with leading BI platforms including Power BI, Tableau, QlikView, and custom-built analytics solutions based on your requirements.",
-
   "Ensure data accuracy, consistency, and reliability with Data Transformation and Load (ETL) services that empower intelligent decision-making. At  DSD, we specialize in building and managing ETL pipelines that extract, clean, transform, and load data across systems.": "Ensure data accuracy, consistency, and reliability with Data Transformation and Load (ETL) services that empower intelligent decision-making. At  DSD, we specialize in building and managing ETL pipelines that extract, clean, transform, and load data across systems.",
   "We analyze your existing data sources and architecture to design tailored ETL solutions that meet your business intelligence needs. Our experts handle everything from data extraction and transformation logic to performance tuning and continuous monitoring.": "We analyze your existing data sources and architecture to design tailored ETL solutions that meet your business intelligence needs. Our experts handle everything from data extraction and transformation logic to performance tuning and continuous monitoring.",
   "Centralized and clean data for analytics and reporting": "Centralized and clean data for analytics and reporting",
@@ -920,7 +771,6 @@
   "Simplified integration across systems and platforms": "Simplified integration across systems and platforms",
   "ETL stands for Extract, Transform, Load — the process of extracting data from sources, transforming it into a usable format, and loading it into target systems for analysis.": "ETL stands for Extract, Transform, Load — the process of extracting data from sources, transforming it into a usable format, and loading it into target systems for analysis.",
   "Data transformation ensures data is accurate, consistent, and formatted correctly for analysis, enabling reliable reporting and informed decision-making.": "Data transformation ensures data is accurate, consistent, and formatted correctly for analysis, enabling reliable reporting and informed decision-making.",
-
   "ERP (Enterprise Resource Planning)": "ERP (Enterprise Resource Planning)",
   "Streamline and unify your business operations with comprehensive ERP solutions that integrate all your core functions into a single, efficient system. At  DSD, we design and implement ERP platforms that connect finance, HR, supply chain, inventory, and operations.": "Streamline and unify your business operations with comprehensive ERP solutions that integrate all your core functions into a single, efficient system. At  DSD, we design and implement ERP platforms that connect finance, HR, supply chain, inventory, and operations.",
   "Our ERP experts collaborate with your organization to analyze your business processes and design a system that fits your exact operational needs. We provide end-to-end services from planning and customization to deployment, training, and ongoing support.": "Our ERP experts collaborate with your organization to analyze your business processes and design a system that fits your exact operational needs. We provide end-to-end services from planning and customization to deployment, training, and ongoing support.",
@@ -931,7 +781,6 @@
   "Scalable architecture supporting growth and expansion": "Scalable architecture supporting growth and expansion",
   "We implement leading ERP solutions including SAP, Oracle, Microsoft Dynamics, and custom ERP systems tailored to specific industry needs.": "We implement leading ERP solutions including SAP, Oracle, Microsoft Dynamics, and custom ERP systems tailored to specific industry needs.",
   "Implementation timeline varies based on organization size and complexity, typically ranging from 6 months to 2 years for comprehensive deployment.": "Implementation timeline varies based on organization size and complexity, typically ranging from 6 months to 2 years for comprehensive deployment.",
-
   "BPMS (Business Process Management System)": "BPMS (Business Process Management System)",
   "Optimize and automate your organizational workflows with Business Process Management System (BPMS) solutions that enhance efficiency, transparency, and control. At  DSD, we design intelligent BPMS platforms that map, monitor, and improve business processes across departments.": "Optimize and automate your organizational workflows with Business Process Management System (BPMS) solutions that enhance efficiency, transparency, and control. At  DSD, we design intelligent BPMS platforms that map, monitor, and improve business processes across departments.",
   "We start by analyzing your current workflows and identifying areas for automation and improvement. Our team then designs and deploys a tailored BPMS that integrates seamlessly with your existing systems.": "We start by analyzing your current workflows and identifying areas for automation and improvement. Our team then designs and deploys a tailored BPMS that integrates seamlessly with your existing systems.",
@@ -942,7 +791,6 @@
   "Flexibility to modify and scale processes as business evolves": "Flexibility to modify and scale processes as business evolves",
   "BPMS is a system for modeling, automating, executing, controlling, measuring, and optimizing business processes to improve organizational efficiency.": "BPMS is a system for modeling, automating, executing, controlling, measuring, and optimizing business processes to improve organizational efficiency.",
   "BPMS is more comprehensive, covering the entire process lifecycle including design, analysis, execution, and continuous improvement, while workflow focuses primarily on task routing.": "BPMS is more comprehensive, covering the entire process lifecycle including design, analysis, execution, and continuous improvement, while workflow focuses primarily on task routing.",
-
   "ITSM (IT Service Management)": "ITSM (IT Service Management)",
   "Enhance the quality, efficiency, and reliability of your IT operations with IT Service Management (ITSM) solutions designed to align technology services with business objectives. At  DSD, we help organizations establish structured IT service frameworks based on international best practices such as ITIL.": "Enhance the quality, efficiency, and reliability of your IT operations with IT Service Management (ITSM) solutions designed to align technology services with business objectives. At  DSD, we help organizations establish structured IT service frameworks based on international best practices such as ITIL.",
   "We assess your existing IT processes, identify areas for improvement, and design an ITSM framework that enhances operational efficiency. Our solutions include incident management, change control, service request handling, and configuration management.": "We assess your existing IT processes, identify areas for improvement, and design an ITSM framework that enhances operational efficiency. Our solutions include incident management, change control, service request handling, and configuration management.",
@@ -953,7 +801,6 @@
   "Continuous improvement through data-driven performance insights": "Continuous improvement through data-driven performance insights",
   "ITSM is the implementation and management of quality IT services that meet business needs through structured processes and best practices.": "ITSM is the implementation and management of quality IT services that meet business needs through structured processes and best practices.",
   "ITIL provides a proven framework for ITSM, helping organizations deliver consistent, high-quality IT services aligned with business objectives.": "ITIL provides a proven framework for ITSM, helping organizations deliver consistent, high-quality IT services aligned with business objectives.",
-
   "LMS (Learning Management System)": "LMS (Learning Management System)",
   "Empower education and training with Learning Management System (LMS) solutions that deliver, track, and enhance learning experiences efficiently. At  DSD, we develop advanced LMS platforms designed for schools, universities, and corporate institutions.": "Empower education and training with Learning Management System (LMS) solutions that deliver, track, and enhance learning experiences efficiently. At  DSD, we develop advanced LMS platforms designed for schools, universities, and corporate institutions.",
   "We work closely with your educational or training institution to design and implement a tailored LMS that fits your specific goals. Our experts ensure seamless integration with existing systems, provide training for instructors and administrators, and deliver continuous support.": "We work closely with your educational or training institution to design and implement a tailored LMS that fits your specific goals. Our experts ensure seamless integration with existing systems, provide training for instructors and administrators, and deliver continuous support.",
@@ -964,7 +811,6 @@
   "Scalable, secure, and user-friendly interface for all users": "Scalable, secure, and user-friendly interface for all users",
   "Our LMS includes course management, content delivery, assessments, gradebook, reporting, video conferencing integration, and mobile access.": "Our LMS includes course management, content delivery, assessments, gradebook, reporting, video conferencing integration, and mobile access.",
   "Yes, we customize the LMS to match your branding, workflows, assessment methods, and specific educational requirements.": "Yes, we customize the LMS to match your branding, workflows, assessment methods, and specific educational requirements.",
-
   "Empower your organization with scalable, secure, and cost-effective cloud computing solutions that optimize performance and enhance flexibility. At  DSD, we design and implement advanced cloud infrastructures that enable seamless collaboration, reduce hardware dependency, and ensure business continuity.": "Empower your organization with scalable, secure, and cost-effective cloud computing solutions that optimize performance and enhance flexibility. At  DSD, we design and implement advanced cloud infrastructures that enable seamless collaboration, reduce hardware dependency, and ensure business continuity.",
   "Our cloud specialists assess your existing IT environment, identify suitable cloud models (public, private, or hybrid), and create a seamless migration strategy. We handle every step from infrastructure setup and data migration to security configuration and post-deployment optimization.": "Our cloud specialists assess your existing IT environment, identify suitable cloud models (public, private, or hybrid), and create a seamless migration strategy. We handle every step from infrastructure setup and data migration to security configuration and post-deployment optimization.",
   "Flexible scalability to match business demands": "Flexible scalability to match business demands",
@@ -972,7 +818,6 @@
   "Improved collaboration and remote accessibility": "Improved collaboration and remote accessibility",
   "We work with leading cloud platforms including Microsoft Azure, Amazon Web Services (AWS), and Alibaba Cloud.": "We work with leading cloud platforms including Microsoft Azure, Amazon Web Services (AWS), and Alibaba Cloud.",
   "Yes, when properly configured. We implement multiple security layers, encryption, access controls, and compliance measures to ensure data protection.": "Yes, when properly configured. We implement multiple security layers, encryption, access controls, and compliance measures to ensure data protection.",
-
   "Ensure reliability, performance, and scalability with end-to-end IT infrastructure management services that keep your business running seamlessly. At  DSD, we design, implement, and maintain robust infrastructure environments that support mission-critical operations.": "Ensure reliability, performance, and scalability with end-to-end IT infrastructure management services that keep your business running seamlessly. At  DSD, we design, implement, and maintain robust infrastructure environments that support mission-critical operations.",
   "We begin by assessing your existing infrastructure to identify gaps, inefficiencies, and upgrade opportunities. Our engineers then design and deploy optimized systems using advanced monitoring tools and automation to ensure stability and performance.": "We begin by assessing your existing infrastructure to identify gaps, inefficiencies, and upgrade opportunities. Our engineers then design and deploy optimized systems using advanced monitoring tools and automation to ensure stability and performance.",
   "Reliable and high-performance IT environments": "Reliable and high-performance IT environments",
@@ -980,7 +825,6 @@
   "Enhanced system scalability and future readiness": "Enhanced system scalability and future readiness",
   "It includes servers, networks, storage, virtualization, cloud integration, monitoring, maintenance, and security management.": "It includes servers, networks, storage, virtualization, cloud integration, monitoring, maintenance, and security management.",
   "Yes, we provide both remote and on-site support based on your needs and service level agreement.": "Yes, we provide both remote and on-site support based on your needs and service level agreement.",
-
   "IT Support & Maintenance": "IT Support & Maintenance",
   "Technical Support": "Technical Support",
   "Keep your systems running smoothly with comprehensive IT support and maintenance services designed to ensure reliability, performance, and business continuity. At  DSD, we provide proactive monitoring, timely troubleshooting, and regular maintenance to minimize downtime.": "Keep your systems running smoothly with comprehensive IT support and maintenance services designed to ensure reliability, performance, and business continuity. At  DSD, we provide proactive monitoring, timely troubleshooting, and regular maintenance to minimize downtime.",
@@ -991,7 +835,6 @@
   "Dedicated technical experts available 24/7": "Dedicated technical experts available 24/7",
   "We offer multiple support tiers including basic support (business hours), premium support (24/7), and dedicated support with assigned engineers.": "We offer multiple support tiers including basic support (business hours), premium support (24/7), and dedicated support with assigned engineers.",
   "Response times vary by support level and issue severity, ranging from immediate response for critical issues to within 24 hours for low-priority requests.": "Response times vary by support level and issue severity, ranging from immediate response for critical issues to within 24 hours for low-priority requests.",
-
   "Supply IT Infrastructure Hardware": "Supply IT Infrastructure Hardware",
   "Empowering organizations with robust, reliable, and scalable IT infrastructure solutions that form the backbone of their digital operations. At  DSD, we supply, configure, and maintain high-performance hardware from the world's leading technology manufacturers.": "Empowering organizations with robust, reliable, and scalable IT infrastructure solutions that form the backbone of their digital operations. At  DSD, we supply, configure, and maintain high-performance hardware from the world's leading technology manufacturers.",
   "We assess your IT environment to design and implement optimized hardware infrastructure that supports long-term growth and operational continuity. From procurement and installation to configuration and after-sales support, our certified engineers ensure every component operates at peak efficiency.": "We assess your IT environment to design and implement optimized hardware infrastructure that supports long-term growth and operational continuity. From procurement and installation to configuration and after-sales support, our certified engineers ensure every component operates at peak efficiency.",
@@ -1001,7 +844,6 @@
   "Tailored hardware solutions aligned with your infrastructure strategy": "Tailored hardware solutions aligned with your infrastructure strategy",
   "We supply servers, storage systems, networking equipment, security devices, data center infrastructure, and related IT hardware from leading manufacturers.": "We supply servers, storage systems, networking equipment, security devices, data center infrastructure, and related IT hardware from leading manufacturers.",
   "Yes, we provide complete turnkey solutions including delivery, installation, configuration, testing, and integration with your existing systems.": "Yes, we provide complete turnkey solutions including delivery, installation, configuration, testing, and integration with your existing systems.",
-
   "Software License Supply & Installation": "Software License Supply & Installation",
   "Software Licensing": "Software Licensing",
   "Delivering trusted, compliant, and optimized software licensing solutions that ensure your organization operates efficiently and securely. At  DSD, we supply and install a wide range of licensed software products from leading global vendors.": "Delivering trusted, compliant, and optimized software licensing solutions that ensure your organization operates efficiently and securely. At  DSD, we supply and install a wide range of licensed software products from leading global vendors.",
@@ -1019,7 +861,6 @@
   "Strengthened customer trust and organizational resilience": "Strengthened customer trust and organizational resilience",
   "We provide security assessments, penetration testing, security monitoring, incident response, compliance management, and security awareness training.": "We provide security assessments, penetration testing, security monitoring, incident response, compliance management, and security awareness training.",
   "Security should be continuously monitored and updated. We recommend regular assessments, quarterly reviews, and immediate updates when new threats emerge.": "Security should be continuously monitored and updated. We recommend regular assessments, quarterly reviews, and immediate updates when new threats emerge.",
-
   "Empower educators and professionals with Training the Trainers (TTT) programs designed to enhance teaching quality, instructional techniques, and digital readiness. At  DSD, we develop and deliver specialized training frameworks that equip trainers with the skills, tools, and methodologies needed to lead effective learning experiences.": "Empower educators and professionals with Training the Trainers (TTT) programs designed to enhance teaching quality, instructional techniques, and digital readiness. At  DSD, we develop and deliver specialized training frameworks that equip trainers with the skills, tools, and methodologies needed to lead effective learning experiences.",
   "We collaborate with educational institutions and training centers to design customized TTT programs that address specific needs and disciplines. Our experts provide interactive workshops, digital tools, and continuous evaluation to ensure measurable improvement in trainer performance.": "We collaborate with educational institutions and training centers to design customized TTT programs that address specific needs and disciplines. Our experts provide interactive workshops, digital tools, and continuous evaluation to ensure measurable improvement in trainer performance.",
   "Enhanced teaching effectiveness and instructional quality": "Enhanced teaching effectiveness and instructional quality",
@@ -1029,7 +870,6 @@
   "Capacity building for sustainable knowledge transfer": "Capacity building for sustainable knowledge transfer",
   "TTT programs are designed for graduating instructors, experienced educators, corporate trainers, and anyone responsible for teaching or training others.": "TTT programs are designed for graduating instructors, experienced educators, corporate trainers, and anyone responsible for teaching or training others.",
   "Participants receive internationally recognized certification upon successful completion, validating their enhanced training competencies.": "Participants receive internationally recognized certification upon successful completion, validating their enhanced training competencies.",
-
   "Design and develop modern, technology-enabled curriculums that align with academic standards, industry needs, and future skills. At  DSD, we create customized curriculum frameworks for schools, universities, and training institutions integrating innovation, interactivity, and digital learning tools.": "Design and develop modern, technology-enabled curriculums that align with academic standards, industry needs, and future skills. At  DSD, we create customized curriculum frameworks for schools, universities, and training institutions integrating innovation, interactivity, and digital learning tools.",
   "We collaborate with educators, subject matter experts, and instructional designers to create tailored curriculums that meet your institution's goals. Our team ensures balance between academic rigor, technological innovation, and learner-centered design.": "We collaborate with educators, subject matter experts, and instructional designers to create tailored curriculums that meet your institution's goals. Our team ensures balance between academic rigor, technological innovation, and learner-centered design.",
   "Curriculums aligned with national and international education standards": "Curriculums aligned with national and international education standards",
@@ -1037,14 +877,12 @@
   "Flexibility to adapt to different educational levels and disciplines": "Flexibility to adapt to different educational levels and disciplines",
   "Promotion of creativity, critical thinking, and innovation": "Promotion of creativity, critical thinking, and innovation",
   "We develop vocational, technical, academic, and competency-based curricula tailored to institutional needs and international accreditation requirements.": "We develop vocational, technical, academic, and competency-based curricula tailored to institutional needs and international accreditation requirements.",
-
   "SEO": "SEO",
   "Boost your organization's online visibility and digital presence through strategic, data-driven SEO solutions. At  DSD, we implement modern optimization techniques that align with the latest search engine algorithms, ensuring your website ranks higher, attracts the right audience, and achieves measurable results.": "Boost your organization's online visibility and digital presence through strategic, data-driven SEO solutions. At  DSD, we implement modern optimization techniques that align with the latest search engine algorithms, ensuring your website ranks higher, attracts the right audience, and achieves measurable results.",
   "Our SEO experts begin by conducting an in-depth website and keyword analysis to identify improvement opportunities. We then develop a tailored SEO strategy that includes technical audits, content optimization, link-building, and analytics reporting.": "Our SEO experts begin by conducting an in-depth website and keyword analysis to identify improvement opportunities. We then develop a tailored SEO strategy that includes technical audits, content optimization, link-building, and analytics reporting.",
   "Enhanced website traffic and qualified leads": "Enhanced website traffic and qualified leads",
   "Long-term organic growth and lower advertising costs": "Long-term organic growth and lower advertising costs",
   "Continuous performance tracking and SEO insights": "Continuous performance tracking and SEO insights",
-
   "Events & Advertisement": "Events & Advertisement",
   "Delivering integrated event management and digital advertising solutions that enhance brand visibility and engagement. At  DSD, we plan, organize, and promote events both physical and virtual using creative digital strategies and advanced marketing technologies.": "Delivering integrated event management and digital advertising solutions that enhance brand visibility and engagement. At  DSD, we plan, organize, and promote events both physical and virtual using creative digital strategies and advanced marketing technologies.",
   "We combine creative storytelling with technology-driven marketing tools to design events and campaigns that leave a lasting impression. Our experts handle every detail from venue management and media coverage to digital advertising and post-event analytics.": "We combine creative storytelling with technology-driven marketing tools to design events and campaigns that leave a lasting impression. Our experts handle every detail from venue management and media coverage to digital advertising and post-event analytics.",
@@ -1088,7 +926,6 @@
   "Your privacy, your choice": "Your privacy, your choice",
   "Have a privacy question or want to exercise your rights? Connect with our data team and we will respond quickly with the guidance you need.": "Have a privacy question or want to exercise your rights? Connect with our data team and we will respond quickly with the guidance you need.",
   "Talk to us": "Talk to us",
-
   "Terms & Conditions": "Terms & Conditions",
   "DSD Legal Framework": "DSD Legal Framework",
   "Reliable engagements for every partnership": "Reliable engagements for every partnership",
@@ -1126,5 +963,57 @@
   "These Terms and Conditions are governed by and interpreted in accordance with the laws applicable in the Kingdom of Saudi Arabia.": "These Terms and Conditions are governed by and interpreted in accordance with the laws applicable in the Kingdom of Saudi Arabia.",
   "Need clarification?": "Need clarification?",
   "We are ready to discuss any clause to ensure mutual understanding before work begins. Reach us through your engagement manager or our official channels.": "We are ready to discuss any clause to ensure mutual understanding before work begins. Reach us through your engagement manager or our official channels.",
-  "Contact DSD": "Contact DSD"
+  "Contact DSD": "Contact DSD",
+  "PROJECTS": {
+    "TITLE": "Our Projects",
+    "SUBTITLE": "Explore our innovative solutions designed to meet your business needs",
+    "FEATURES": "Features",
+    "FEATURES_SUBTITLE": "Everything you need to manage your strategy",
+    "GALLERY": "Gallery",
+    "GALLERY_SUBTITLE": "Glimpses from our various solutions",
+    "REQUEST_DEMO": "Request a demo",
+    "WATCH_VIDEO": "Watch the video",
+    "EFFICIENCY_INCREASE": "Increased efficiency",
+    "CUSTOMER_SATISFACTION": "Customer satisfaction",
+    "ORGANIZATIONS": "organizations",
+    "HOW_IT_WORKS": "HOW_IT_WORKS  ",
+    "VIDEO": "VIDEO",
+    "HOW_SUBTITLE": "Four simple steps to turn your vision into reality",
+    "STATS": "STATS",
+    "FAQ_TITLE": "Frequently Asked Questions",
+    "FAQ_SUBTITLE": "Answers to the most common questions",
+    "PERFORMANCE": "Performance Metrics",
+    "EFFICIENCY": "System Efficiency",
+    "SECURITY": "Security Level",
+    "RESPONSE": "Response Speed",
+    "ORGS": "Organizations",
+    "SATISFACTION": "Customer Satisfaction",
+    "EFFICIENCY_INC": "Efficiency Increase",
+    "product": "Our Products",
+    "Product Details": "Product Details",
+    "Our product range": "Our digital solutions",
+    "OVERVIEW_LABEL": "Overview",
+    "FEATURES_TITLE": "Features",
+    "INDICATORS": "Indicators",
+    "GOALS": "Goals",
+    "EXECUTION_PROGRESS": "Execution Progress",
+    "PROGRESS": "Progress",
+    "Some images related to the system": "Some images related to the system"
+  },
+  "DEMO_REQUEST": {
+    "TITLE": "Request a Demo",
+    "NAME": "Name",
+    "NAME_REQUIRED": "Name is required",
+    "EMAIL": "Email",
+    "EMAIL_REQUIRED": "Email is required",
+    "EMAIL_INVALID": "Invalid email",
+    "COMPANY": "Company",
+    "COMPANY_REQUIRED": "Company name is required",
+    "PHONE": "Phone",
+    "PHONE_REQUIRED": "Phone number is required",
+    "MESSAGE": "Message",
+    "SUBMIT": "Submit",
+    "CANCEL": "Cancel",
+    "PROJECT": "Project"
+  }
 }

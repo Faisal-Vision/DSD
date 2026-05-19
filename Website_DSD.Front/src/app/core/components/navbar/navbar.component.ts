@@ -25,10 +25,18 @@ export class NavbarComponent implements OnInit {
   navFixed = false;
   private lastScrollTop = 0;
   private scrollThreshold = 80;
+  solutions = [
+    { name: 'strategic-planning', titleAr: 'إدارة الاستراتيجية', titleEn: 'Strategic Planning', icon: 'hgi hgi-stroke hgi-rounded hgi-target-01' },
+    { name: 'projects-management', titleAr: 'إدارة المشاريع', titleEn: 'Projects Management', icon: 'hgi hgi-stroke hgi-rounded hgi-structure-01' },
+    { name: 'task-management', titleAr: 'إدارة المهام', titleEn: 'Task Management', icon: 'hgi hgi-stroke hgi-rounded hgi-task-daily-01' },
+    { name: 'digital-indicators', titleAr: 'المؤشرات الرقمية', titleEn: 'Digital Indicators', icon: 'hgi hgi-stroke hgi-rounded hgi-analytics-01' },
+    { name: 'performance-indicators', titleAr: 'مؤشرات الأداء', titleEn: 'Performance Indicators', icon: 'hgi hgi-stroke hgi-rounded hgi-presentation-line-chart-01' },
+    { name: 'files-library', titleAr: 'مكتبة الملفات', titleEn: 'Files Library', icon: 'hgi hgi-stroke hgi-rounded hgi-folder-library' }
+  ];
 
   constructor(private lang: LangService,
-              private translate: TranslateService,
-              private router: Router) {
+    private translate: TranslateService,
+    private router: Router) {
   }
 
   ngOnInit(): void {
@@ -36,20 +44,18 @@ export class NavbarComponent implements OnInit {
     this.currentEncUserId = localStorage.getItem('userId');
     this.isRTL = this.currentLang === 'ar';
     var localStorageTheme = localStorage.getItem('theme');
-    if(localStorageTheme == 'dark')
-    {
+    if (localStorageTheme == 'dark') {
 
       this.darkTheme = true;
 
-    this.lang.currentTheme.next('dark' );
-    localStorage.setItem('theme', 'dark' );
+      this.lang.currentTheme.next('dark');
+      localStorage.setItem('theme', 'dark');
     }
-    else
-    {
+    else {
       this.darkTheme = false;
 
-    this.lang.currentTheme.next('light');
-    localStorage.setItem('theme',  'light');
+      this.lang.currentTheme.next('light');
+      localStorage.setItem('theme', 'light');
     }
   }
 
