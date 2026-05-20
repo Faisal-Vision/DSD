@@ -1,0 +1,74 @@
+name: Deploy to SmarterASP
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  group: smarterasp-production
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    name: Build and deploy
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+
+      - name: Write production frontend environment
+        shell: pwsh
+        run: |
+          @"
+          (function (window) {
+            window.__env = window.__env || {};
+            window.__env.BACKEND_URL = "${{ secrets.PRODUCTION_API_URL }}";
+            window.__env.enableDebug = false;
+          })(this);
+          "@ | Set-Content -Path "Website_DSD.Front/src/env.js" -Encoding UTF8
+
+      - name: Install frontend dependencies
+        working-directory: Website_DSD.Front
+        run: npm ci
+
+      - name: Build frontend
+        working-directory: Website_DSD.Front
+        run: npm run build
+
+      - name: Restore backend
+        run: dotnet restore Website_DSD.Back/API/API.csproj
+
+      - name: Publish backend
+        run: dotnet publish Website_DSD.Back/API/API.csproj --configuration Release --output publish-backend --no-restore
+
+      - name: Verify publish output
+        shell: pwsh
+        run: |
+          if (!(Test-Path "publish-backend/web.config")) { throw "Missing web.config" }
+          if (!(Test-Path "publish-backend/API.dll")) { throw "Missing API.dll" }
+          if (!(Test-Path "publish-backend/wwwroot/index.html")) { throw "Missing Angular index.html" }
+
+      - name: Deploy by FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.SMARTERASP_FTP_SERVER }}
+          username: ${{ secrets.SMARTERASP_FTP_USERNAME }}
+          password: ${{ secrets.SMARTERASP_FTP_PASSWORD }}
+          local-dir: ./publish-backend/
+          server-dir: ${{ secrets.SMARTERASP_FTP_SERVER_DIR }}
+          exclude: |
+            **/.git*
+            **/.git*/**
