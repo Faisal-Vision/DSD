@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/Website_DSD_app",
+            "outputPath": "../Website_DSD.Back/API/wwwroot",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
