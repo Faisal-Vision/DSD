@@ -28,6 +28,8 @@ export class ContactAdminComponent {
   ) { }
 
   ngOnInit(): void {
+    console.log('ContactAdminComponent Init');
+
     this.currentLang = localStorage.getItem('lang') || environment.defaultLang;
     this.getAllUsers();
   }

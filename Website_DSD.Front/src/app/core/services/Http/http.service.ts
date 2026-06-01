@@ -35,7 +35,7 @@ export class HttpService {
     }
 
     getBlob<Blob>(apiName: string, param?: any): Promise<Blob> {
-        return this.http.get<IResponseResult>(`${this.envService.BACKEND_URL}${apiName}`, { params: param ,responseType: 'blob' as 'json'})
+        return this.http.get<IResponseResult>(`${this.envService.BACKEND_URL}${apiName}`, { params: param, responseType: 'blob' as 'json' })
             .pipe(
                 catchError((error: any) => {
                     console.error('An error occurred:', error);
@@ -50,10 +50,15 @@ export class HttpService {
     }
 
     post<T>(apiName: string, body?: any) {
-        return this.http.post<IResponseResult>(`${this.envService.BACKEND_URL}${apiName}`, body)
+        const headers = {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+        };
+        return this.http.post<IResponseResult>(`${this.envService.BACKEND_URL}${apiName}`, body, { headers })
             .pipe(
                 catchError((error: any) => {
                     console.error('An error occurred:', error);
+                    console.error('Error details:', error.error);
                     this.errorHandling();
                     return throwError(error); // Re-throw the error to propagate it
                 }),
@@ -112,10 +117,10 @@ export class HttpService {
         }
     }
 
-    async confirmPost<T>(apiName: string,body:any): Promise<any> {
+    async confirmPost<T>(apiName: string, body: any): Promise<any> {
         var confirmResualt = await this._sweetAlertService.ConfirmModifications();
         if (confirmResualt) {
-            return this.http.post(`${this.envService.BACKEND_URL}${apiName}`,body)
+            return this.http.post(`${this.envService.BACKEND_URL}${apiName}`, body)
                 .pipe(
                     catchError((error: any) => {
                         console.error('An error occurred:', error);

@@ -1017,5 +1017,21 @@
     "PROJECT": "Project"
   },
   "Failed to send request": "Failed to send request",
-  "Sent successfully": "Sent successfully"
+  "Sent successfully": "Sent successfully",
+  "required": "This field is required",
+  "IncomingRequests": "Incoming Requests",
+  "add": "Add",
+  "edit": "Edit",
+  "delete": "Delete",
+  "NoData": "No data found",
+  "save": "Save",
+  "cancel": "Cancel",
+  "Save": "Save",
+  "Cancel": "Cancel",
+  "Cansel": "Cancel",
+  "Logout": " Logout",
+  "Login": "Login ",
+  "Go Back Home": "Go Back Home",
+  "Whoops! This Page Not Found": "Whoops! This Page Not Found",
+  "Page Not Found": "Page Not Found"
 }

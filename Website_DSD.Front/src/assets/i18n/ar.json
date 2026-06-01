@@ -1125,5 +1125,21 @@
     "PROJECT": "المشروع"
   },
   "Failed to send request": "حدث خطا ما",
-  "Sent successfully": "تم الإرسال بنجاح"
+  "Sent successfully": "تم الإرسال بنجاح",
+  "required": "الحقل مطلوب",
+  "IncomingRequests": "الطلبات الواردة",
+  "add": "اضافة",
+  "edit": "تعديل",
+  "delete": "حذف",
+  "NoData": "لا توجد بيانات",
+  "save": "حفظ",
+  "cancel": "إلغاء",
+  "Save": "حفظ",
+  "Cancel": "إلغاء",
+  "Cansel": "إلغاء",
+  "Logout": "تسجيل الخروج",
+  "Login": "تسجيل الدخول",
+  "Go Back Home": "العودة إلى الصفحة الرئيسية",
+  "Whoops! This Page Not Found": "عذراً، الصفحة غير موجودة",
+  "Page Not Found": "الصفحة غير موجودة"
 }
