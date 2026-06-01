@@ -284,12 +284,9 @@ h5 {
 }
 
 .header-overlay {
-  justify-content: center;
-  background: url('../Img/backmhary.png'), linear-gradient(-9deg, #055160 0%, #598e47 97%);
-  /* background: url('../Img/backmhary.png'), linear-gradient(0deg, #7212d8 -61%, #055160 98%, #553bfc, #6c54a3 0%); */
+  background: url('../../assets/images/projects/wave.svg') no-repeat scroll center center / cover border-box, linear-gradient(92deg, #00adb1 0, #6a3fa5 100%) no-repeat scroll center center / cover;
   text-decoration: none;
   color: white !important;
-  background-size: contain;
 }
 
 .header-1 {
@@ -511,19 +508,18 @@ table {
 
 .table-striped>tbody>tr:nth-of-type(odd)>* {
   --bs-table-accent-bg: white;
-  color: #05245d;
+  color: #5d5cab;
 }
 
 .table-striped>tbody>tr:nth-of-type(2n)>* {
   background-image: url('../Img/wrapper-background.pngnew.png');
-  color: #126c37;
+  color: #5d5cab;
 }
 
 thead {
-  background: url('../Img/backmhary.png'), linear-gradient(-20deg, #126c37 3%, #055160 59%, #126c37);
-
   text-decoration: none;
-  color: white !important;
+  background: rgba(119, 71, 155, 0.04);
+  color: #77479b;
   vertical-align: middle !important;
   font-size: 13px;
 }
