@@ -30,6 +30,7 @@ import { DragDropModule } from '@angular/cdk/drag-drop';
 import { ProjectsListComponent } from './components/projects/projects-list.component';
 import { ProjectDetailsComponent } from './components/projects/project-details.component';
 import { ProjectsAreaComponent } from '../projects-area/projects-area.component';
+import { ContactAdminComponent } from './components/Admin/contact-admin/contact-admin.component';
 
 
 
@@ -61,6 +62,7 @@ import { ProjectsAreaComponent } from '../projects-area/projects-area.component'
     ProjectsListComponent,
     ProjectDetailsComponent,
     ProjectsAreaComponent,
+    ContactAdminComponent
   ],
   schemas: [
     CUSTOM_ELEMENTS_SCHEMA
