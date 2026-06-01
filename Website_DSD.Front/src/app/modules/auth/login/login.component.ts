@@ -20,11 +20,11 @@ export class LoginComponent implements OnInit {
     private fb: FormBuilder,
     private authService: AuthenticationService,
     private router: Router
-  ) {}
+  ) { }
 
   ngOnInit(): void {
     this.loginForm = this.fb.group({
-      email:    ['', [Validators.required]],
+      email: ['', [Validators.required]],
       password: ['', [Validators.required]]
     });
   }
@@ -46,7 +46,7 @@ export class LoginComponent implements OnInit {
       });
 
       if (result?.success) {
-        localStorage.setItem('token',  result.returnObject.token);
+        localStorage.setItem('token', result.returnObject.token);
         localStorage.setItem('nameAr', result.returnObject.nameAr ?? '');
         localStorage.setItem('nameEn', result.returnObject.nameEn ?? '');
         this.router.navigateByUrl('/contact-admin');
