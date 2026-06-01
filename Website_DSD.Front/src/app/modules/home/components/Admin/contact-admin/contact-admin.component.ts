@@ -40,16 +40,16 @@ export class ContactAdminComponent {
   }
 
   buildForm() {
-  this.Form = this._formBuilder.group({
-    id:      new FormControl(0, [Validators.required]),
-    name:    new FormControl('', [Validators.required, Validators.maxLength(250)]),
-    email:   new FormControl('', [Validators.required, Validators.email]),
-    phone:   new FormControl('', [Validators.required]),
-    company: new FormControl('', [Validators.required]),
-    message: new FormControl(''),
-    project: new FormControl(''),
-  });
-}
+    this.Form = this._formBuilder.group({
+      id: new FormControl(0, [Validators.required]),
+      name: new FormControl('', [Validators.required, Validators.maxLength(250)]),
+      email: new FormControl('', [Validators.required, Validators.email]),
+      phone: new FormControl('', [Validators.required]),
+      company: new FormControl('', [Validators.required]),
+      message: new FormControl(''),
+      project: new FormControl(''),
+    });
+  }
 
   get formControl() {
     return this.Form.controls;
@@ -102,9 +102,9 @@ export class ContactAdminComponent {
       return;
     let body = {
       id: 0,
-      name:    this.Form.get('name')?.value ?? '',
-      email:   this.Form.get('email')?.value ?? '',
-      phone:   this.Form.get('phone')?.value ?? '',
+      name: this.Form.get('name')?.value ?? '',
+      email: this.Form.get('email')?.value ?? '',
+      phone: this.Form.get('phone')?.value ?? '',
       company: this.Form.get('company')?.value ?? '',
       project: this.Form.get('project')?.value ?? '',
       message: this.Form.get('message')?.value ?? '',
@@ -120,10 +120,10 @@ export class ContactAdminComponent {
     if (!this.Form.valid)
       return;
     let body = {
-      id:      this.selectedId,
-      name:    this.Form.get('name')?.value ?? '',
-      email:   this.Form.get('email')?.value ?? '',
-      phone:   this.Form.get('phone')?.value ?? '',
+      id: this.selectedId,
+      name: this.Form.get('name')?.value ?? '',
+      email: this.Form.get('email')?.value ?? '',
+      phone: this.Form.get('phone')?.value ?? '',
       company: this.Form.get('company')?.value ?? '',
       project: this.Form.get('project')?.value ?? '',
       message: this.Form.get('message')?.value ?? '',
