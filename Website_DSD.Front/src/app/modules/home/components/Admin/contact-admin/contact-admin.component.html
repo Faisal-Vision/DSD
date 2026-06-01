@@ -1,0 +1,157 @@
+<div class="container-fluid mt-3 mb-3">
+
+
+  <div class="row justify-content-center mt-4">
+    <div class="col-lg-12 cssanimation fadeInRight">
+      <div class="card border p-0">
+        <div class="card-header card-header header-overlay p-2 d-flex align-items-center">
+          <div class="mb-0">
+            <i class="fa-solid fa-star-half-stroke color-icon"></i>{{ 'IncomingRequests' | translate }}
+          </div>
+        </div>
+        <div class="card-body mb-3">
+          <button class="btn btn-outline-purbale" (click)="openPoupp(0)"><i class="fa-solid fa-circle-plus"></i>
+            {{'add'| translate}} </button>
+          <div class="card-body" *ngIf="userList.length != 0">
+
+            <div class=" table-responsive">
+              <!--start table-->
+              <table class="table  table-bordered table-striped">
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>{{'DEMO_REQUEST.NAME' | translate}}</th>
+                    <th>{{'DEMO_REQUEST.EMAIL' | translate}}</th>
+                    <th>{{'DEMO_REQUEST.PHONE' | translate}}</th>
+                    <th>{{'DEMO_REQUEST.COMPANY' | translate}}</th>
+                    <th>{{'DEMO_REQUEST.PROJECT' | translate}}</th>
+                    <th>{{'DEMO_REQUEST.MESSAGE' | translate}}</th>
+                    <th>{{'edit' | translate}}</th>
+                    <th>{{'delete' | translate}}</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let res of userList">
+                    <td>{{res.id}}</td>
+                    <td>{{res.name}}</td>
+                    <td>{{res.email}}</td>
+                    <td>{{res.phone}}</td>
+                    <td>{{res.company}}</td>
+                    <td>{{res.project}}</td>
+                    <td>{{res.message}}</td>
+                    <td>
+                      <i (click)="openPoupp(res.id)"
+                        class="hgi hgi-stroke hgi-rounded hgi-settings-01 icons-title-accept">
+                      </i>
+                    </td>
+                    <td>
+                      <i (click)="Delete(res.id)" class="hgi hgi-stroke hgi-rounded hgi-delete-02 icons-title-danger">
+                      </i>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+          </div>
+
+          <div class="row mt-3 mb-3" *ngIf="userList.length === 0">
+            <div class="text-center">
+              <!-- <img class="nodata" src="../../../../../assets/Img/nodata.png" /> -->
+              <div class="nodatatext"> {{ 'NoData' | translate }}</div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<ng-template #popupContent>
+  <div class="container-fluid">
+    <form [formGroup]="Form">
+      <div class="row mt-3 mb-3 styles-forms">
+
+        <div class="col-lg-6">
+          <label>
+            <span class="span-answaretemplate-form" style="color:red">*</span>
+            {{'DEMO_REQUEST.NAME' | translate}}
+            <span *ngIf="formControl['name'].touched && formControl['name'].invalid" class="text-danger">
+              {{'required' | translate}}
+            </span>
+          </label>
+          <input type="text" class="form-control" formControlName="name" />
+        </div>
+
+        <div class="col-lg-6">
+          <label>
+            <span class="span-answaretemplate-form" style="color:red">*</span>
+            {{'DEMO_REQUEST.EMAIL' | translate}}
+            <span *ngIf="formControl['email'].touched && formControl['email'].hasError('required')" class="text-danger">
+              {{'required' | translate}}
+            </span>
+            <span *ngIf="formControl['email'].touched && formControl['email'].hasError('email')" class="text-danger">
+              {{'DEMO_REQUEST.EMAIL_INVALID' | translate}}
+            </span>
+          </label>
+          <input type="email" class="form-control" formControlName="email" />
+        </div>
+
+        <div class="col-lg-6">
+          <label>
+            <span class="span-answaretemplate-form" style="color:red">*</span>
+            {{'DEMO_REQUEST.COMPANY' | translate}}
+            <span *ngIf="formControl['company'].touched && formControl['company'].invalid" class="text-danger">
+              {{'required' | translate}}
+            </span>
+          </label>
+          <input type="text" class="form-control" formControlName="company" />
+        </div>
+
+        <div class="col-lg-6">
+          <label>
+            <span class="span-answaretemplate-form" style="color:red">*</span>
+            {{'DEMO_REQUEST.PHONE' | translate}}
+            <span *ngIf="formControl['phone'].touched && formControl['phone'].invalid" class="text-danger">
+              {{'required' | translate}}
+            </span>
+          </label>
+          <input type="text" class="form-control" formControlName="phone" />
+        </div>
+
+        <div class="col-lg-6">
+          <label>{{'DEMO_REQUEST.PROJECT' | translate}}</label>
+          <input type="text" class="form-control" formControlName="project" />
+        </div>
+
+        <div class="col-lg-12">
+          <label>{{'DEMO_REQUEST.MESSAGE' | translate}}</label>
+          <textarea class="form-control" formControlName="message" rows="3"></textarea>
+        </div>
+
+      </div>
+    </form>
+  </div>
+</ng-template>

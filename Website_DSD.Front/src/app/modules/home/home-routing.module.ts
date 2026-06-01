@@ -22,6 +22,8 @@ import { TermsAndConditionsComponent } from './components/terms-and-conditions/t
 import { PrivacyPolicyComponent } from './components/privacy-policy/privacy-policy.component';
 import { ProjectDetailsComponent } from './components/projects/project-details.component';
 import { ProjectsAreaComponent } from '../projects-area/projects-area.component';
+import { ContactAdminComponent } from './components/Admin/contact-admin/contact-admin.component';
+import { AuthGuard } from 'src/app/core/components/auth/gaurds/auth.guard';
 
 
 const routes: Routes = [
@@ -117,6 +119,11 @@ const routes: Routes = [
   {
     path: 'contact',
     component: ContactComponent
+  },
+  {
+    path: 'contact-admin',
+    component: ContactAdminComponent,
+    canActivate: [AuthGuard]
   },
   { path: '**', component: Error404Component, pathMatch: 'full' },
 
