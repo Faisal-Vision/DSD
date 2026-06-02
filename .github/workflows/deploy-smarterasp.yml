@@ -61,14 +61,111 @@ jobs:
           if (!(Test-Path "publish-backend/API.dll")) { throw "Missing API.dll" }
           if (!(Test-Path "publish-backend/wwwroot/index.html")) { throw "Missing Angular index.html" }
 
-      - name: Deploy by FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-        with:
-          server: ${{ secrets.SMARTERASP_FTP_SERVER }}
-          username: ${{ secrets.SMARTERASP_FTP_USERNAME }}
-          password: ${{ secrets.SMARTERASP_FTP_PASSWORD }}
-          local-dir: ./publish-backend/
-          server-dir: ${{ secrets.SMARTERASP_FTP_SERVER_DIR }}
-          exclude: |
-            **/.git*
-            **/.git*/**
+      - name: Install Web Deploy
+        shell: pwsh
+        run: |
+          choco install webdeploy -y --no-progress
+
+          $paths = @(
+            "${env:ProgramFiles}\IIS\Microsoft Web Deploy V3\msdeploy.exe",
+            "${env:ProgramFiles(x86)}\IIS\Microsoft Web Deploy V3\msdeploy.exe"
+          )
+
+          $msdeploy = $paths | Where-Object { Test-Path $_ } | Select-Object -First 1
+          if (!$msdeploy) { throw "msdeploy.exe was not found after installing Web Deploy." }
+
+          "MSDEPLOY_EXE=$msdeploy" | Out-File -FilePath $env:GITHUB_ENV -Append
+
+      - name: Create app_offline file
+        shell: pwsh
+        run: |
+          @"
+          <!doctype html>
+          <html>
+            <head>
+              <meta charset="utf-8">
+              <title>Deployment in progress</title>
+            </head>
+            <body>
+              <h1>Deployment in progress</h1>
+              <p>Please try again in a minute.</p>
+            </body>
+          </html>
+          "@ | Set-Content -Path "app_offline.htm" -Encoding UTF8
+
+      - name: Put app offline
+        shell: pwsh
+        run: |
+          $server = "${{ secrets.SMARTERASP_WEBDEPLOY_SERVER }}"
+          $site = "${{ secrets.SMARTERASP_WEBDEPLOY_SITE_NAME }}"
+          $username = "${{ secrets.SMARTERASP_WEBDEPLOY_USERNAME }}"
+          $password = "${{ secrets.SMARTERASP_WEBDEPLOY_PASSWORD }}"
+
+          if ([string]::IsNullOrWhiteSpace($server)) { throw "Missing SMARTERASP_WEBDEPLOY_SERVER secret." }
+          if ([string]::IsNullOrWhiteSpace($site)) { throw "Missing SMARTERASP_WEBDEPLOY_SITE_NAME secret." }
+          if ([string]::IsNullOrWhiteSpace($username)) { throw "Missing SMARTERASP_WEBDEPLOY_USERNAME secret." }
+          if ([string]::IsNullOrWhiteSpace($password)) { throw "Missing SMARTERASP_WEBDEPLOY_PASSWORD secret." }
+
+          $offlinePath = (Resolve-Path "app_offline.htm").Path
+          $offlineDestination = "$site/app_offline.htm"
+
+          & $env:MSDEPLOY_EXE `
+            -verb:sync `
+            "-source:contentPath=$offlinePath" `
+            "-dest:contentPath=$offlineDestination,computerName=$server,userName=$username,password=$password,authType=Basic,includeAcls=False" `
+            -allowUntrusted `
+            -enableRule:DoNotDeleteRule `
+            -retryAttempts:6 `
+            -retryInterval:10000
+
+          if ($LASTEXITCODE -ne 0) { throw "Failed to upload app_offline.htm by WebDeploy." }
+          Start-Sleep -Seconds 10
+
+      - name: Deploy by WebDeploy
+        shell: pwsh
+        run: |
+          $server = "${{ secrets.SMARTERASP_WEBDEPLOY_SERVER }}"
+          $site = "${{ secrets.SMARTERASP_WEBDEPLOY_SITE_NAME }}"
+          $username = "${{ secrets.SMARTERASP_WEBDEPLOY_USERNAME }}"
+          $password = "${{ secrets.SMARTERASP_WEBDEPLOY_PASSWORD }}"
+          $publishPath = (Resolve-Path "publish-backend").Path
+
+          & $env:MSDEPLOY_EXE `
+            -verb:sync `
+            "-source:contentPath=$publishPath" `
+            "-dest:contentPath=$site,computerName=$server,userName=$username,password=$password,authType=Basic,includeAcls=False" `
+            -allowUntrusted `
+            -disableLink:AppPoolExtension `
+            -disableLink:ContentExtension `
+            -disableLink:CertificateExtension `
+            -retryAttempts:6 `
+            -retryInterval:10000
+
+          if ($LASTEXITCODE -ne 0) { throw "WebDeploy sync failed." }
+
+      - name: Remove app_offline file
+        if: always()
+        shell: pwsh
+        run: |
+          $server = "${{ secrets.SMARTERASP_WEBDEPLOY_SERVER }}"
+          $site = "${{ secrets.SMARTERASP_WEBDEPLOY_SITE_NAME }}"
+          $username = "${{ secrets.SMARTERASP_WEBDEPLOY_USERNAME }}"
+          $password = "${{ secrets.SMARTERASP_WEBDEPLOY_PASSWORD }}"
+
+          if ([string]::IsNullOrWhiteSpace($server) -or [string]::IsNullOrWhiteSpace($site) -or [string]::IsNullOrWhiteSpace($username) -or [string]::IsNullOrWhiteSpace($password)) {
+            Write-Warning "Skipping app_offline.htm removal because WebDeploy secrets are incomplete."
+            exit 0
+          }
+
+          $offlineDestination = "$site/app_offline.htm"
+
+          & $env:MSDEPLOY_EXE `
+            -verb:delete `
+            "-dest:contentPath=$offlineDestination,computerName=$server,userName=$username,password=$password,authType=Basic,includeAcls=False" `
+            -allowUntrusted `
+            -retryAttempts:6 `
+            -retryInterval:10000
+
+          if ($LASTEXITCODE -ne 0) {
+            Write-Warning "Could not remove app_offline.htm automatically. Remove it from SmarterASP File Manager if the site remains offline."
+          }
