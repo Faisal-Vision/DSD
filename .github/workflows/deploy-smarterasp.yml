@@ -168,4 +168,5 @@ jobs:
 
           if ($LASTEXITCODE -ne 0) {
             Write-Warning "Could not remove app_offline.htm automatically. Remove it from SmarterASP File Manager if the site remains offline."
+            exit 0
           }
